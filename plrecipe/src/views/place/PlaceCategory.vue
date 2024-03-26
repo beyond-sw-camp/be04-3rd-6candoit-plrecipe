@@ -1,17 +1,20 @@
 <template>
     <div class="category">
-    <div id="All">전체</div>
-    <div id="food">음식점</div>
-    <div id="cafe">카페</div>
-    <div id="culture">문화</div>
-    <div id="activity">액티비티</div>
-    <div id="walk">산책</div>
-    <div id="etc">기타</div>
+    <div id="All" @click="emit('change(0)')"><button>전체</button></div>
+    <div id="food" @click="emit('change(1)')">음식점</div>
+    <div id="cafe" @click="emit('change(2)')">카페</div>
+    <div id="culture" @click="emit('change(3)')">문화</div>
+    <div id="activity" @click="emit('change(4)')">액티비티</div>
+    <div id="walk" @click="emit('change(5)')">산책</div>
+    <div id="etc" @click="emit('change(6)')" >기타</div>
   </div>
   </template>
   
   <script setup>
+import { defineEmits } from 'vue';
 
+/* 부모로부터 물려받은 toggle이라는 이름의 이벤트를 호출할 수 있는 함수 반환받기(defineEmits를 활용하며 배열로 이벤트 이름 작성) */
+const emit = defineEmits(['change']);
   </script>
   
   <style scoped>

@@ -42,14 +42,35 @@ const places =
 import { provide, ref, reactive } from "vue";
 
 const placeData = reactive(places);
-const categoryCode = ref(0);
+const categoryCode = ref('');
 
+function changeCategory(id) {
+  categoryCode.value = id;
+  console.log(id);
+  getPlaceData(id);
+}
+
+function getPlaceData(id){
+  // placeData.value =  // id에 맞는 데이터 가져오기
+
+  placeData.value = [{
+      "placeId": 1,
+      "placeName": "보라매공원",
+      "placeLocation": "서울광역시 보라매동",
+      "placePhoneNum": null,
+      "placeCategory": {
+        "placeCategoryId": 5,
+        "placeCategoryName": "산책"
+      },
+      "avgStar": 5.0
+    }]
+}
 
 </script>
 
 <template>
   <main>
-    <PlaceCategory />
+    <PlaceCategory @change="changeCategory" />
 
     <PlaceItemView :placeData="placeData"/>
 
