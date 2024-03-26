@@ -10,7 +10,16 @@
       "courseId": 1,
       "isPostPublic": "Y",
       "memberCount": "MANY",
-      "member": null
+      "memberNickname": "김철수",
+      "hashtag": [
+        {
+          "hashtagId": 1,
+          "hashtagTitle": "활동적인" 
+        },
+        {"hashtagId": 2,
+        "hashtagTitle": "남자셋이" }
+      ]
+
     },
     {
       "postId": 2,
@@ -22,7 +31,15 @@
       "courseId": 2,
       "isPostPublic": "Y",
       "memberCount": "TWO",
-      "member": null
+      "memberNickname": "김철수",
+      "hashtag": [
+        {
+          "hashtagId": 1,
+          "hashtagTitle": "활동적인" 
+        },
+        {"hashtagId": 2,
+        "hashtagTitle": "남자셋이" }
+      ]
     },
     {
       "postId": 3,
@@ -34,7 +51,15 @@
       "courseId": 3,
       "isPostPublic": "N",
       "memberCount": "MANY",
-      "member": null
+      "memberNickname": "김철수",
+      "hashtag": [
+        {
+          "hashtagId": 1,
+          "hashtagTitle": "활동적인" 
+        },
+        {"hashtagId": 2,
+        "hashtagTitle": "남자셋이" }
+      ]
     },
     {
       "postId": 4,
@@ -46,7 +71,15 @@
       "courseId": 4,
       "isPostPublic": "Y",
       "memberCount": "MANY",
-      "member": null
+      "memberNickname": "김철수",
+      "hashtag": [
+        {
+          "hashtagId": 1,
+          "hashtagTitle": "활동적인" 
+        },
+        {"hashtagId": 2,
+        "hashtagTitle": "남자셋이" }
+      ]
     },
     {
       "postId": 5,
@@ -58,7 +91,15 @@
       "courseId": 5,
       "isPostPublic": "Y",
       "memberCount": "TWO",
-      "member": null
+      "memberNickname": "김철수",
+      "hashtag": [
+        {
+          "hashtagId": 1,
+          "hashtagTitle": "활동적인" 
+        },
+        {"hashtagId": 2,
+        "hashtagTitle": "남자셋이" }
+      ]
     },
     {
       "postId": 6,
@@ -70,7 +111,15 @@
       "courseId": 6,
       "isPostPublic": "Y",
       "memberCount": "ONE",
-      "member": null
+      "memberNickname": "김철수",
+      "hashtag": [
+        {
+          "hashtagId": 1,
+          "hashtagTitle": "활동적인" 
+        },
+        {"hashtagId": 2,
+        "hashtagTitle": "남자셋이" }
+      ]
     },
     {
       "postId": 7,
@@ -82,7 +131,15 @@
       "courseId": 7,
       "isPostPublic": "Y",
       "memberCount": "TWO",
-      "member": null
+      "memberNickname": "김철수",
+      "hashtag": [
+        {
+          "hashtagId": 1,
+          "hashtagTitle": "활동적인" 
+        },
+        {"hashtagId": 2,
+        "hashtagTitle": "남자셋이" }
+      ]
     },
     {
       "postId": 8,
@@ -94,7 +151,15 @@
       "courseId": 8,
       "isPostPublic": "N",
       "memberCount": "MANY",
-      "member": null
+      "memberNickname": "김철수",
+      "hashtag": [
+        {
+          "hashtagId": 1,
+          "hashtagTitle": "활동적인" 
+        },
+        {"hashtagId": 2,
+        "hashtagTitle": "남자셋이" }
+      ]
     },
     {
       "postId": 9,
@@ -106,7 +171,15 @@
       "courseId": 9,
       "isPostPublic": "Y",
       "memberCount": "TWO",
-      "member": null
+      "memberNickname": "김철수",
+      "hashtag": [
+        {
+          "hashtagId": 1,
+          "hashtagTitle": "활동적인" 
+        },
+        {"hashtagId": 2,
+        "hashtagTitle": "남자셋이" }
+      ]
     },
     {
       "postId": 10,
@@ -118,7 +191,15 @@
       "courseId": 10,
       "isPostPublic": "Y",
       "memberCount": "TWO",
-      "member": null
+      "memberNickname": "김철수",
+      "hashtag": [
+        {
+          "hashtagId": 1,
+          "hashtagTitle": "활동적인" 
+        },
+        {"hashtagId": 2,
+        "hashtagTitle": "남자셋이" }
+      ]
     }
   ],
     "one_post": [
@@ -132,7 +213,7 @@
         "courseId": 1,
         "isPostPublic": "Y",
         "memberCount": "MANY",
-        "member": null,
+        "memberNickname": "김철수",
         "course": [
           {
             "placeId": 1,

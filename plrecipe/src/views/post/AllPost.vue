@@ -1,13 +1,15 @@
 <template>
     <div>
       <h3>내가 작성한 게시글</h3>
-      <div class="post" v-for="post in posts" :key="post.postId">
+      <div class="post" v-for="post in posts" :key="post.postId" @click="postDetail">
         <div class="title"><p>{{ post.postTitle }}</p></div>
         <div class="image"></div>
         <div class="member"><p>인원수: {{ getMemberCountText(post.memberCount) }}</p></div>
         <div class="hashtag">
           <p>해시태그: 
-            <span v-for="(hashtag, index) in post.hashtags" :key="index">#{{ hashtag }}</span>&nbsp;
+            <span v-for="hashtag in post.hashtag" :key="hashtag.hashtagId">
+                    #{{ hashtag.hashtagTitle }}
+            </span>&nbsp;
           </p>
         </div>
       </div>
@@ -16,37 +18,18 @@
   
   <script setup>
   import { ref, onMounted } from 'vue';
-  import axios from 'axios';
-  
+  import { useRouter } from 'vue-router';
+        
   const posts = ref([]);
-  
-  const fetchPosts = async () => {
-    try {
-      const response = await axios.get('http://localhost:8000/plrecipe-post/posts');
-      if (response.data && Array.isArray(response.data) && response.data.length > 0) {
-        const postsData = response.data;
-        for (const post of postsData) {
-          post.hashtags = await fetchHashtags(post.postId);
-        }
-        posts.value = postsData;
-      } else {
-        console.error('게시글 데이터가 비어있습니다.');
-      }
-    } catch (error) {
-      console.error('데이터 로드 중 오류 발생:', error);
-    }
-  };
-  
-  const fetchHashtags = async (postId) => {
-    if (!postId) return [];
-    try {
-      const response = await axios.get(`http://localhost:8000/plrecipe-post/hashtag/${postId}`);
-      return response.data.map(tag => tag.hashtagDTO.hashtagTitle);
-    } catch (error) {
-      console.error('해시태그 데이터 로드 중 오류 발생:', error);
-      return [];
-    }
-  };
+        
+  onMounted(async () => {
+    const response = fetch('http://localhost:8080/post')
+                    .then(response => response.json());
+    const data = await response;
+    posts.value = data;
+    console.log(posts.value);
+  });
+
   
   const getMemberCountText = (count) => {
     switch (count) {
@@ -60,8 +43,13 @@
         return count;
     }
   };
-  
-  onMounted(fetchPosts);
+
+
+const router = useRouter();
+
+const postDetail = () => {
+  router.push('/post/detail');
+};
   </script>
   
   <style scoped>

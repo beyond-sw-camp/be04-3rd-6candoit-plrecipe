@@ -1,7 +1,5 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router';
-import Post from '@/components/post/Post.vue';
-import SelectPost from './components/select_post/SelectPost.vue';
 </script>
 
 <template>
@@ -15,6 +13,7 @@ import SelectPost from './components/select_post/SelectPost.vue';
 
   <main>
     <RouterView />
+    <!-- <Post /> -->
   </main>
 </template>
 
@@ -22,4 +21,4 @@ import SelectPost from './components/select_post/SelectPost.vue';
 .active{
   color: steelblue;
 }
-</style>
+</style>./views/post/SelectPost.vue

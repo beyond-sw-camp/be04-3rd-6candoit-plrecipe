@@ -16,5 +16,5 @@ import PlaceItemView from './PlaceItemView.vue'
 
 
 <style scoped>
-div {}
+
 </style>
