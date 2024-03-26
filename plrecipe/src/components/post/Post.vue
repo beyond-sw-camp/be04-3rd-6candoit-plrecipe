@@ -1,0 +1,166 @@
+<template>
+    <div>
+      <h3>내가 작성한 게시글</h3>
+      <div class="post" v-for="post in posts" :key="post.postId">
+        <div class="title"><p>{{ post.postTitle }}</p></div>
+        <div class="image"></div>
+        <div class="member"><p>인원수: {{ getMemberCountText(post.memberCount) }}</p></div>
+        <div class="hashtag">
+          <p>해시태그: 
+            <span v-for="(hashtag, index) in post.hashtags" :key="index">#{{ hashtag }}</span>&nbsp;
+          </p>
+        </div>
+      </div>
+    </div>
+  </template>
+  
+  <script setup>
+  import { ref, onMounted } from 'vue';
+  import axios from 'axios';
+  
+  const posts = ref([]);
+  
+  const fetchPosts = async () => {
+    try {
+      const response = await axios.get('http://localhost:8000/plrecipe-post/posts');
+      if (response.data && Array.isArray(response.data) && response.data.length > 0) {
+        const postsData = response.data;
+        for (const post of postsData) {
+          post.hashtags = await fetchHashtags(post.postId);
+        }
+        posts.value = postsData;
+      } else {
+        console.error('게시글 데이터가 비어있습니다.');
+      }
+    } catch (error) {
+      console.error('데이터 로드 중 오류 발생:', error);
+    }
+  };
+  
+  const fetchHashtags = async (postId) => {
+    if (!postId) return [];
+    try {
+      const response = await axios.get(`http://localhost:8000/plrecipe-post/hashtag/${postId}`);
+      return response.data.map(tag => tag.hashtagDTO.hashtagTitle);
+    } catch (error) {
+      console.error('해시태그 데이터 로드 중 오류 발생:', error);
+      return [];
+    }
+  };
+  
+  const getMemberCountText = (count) => {
+    switch (count) {
+      case "ONE":
+        return "1인";
+      case "TWO":
+        return "2인";
+      case "MANY":
+        return "다수";
+      default:
+        return count;
+    }
+  };
+  
+  onMounted(fetchPosts);
+  </script>
+  
+  <style scoped>
+  .header {
+  background-color: transparent; 
+  color: #fff;
+  padding: 20px;
+  text-align: left;
+  border-bottom: 2px solid black;
+}
+
+.nav {
+  float: right;
+}
+
+.nav-list li {
+  display: inline;
+  margin-left: 20px;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-list li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.nav-list li a:hover {
+  border-bottom-color: black;
+}
+
+.logo {
+  height: 50px;
+  width: 200px;
+}
+
+/* Flexbox를 적용한 .post 스타일 */
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 183px;
+  height: 300px;
+  border: 3px solid black;
+  margin-top: 5px;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+
+/* 내부 요소들 스타일 */
+.title, .member, .hashtag {
+  text-align: center;
+  font-size: 70%;
+  margin: 5px 0;
+}
+
+.image {
+  background-color: green;
+  border: 3px solid black;
+  width: 100%; /* 이미지 컨테이너의 너비를 .post의 100%로 설정 */
+  height: 150px; /* 이미지 컨테이너의 높이를 지정 */
+  overflow: hidden; /* 넘치는 이미지 숨기기 */
+}
+
+.footer {
+  clear: both;
+}
+
+/* 기타 스타일링 */
+header>h1 {
+  font-size: 50px;
+  text-align: left;
+}
+header>button {
+  font-size: 20px;
+  font-weight: bold;
+}
+header>div {
+  background-color: black;
+  width: 1300px;
+  height: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#app {
+  display: flex;
+  flex-wrap: wrap; /* 요소들이 다음 줄로 넘어갈 수 있게 설정 */
+  justify-content: flex-start; /* 시작점에서 가로 정렬 */
+  align-items: flex-start; /* 시작점에서 세로 정렬 */
+  gap: 10px; /* 요소들 사이의 간격 설정 */
+  background-color: #BFF5ED;
+}
+
+.image img {
+  width: 100%; /* 이미지의 너비를 컨테이너의 100%로 설정 */
+  height: 100%; /* 이미지의 높이를 컨테이너의 100%로 설정 */
+  object-fit: cover; /* 이미지 비율을 유지하며 컨테이너 채우기 */
+  margin-right: 10px;
+}
+  </style>
+  
