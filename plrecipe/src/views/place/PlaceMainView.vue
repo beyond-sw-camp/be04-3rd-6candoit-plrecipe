@@ -1,13 +1,20 @@
+<script setup>
+import PlaceCategory from './PlaceCategory.vue'
+import PlaceItemView from './PlaceItemView.vue'
+</script>
+
 <template>
-    <div>
-  
-    </div>
-  </template>
-  
-  <script setup>
-  
-  </script>
-  
-  <style scoped>
-  
-  </style>
+  <main>
+    <PlaceCategory />
+
+    <PlaceItemView />
+
+  </main>
+
+</template>
+
+
+
+<style scoped>
+div {}
+</style>
