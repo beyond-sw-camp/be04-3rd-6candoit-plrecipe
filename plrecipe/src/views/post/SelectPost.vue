@@ -26,12 +26,8 @@ import { ref, onMounted } from 'vue';
         </script>
 <template>
     <div id="app">
-        <div class="sidebar">
-            <div class="sidebar-item">장소이름</div>
-            <div class="sidebar-item">장소이름</div>
-            <div class="sidebar-item">장소이름</div>
-            <div class="sidebar-item">장소이름</div>
-            <div class="sidebar-item">장소이름</div>
+        <div class="sidebar" v-for="course in posts[0].course" :key="course.placeId" v-if="posts.length > 0">
+            <div class="sidebar-item">{{ course.placeName }}</div>
         </div>
         <div class="post-container">
             <div v-if="posts.length > 0">
@@ -87,23 +83,23 @@ body {
   display: flex;
 }
 
+
+.sidebar>div {
+  height: 172px;
+  background-color: #684343;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 172px; /* 이 값은 div의 높이와 같아야 합니다. */
+  flex-direction: column !important;
+}
+
 .sidebar {
   width: 172px;
   height: 900px;
   margin-right: 28px;
   display: flex;
   flex-direction: column;
-}
-
-.sidebar div {
-  height: 172px;
-  background-color: #684343;
-  /* Placeholder color */
-  margin-bottom: 10px;
-  border-radius: 5px;
-  text-align: center;
-  text-align: center; /* 수평 중앙 정렬 */
-  line-height: 172px; /* 이 값은 div의 높이와 같아야 합니다. */
 }
 
 .post-container {
