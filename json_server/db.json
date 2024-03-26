@@ -121,6 +121,20 @@
       "member": null
     }
   ],
+  "one_post": [
+    {
+      "postId": 1,
+      "postTitle": "군대동기 3인방의 종로탐방기",
+      "postContent": "종로에서 놀고 먹고 적시고 자는것까지 한번에 해결해보리기~",
+      "postDate": "2021.01.01",
+      "postDeleteDate": null,
+      "memberId": 1,
+      "courseId": 1,
+      "isPostPublic": "Y",
+      "memberCount": "MANY",
+      "member": null
+    }
+  ],
     "place":[
       {
         "placeId": 1,
@@ -462,6 +476,63 @@
           "placeCategoryName": "문화"
         },
         "avgStar": 0.0
+      }
+    ],
+    "course": [
+      {
+        "placeId": 1,
+        "placeName": "보라매공원",
+        "placeLocation": "서울광역시 보라매동",
+        "placePhoneNum": null,
+        "placeCategory": {
+          "placeCategoryId": 5,
+          "placeCategoryName": "산책"
+        },
+        "avgStar": 5.0
+      },
+      {
+        "placeId": 2,
+        "placeName": "귤밭체험농장",
+        "placeLocation": "제주특별자치도 귤동",
+        "placePhoneNum": null,
+        "placeCategory": {
+          "placeCategoryId": 5,
+          "placeCategoryName": "산책"
+        },
+        "avgStar": 0.0
+      },
+      {
+        "placeId": 3,
+        "placeName": "배김윤조한공원",
+        "placeLocation": "서울광역시 신대방동",
+        "placePhoneNum": null,
+        "placeCategory": {
+          "placeCategoryId": 5,
+          "placeCategoryName": "산책"
+        },
+        "avgStar": 4.5
+      },
+      {
+        "placeId": 4,
+        "placeName": "모르는개산책로",
+        "placeLocation": "부산광역시 광안동",
+        "placePhoneNum": null,
+        "placeCategory": {
+          "placeCategoryId": 5,
+          "placeCategoryName": "산책"
+        },
+        "avgStar": 4.0
+      },
+      {
+        "placeId": 5,
+        "placeName": "참조은길",
+        "placeLocation": "창원특례시 남양동",
+        "placePhoneNum": null,
+        "placeCategory": {
+          "placeCategoryId": 5,
+          "placeCategoryName": "산책"
+        },
+        "avgStar": 5.0
       }
     ]
 }
