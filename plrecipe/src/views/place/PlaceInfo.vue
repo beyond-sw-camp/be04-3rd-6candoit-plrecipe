@@ -5,7 +5,7 @@
             <td colspan="2" id="placeName">[{{ placeData.placeName }}]</td>
         </tr>
         <tr>
-            <td colspan="2" id="place-category"><span>{{ placeData.placeCategory.placeCategoryName }}</span></td>
+            <td colspan="2" id="place-category"><span :style="{ backgroundColor: getCategoryColor(placeData.placeCategory.placeCategoryName) }">{{ placeData.placeCategory.placeCategoryName }}</span></td>
         </tr>
         <tr>
             <td colspan="2" id="address">📌{{ placeData.placeLocation }}</td>
@@ -33,6 +33,19 @@ import { defineProps } from 'vue';
 const props = defineProps({
   placeData: Array
 });
+
+const categoryColors = {
+  '음식점': 'lightpink',
+  '카페': 'lightyellow',
+  '문화': 'lightgreen',
+  '액티비티': 'lightblue',
+  '기타': 'lightgray',
+  '산책': 'rgba(212, 170, 255, 0.952)',
+};
+
+const getCategoryColor = (categoryName) => {
+  return categoryColors[categoryName] || '#FFFFFF'; // 기본 색상은 흰색
+};
 
 </script>
 
