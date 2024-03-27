@@ -23,26 +23,31 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 183px;
-  height: 300px;
+  width: 265px;
+  height: 350px;
   border: 3px solid black;
   margin-top: 5px;
   margin-left: 5px;
   border-radius: 10px;
+  /* background-color: lightgreen; */
 }
 
 /* 내부 요소들 스타일 */
 .title, .member, .hashtag {
   text-align: center;
-  font-size: 70%;
+  font-size: 80%;
   margin: 5px 0;
+  font-weight: bold;
+}
+.title {
+  margin-top: 10px;
 }
 
 .image {
   background-color: green;
   border: 3px solid black;
-  width: 180px; /* 이미지 컨테이너의 너비를 .post의 100%로 설정 */
-  height: 200px; /* 이미지 컨테이너의 높이를 지정 */
+  width: 230px; /* 이미지 컨테이너의 너비를 .post의 100%로 설정 */
+  height: 230px; /* 이미지 컨테이너의 높이를 지정 */
   overflow: hidden; /* 넘치는 이미지 숨기기 */
 }
 
@@ -52,6 +57,8 @@
   justify-content: flex-start; 
   align-items: flex-start; 
   gap: 10px; 
+  padding-left: 50px;
+  margin-top: 10px;
 }
 
 .image img {
@@ -67,7 +74,7 @@
 
 .sidebar {
   font-family: 'KCC-Hanbit', sans-serif;
-  font-size: 8px;
+  font-size: 10px;
   width: 100%; /* 너비를 조정하여 가로로 펼쳐질 수 있게 함 */
   height: 20px; /* 높이를 줄여서 가로 방향으로 항목들이 나열될 수 있게 함 */
   display: flex;
@@ -75,11 +82,11 @@
   justify-content: flex-start; /* 항목들을 왼쪽 정렬 */
   align-items: center; /* 항목들을 세로 방향 중앙에 위치시킴 */
   margin-top: 5px;
-  margin-left: 2px;
+  /* margin-bottom: 5px; */
 }
 
 .sidebar>div {
-  width: 35px;
+  width: 60px;
   height: 20px;
   border-radius: 5px;
   text-align: center;
@@ -89,7 +96,7 @@
   background-color: #e0e0e0;
   padding: 2px;
   border-radius: 5px;
-  font-size: 7px;
+  font-size: 10px;
   margin-right: 5px;
   margin-bottom: 5px;
   display: inline-block;
