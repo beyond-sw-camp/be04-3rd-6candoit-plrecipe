@@ -85,6 +85,33 @@
       "isPostPublic": "Y",
       "memberCount": "TWO",
       "memberNickname": "김철수",
+      "course": [
+        {
+          "placeCategory": {
+            "placeCategoryName": "액티비티"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "카페"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "문화"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "음식점"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "음식점"
+          }
+        }
+      ],
       "hashtag": [
         {
           "hashtagId": 1,
@@ -111,6 +138,33 @@
       "isPostPublic": "N",
       "memberCount": "MANY",
       "memberNickname": "김철수",
+      "course": [
+        {
+          "placeCategory": {
+            "placeCategoryName": "산책"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "카페"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "음식점"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "문화"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "음식점"
+          }
+        }
+      ],
       "hashtag": [
         {
           "hashtagId": 1,
@@ -133,6 +187,33 @@
       "isPostPublic": "Y",
       "memberCount": "TWO",
       "memberNickname": "김철수",
+      "course": [
+        {
+          "placeCategory": {
+            "placeCategoryName": "음식점"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "카페"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "문화"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "액티비티"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "음식점"
+          }
+        }
+      ],
       "hashtag": [
         {
           "hashtagId": 1,
@@ -151,6 +232,33 @@
       "isPostPublic": "Y",
       "memberCount": "ONE",
       "memberNickname": "김철수",
+      "course": [
+        {
+          "placeCategory": {
+            "placeCategoryName": "산책"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "문화"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "음식점"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "카페"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "기타"
+          }
+        }
+      ],
       "hashtag": [
         {
           "hashtagId": 1,
@@ -173,6 +281,33 @@
       "isPostPublic": "Y",
       "memberCount": "ONE",
       "memberNickname": "김철수",
+      "course": [
+        {
+          "placeCategory": {
+            "placeCategoryName": "기타"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "카페"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "문화"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "액티비티"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "음식점"
+          }
+        }
+      ],
       "hashtag": [
         {
           "hashtagId": 1,
@@ -199,6 +334,33 @@
       "isPostPublic": "Y",
       "memberCount": "TWO",
       "memberNickname": "김철수",
+      "course": [
+        {
+          "placeCategory": {
+            "placeCategoryName": "액티비티"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "음식점"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "산책"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "카페"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "음식점"
+          }
+        }
+      ],
       "hashtag": [
         {
           "hashtagId": 1,
@@ -225,6 +387,33 @@
       "isPostPublic": "N",
       "memberCount": "MANY",
       "memberNickname": "김철수",
+      "course": [
+        {
+          "placeCategory": {
+            "placeCategoryName": "음식점"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "카페"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "문화"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "음식점"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "음식점"
+          }
+        }
+      ],
       "hashtag": [
         {
           "hashtagId": 1,
@@ -251,6 +440,33 @@
       "isPostPublic": "Y",
       "memberCount": "TWO",
       "memberNickname": "김철수",
+      "course": [
+        {
+          "placeCategory": {
+            "placeCategoryName": "산책"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "카페"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "문화"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "음식점"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "음식점"
+          }
+        }
+      ],
       "hashtag": [
         {
           "hashtagId": 1,
@@ -277,6 +493,33 @@
       "isPostPublic": "Y",
       "memberCount": "TWO",
       "memberNickname": "김철수",
+      "course": [
+        {
+          "placeCategory": {
+            "placeCategoryName": "액티비티"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "산책"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "문화"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "기타"
+          }
+        },
+        {
+          "placeCategory": {
+            "placeCategoryName": "음식점"
+          }
+        }
+      ],
       "hashtag": [
         {
           "hashtagId": 1,
