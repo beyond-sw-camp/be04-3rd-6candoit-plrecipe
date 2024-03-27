@@ -3,7 +3,7 @@
     <div class="post" v-for="post in posts" :key="post.postId" @click="postDetail">
       <div class="title"><p>{{ post.postTitle }}</p></div>
       <div class="image">
-        <img src="@/img/게임.jpg" alt="">
+        <img :src='post.postImage'/>
       </div>
       <div class="member"><p>인원수: {{ getMemberCountText(post.memberCount) }}</p></div>
       <div class="hashtag">
