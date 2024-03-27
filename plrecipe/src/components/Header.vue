@@ -29,6 +29,18 @@ const goPlace = () => {
 const goMain = () => {
     router.push('/');
 };
+const goFreePost = () => {
+  alert('준비중입니다');
+};
+const goQnA = () => {
+  alert('준비중입니다');
+};
+const goNotice = () => {
+  alert('준비중입니다');
+};
+const goMyPage = () => {
+  alert('준비중입니다');
+};
 const Logout = () => {
   window.location.href = 'http://localhost:8080';
 }
