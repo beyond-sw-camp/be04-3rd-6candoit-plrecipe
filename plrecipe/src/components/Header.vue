@@ -3,12 +3,12 @@
         <img src="@/img/logo.jpg" alt="PLRECIPE 로고" class="logo" @click="goMain"> 
         <nav class="nav">
             <ul class="nav-list">
-                <li @click="goPost"><b>게시판</b></li>
-                <li @click="goPlace"><b>장소</b></li>
-                <li @click="goFreePost"><b>자유게시판</b></li>
-                <li @click="goQnA"><b>문의</b></li>
-                <li @click="goNotice"><b>공지사항</b></li>
-                <li @click="goMyPage">마이페이지</li> 
+                <li class="category" @click="goPage('post')"><b>게시판</b></li>
+                <li class="category" @click="goPage('place')"><b>장소</b></li>
+                <li class="category" @click="goPage('freePost')"><b>자유게시판</b></li>
+                <li class="category" @click="goPage('QnA')"><b>문의</b></li>
+                <li class="category" @click="goPage('notice')"><b>공지사항</b></li>
+                <li @click="goPage('myPage')">마이페이지</li> 
                 <li @click="Logout">로그아웃</li> 
             </ul>
         </nav>
@@ -16,18 +16,31 @@
 </template>
 
 <script setup>
+import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 
 const router = useRouter();
+// const activeMenu = ref('main');
 
+const goPage = (page) => {
+
+  if(page == 'post' || page == 'place'){
+    router.push(page);
+  }
+  else
+  {
+    alert('준비중입니다');
+  }
+}
+
+const goMain = () => {
+    router.push('/');
+};
 const goPost = () => {
     router.push('/post');
 };
 const goPlace = () => {
     router.push('/place');
-};
-const goMain = () => {
-    router.push('/');
 };
 const goFreePost = () => {
   alert('준비중입니다');
@@ -217,5 +230,11 @@ body {
     text-align: center; /* 텍스트를 중앙 정렬 */
     /* 필요에 따라 추가 스타일링 */
   }
+ 
+  .nav-list li.category:hover{
+    font-size: large;
+    color: lightskyblue;
+  }
+
   
 </style>
