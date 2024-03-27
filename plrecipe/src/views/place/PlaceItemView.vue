@@ -6,7 +6,7 @@
       <b-row cols="5">
         <template v-for="place in props.places" :key="place.placeId">
           <b-col>
-            <div class="place-block">
+            <div class="place-block" @click="placeDetail">
               <p id="place-name">{{ place.placeName }}</p>
 
               <p id="star">
@@ -32,10 +32,17 @@
 <script setup>
 
 import { defineProps } from 'vue';
+import { useRouter } from "vue-router";
 
 const props = defineProps({
   places: Array
 });
+
+const router = useRouter();
+
+const placeDetail = () => {
+  router.push('/place/detail');
+};
 
 </script>
 
