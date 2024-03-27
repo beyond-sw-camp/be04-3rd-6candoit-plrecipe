@@ -1,5 +1,8 @@
 <template>
-   <div id="app">
+  <div class="create">
+    <button id="create-post" @click="createPost">게시글 작성</button>
+  </div>
+  <div id="app">
     <div class="post" v-for="post in posts" :key="post.postId" @click="postDetail">
       <div class="title"><p>{{ post.postTitle }}</p></div>
       <div class="image">
@@ -15,16 +18,26 @@
       </div>
       <div class="sidebar">
         <div 
-          class="sidebar-item"
-          v-for="course in post.course"
-          :key="course.placeId"
-          v-if="posts.length > 0"
-          :style="{ backgroundColor: getCategoryColor(course.placeCategory.placeCategoryName) }">
-          {{ course.placeCategory.placeCategoryName }}
-        </div>
-    </div>
+        class="sidebar-item"
+        v-for="course in post.course"
+        :key="course.placeId"
+        v-if="posts.length > 0"
+        :style="{ backgroundColor: getCategoryColor(course.placeCategory.placeCategoryName) }">
+        {{ course.placeCategory.placeCategoryName }}
+      </div>
     </div>
   </div>
+</div>
+<div class="search">
+        <select id="people">
+          <option value="제목">제목</option>
+          <option value="작성자">작성자</option>
+          <option value="인원수">인원수</option>
+          <option value="해시태그">해시태그</option>
+        </select>
+  <input type="text" id="input-search">
+  <button id="search-post" @click="searchPost">검색</button>
+</div>
   <br>
   
 </template>
@@ -73,6 +86,12 @@ const router = useRouter();
 
 const postDetail = () => {
   router.push('/post/detail');
+};
+const createPost = () => {
+  router.push('/post/new');
+};
+const searchPost = () => {
+  alert('검색 기능 구현 중입니다ㅠㅠ')
 };
 </script>
   

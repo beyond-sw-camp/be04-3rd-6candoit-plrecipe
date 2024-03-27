@@ -26,13 +26,14 @@
         <label for="hashtags">해시태그 (쉼표로 구분):</label>
         <input type="text" id="hashtags" v-model="hashtagsInput" @blur="splitHashtags">
       </div>
-      <button type="submit">게시글 작성</button>
+      <button type="submit" @click="testPost">게시글 작성</button>
     </form>
   </div>
 </template>
 
 <script setup>
 import { reactive, ref } from 'vue';
+import { useRouter } from 'vue-router';
 
 const postForm = reactive({
   title: '',
@@ -43,6 +44,7 @@ const postForm = reactive({
 });
 
 const hashtagsInput = ref('');
+const router = useRouter();
 
 function splitHashtags() {
   postForm.hashtags = hashtagsInput.value.split(',').map(tag => tag.trim()).filter(tag => tag !== '');
@@ -55,6 +57,11 @@ function handleFileUpload(event) {
 function submitPost() {
   console.log('게시글 데이터:', postForm);
   // 게시글 데이터를 서버에 전송하거나 저장하는 로직을 여기에 추가
+}
+
+function testPost () {
+  alert('게시글이 등록되었습니다.');
+  router.push('/post/detail')
 }
 </script>
 
