@@ -13,8 +13,8 @@
         </div>
 
         <!-- 작은 이미지들 -->
-        <div class="small-images" @click="goPost">
-          <div class="image-container small-image1">
+        <div class="small-images">
+          <div class="image-container small-image1" @click="goPost">
                     <img src="@/img/post.png" alt="왼쪽 이미지">
                     <div class="overlay-text">게시판<br>다양한 코스를 구성해보세요.</div>
             </div>
