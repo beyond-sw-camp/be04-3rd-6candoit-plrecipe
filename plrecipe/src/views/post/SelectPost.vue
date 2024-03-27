@@ -2,6 +2,15 @@
 import { ref, onMounted } from 'vue';
         
   const posts = ref([]);
+
+  const categoryColors = {
+    '음식점': '#93ACB5',
+  '카페': '#96C5F7',
+  '문화': '#A9D3FF',
+  '액티비티': '#CEE4FF',
+  '기타': '#E0ECFF',
+  '산책': '#F2F4FF',
+};
         
   onMounted(async () => {
     const response = fetch('http://localhost:8080/one_post')
@@ -23,12 +32,23 @@ import { ref, onMounted } from 'vue';
         return count;
     }
   };
-        </script>
+
+  const getCategoryColor = (categoryName) => {
+  return categoryColors[categoryName] || '#FFFFFF'; // 기본 색상은 흰색으로 설정
+};
+</script>
 <template>
     <div id="app">
-        <div class="sidebar">
-            <div class="sidebar-item"  v-for="course in posts[0].course" :key="course.placeId" v-if="posts.length > 0">{{ course.placeName }}</div>
-        </div>
+      <div class="sidebar">
+      <div 
+        class="sidebar-item"
+        v-for="course in posts[0].course"
+        :key="course.placeId"
+        v-if="posts.length > 0"
+        :style="{ backgroundColor: getCategoryColor(course.placeCategory.placeCategoryName) }">
+        {{ course.placeName }}
+      </div>
+    </div>
         <div class="post-container">
             <div v-if="posts.length > 0">
                 <div id="post-title">{{ posts[0].postTitle }}</div>
