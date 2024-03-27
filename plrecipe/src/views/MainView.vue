@@ -1,11 +1,15 @@
 <template>
+    <head>
+        <Header></Header>
+    </head>
     <div>
-        <h3>Main</h3>
+        <Main></Main>
     </div>
 </template>
 
 <script setup>
-
+    import Main from '@/components/Main.vue'
+    import Header from '@/components/Header.vue';
 </script>
 
 <style scoped>

@@ -1,14 +1,12 @@
 <template>
-<main>
-    <!-- <RouterView /> -->
-    placeMain
+  <main>
+    <RouterView />
   </main>
-  </template>
-  
-  <script setup>
-  import { RouterLink, RouterView } from 'vue-router';
-  </script>
-  
-  <style scoped>
-  
-  </style>
+</template>
+
+<script setup>
+import { RouterView } from "vue-router";
+
+</script>
+
+<style scoped></style>

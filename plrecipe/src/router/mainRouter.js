@@ -5,6 +5,10 @@ import MainView from '@/views/MainView.vue';
 import PlaceMainView from '@/views/place/PlaceMainView.vue';
 import PlaceDetailView from '@/views/place/PlaceDetailView.vue';
 
+import PostView from '@/views/post/PostView.vue';
+import PostMainView from '@/views/post/PostMainView.vue';
+import PostDetailView from '@/views/post/PostDetailView.vue';
+
 const router = createRouter({
     history: createWebHistory(),
     routes: [
@@ -14,7 +18,17 @@ const router = createRouter({
         },
         {
             path: '/post',
-            component: PlaceView
+            component: PostView,
+            children:[
+                {
+                    path: '',
+                    component: PostMainView
+                },
+                {
+                    path: 'detail',
+                    component: PostDetailView
+                }
+            ]
         },
         {
             path: '/place',

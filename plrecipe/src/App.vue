@@ -1,7 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router';
-import Post from '@/components/post/Post.vue';
-import SelectPost from './components/select_post/SelectPost.vue';
+import Header from '@/components/Header.vue';
 </script>
 
 <template>
@@ -10,11 +9,13 @@ import SelectPost from './components/select_post/SelectPost.vue';
         <RouterLink to="/" active-class="active" replace>메인</RouterLink>
         <RouterLink to="/post" active-class="active" replace>게시글</RouterLink>
         <RouterLink to="/place" active-class="active" replace>장소</RouterLink>
+        <Header></Header>
       </nav> 
   </header>
 
   <main>
     <RouterView />
+    <!-- <Post /> -->
   </main>
 </template>
 
@@ -22,4 +23,4 @@ import SelectPost from './components/select_post/SelectPost.vue';
 .active{
   color: steelblue;
 }
-</style>
+</style>./views/post/SelectPost.vue
