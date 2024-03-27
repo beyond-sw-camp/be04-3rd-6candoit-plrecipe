@@ -1,6 +1,14 @@
 <script setup>
 import { ref, onMounted } from 'vue';
-        
+
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
+const placeDetail = (id) => {
+  router.push(`/place/detail/${id}`);
+};
+
+
   const posts = ref([]);
 
   const categoryColors = {
@@ -45,6 +53,7 @@ import { ref, onMounted } from 'vue';
         v-for="course in posts[0].course"
         :key="course.placeId"
         v-if="posts.length > 0"
+        @click="placeDetail(course.placeId)"
         :style="{ backgroundColor: getCategoryColor(course.placeCategory.placeCategoryName) }">
         {{ course.placeName }}
       </div>
