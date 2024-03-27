@@ -5,7 +5,6 @@ import PlaceItemView from './PlaceItemView.vue'
 import { ref, reactive, onMounted } from "vue";
 
 const places = reactive([]);
-// const AllPlace = reactive([]);
 const categoryCode = ref('');
 
 onMounted(async () => {
@@ -32,11 +31,12 @@ function getPlaceData(id) {
 
 }
 
+
 </script>
 
 <template>
   <main>
-    <PlaceCategory @change="changeCategory" />
+    <PlaceCategory @change="changeCategory" @detail="placeDetail" />
 
     <PlaceItemView :places="places" />
   </main>

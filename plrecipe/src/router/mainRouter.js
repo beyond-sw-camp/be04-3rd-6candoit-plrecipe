@@ -39,7 +39,7 @@ const router = createRouter({
                     component: PlaceMainView
                 },
                 {
-                    path: 'view',
+                    path: 'detail',
                     component: PlaceDetailView
                 }
             ]
