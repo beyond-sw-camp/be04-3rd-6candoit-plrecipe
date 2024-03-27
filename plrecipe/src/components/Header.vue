@@ -46,6 +46,7 @@ body {
 }
 
 .header {
+  font-family: 'KCC-Hanbit', sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;

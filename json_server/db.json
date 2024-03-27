@@ -2,22 +2,75 @@
   "post": [
     {
       "postId": 1,
-      "postTitle": "군대동기 3인방의 종로탐방기",
-      "postContent": "종로에서 놀고 먹고 적시고 자는것까지 한번에 해결해보리기~",
-      "postDate": "2021.01.01",
+      "postTitle": "여름 휴가 뽀시기",
+      "postContent": "1. 신라호텔 체크인 후 수영장 즐기기. 점심은 어반아일랜드에서 짬뽕이랑 치킨 먹기\n2. 씻고 방에서 쉬다가 저녁 먹으러 신당역 근처 진성한우곱창. 택시 이동\n3. 저녁 먹고 산책 겸 구경하러 신당시장. 도보 20분.\n4. 핍스마트 구경하고 이자카야에서 맥주 한 잔. 다시 신라호텔로 택시 이동.\n5. 방으로 올라가기 전에 로비 패스트리 부티크에서 푸딩이랑 다쿠와즈 아이스크림 구매.\n6. 다음날 체크아웃 후 연희동 수빈에서 아점으로 한정식.\n7. 연희 번지르르에서 커피랑 과일.",
+      "postDate": "2023.08.12",
       "postDeleteDate": null,
       "memberId": 1,
       "courseId": 1,
       "isPostPublic": "Y",
-      "memberCount": "MANY",
-      "memberNickname": "김철수",
+      "memberCount": "TWO",
+      "memberNickname": "흰둥이",
+      "course": [
+        {
+          "placeId": 1,
+          "placeName": "신라호텔 수영장",
+          "placeCategory": {
+            "placeCategoryId": 4,
+            "placeCategoryName": "액티비티"
+          },
+          "avgStar": 5.0
+        },
+        {
+          "placeId": 2,
+          "placeName": "진성한우곱창",
+          "placeCategory": {
+            "placeCategoryId": 1,
+            "placeCategoryName": "음식점"
+          },
+          "avgStar": 0.0
+        },
+        {
+          "placeId": 3,
+          "placeName": "신당시장",
+          "placeCategory": {
+            "placeCategoryId": 5,
+            "placeCategoryName": "기타"
+          },
+          "avgStar": 4.5
+        },
+        {
+          "placeId": 4,
+          "placeName": "수빈",
+          "placeCategory": {
+            "placeCategoryId": 1,
+            "placeCategoryName": "음식점"
+          },
+          "avgStar": 4.0
+        },
+        {
+          "placeId": 5,
+          "placeName": "본지르르",
+          "placeCategory": {
+            "placeCategoryId": 2,
+            "placeCategoryName": "카페"
+          },
+          "avgStar": 5.0
+        }
+      ],
       "hashtag": [
         {
           "hashtagId": 1,
-          "hashtagTitle": "활동적인" 
+          "hashtagTitle": "여름 휴가" 
         },
-        {"hashtagId": 2,
-        "hashtagTitle": "남자셋이" }
+        {
+          "hashtagId": 2,
+        "hashtagTitle": "호캉스" 
+        },
+        {
+          "hashtagId": 3,
+        "hashtagTitle": "분좋카"
+        }
       ]
 
     },
@@ -264,10 +317,16 @@
         "hashtag": [
           {
             "hashtagId": 1,
-            "hashtagTitle": "활동적인" 
+            "hashtagTitle": "여름 휴가" 
           },
-          {"hashtagId": 2,
-          "hashtagTitle": "남자셋이" }
+          {
+            "hashtagId": 2,
+          "hashtagTitle": "호캉스" 
+          },
+          {
+            "hashtagId": 3,
+          "hashtagTitle": "분좋카"
+          }
         ]
       }
     ],
