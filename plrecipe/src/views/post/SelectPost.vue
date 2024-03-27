@@ -26,8 +26,8 @@ import { ref, onMounted } from 'vue';
         </script>
 <template>
     <div id="app">
-        <div class="sidebar" v-for="course in posts[0].course" :key="course.placeId" v-if="posts.length > 0">
-            <div class="sidebar-item">{{ course.placeName }}</div>
+        <div class="sidebar">
+            <div class="sidebar-item"  v-for="course in posts[0].course" :key="course.placeId" v-if="posts.length > 0">{{ course.placeName }}</div>
         </div>
         <div class="post-container">
             <div v-if="posts.length > 0">
