@@ -1,6 +1,6 @@
 <template>
     <header class="header">
-        <img src="@/img/logo.webp" alt="PLRECIPE 로고" class="logo" @click="goMain"> 
+        <img src="@/img/logo.jpg" alt="PLRECIPE 로고" class="logo" @click="goMain"> 
         <nav class="nav">
             <ul class="nav-list">
                 <li @click="goPost"><b>게시판</b></li>
@@ -58,7 +58,7 @@ body {
 }
 
 .logo {
-  max-width: 100px;
+  max-width: 300px;
 }
 
 .nav-list {
@@ -126,8 +126,8 @@ body {
 }
 
 .logo {
-  height: 50px; /* 로고 높이 */
-  width: auto; /* 로고 너비는 자동으로 설정 */
+  height: 65px; /* 로고 높이 */
+  width: 200px; /* 로고 너비는 자동으로 설정 */
 }
 
 .nav {
