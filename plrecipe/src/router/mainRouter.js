@@ -8,6 +8,7 @@ import PlaceDetailView from '@/views/place/PlaceDetailView.vue';
 import PostView from '@/views/post/PostView.vue';
 import PostMainView from '@/views/post/PostMainView.vue';
 import PostDetailView from '@/views/post/PostDetailView.vue';
+import ReadyPage from '@/views/ready/readyPage.vue';
 
 const router = createRouter({
     history: createWebHistory(),
@@ -43,6 +44,10 @@ const router = createRouter({
                     component: PlaceDetailView
                 }
             ]
+        },
+        {
+            path: '/ready',
+            component: ReadyPage
         }
     ]
 });

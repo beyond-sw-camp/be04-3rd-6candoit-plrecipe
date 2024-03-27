@@ -29,7 +29,7 @@ const goPage = (page) => {
   }
   else
   {
-    alert('준비중입니다');
+    router.push('/ready')
   }
 }
 
