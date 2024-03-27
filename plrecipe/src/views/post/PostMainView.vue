@@ -1,5 +1,5 @@
 <script setup>
-    import AllPost from './AllPost.vue';
+    import AllPost from '@/components/post/AllPost.vue';
 </script>
 
 <template>

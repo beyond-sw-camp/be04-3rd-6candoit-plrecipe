@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-import SelectPost from './SelectPost.vue'
+import SelectPost from '@/components/post/SelectPost.vue'
 </script>
 
 <style scoped>
