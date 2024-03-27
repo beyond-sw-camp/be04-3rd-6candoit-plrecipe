@@ -2,7 +2,6 @@
     <div class="container">
         <!-- 큰 이미지 -->
         <div class="big-image-container">
-            <a href="https://www.naver.com/">
                 <img src="@/img/main.png" alt="메인 이미지" class="big-image">
                 <div class="image-text">
                     <h1>Plrecipe</h1>
@@ -11,30 +10,34 @@
                         나만의 코스들을 조합해 다른 회원들과 공유하고 추억을 쌓아보세요!
                     </p>
                 </div>
-            </a>
         </div>
 
         <!-- 작은 이미지들 -->
-        <div class="small-images">
+        <div class="small-images" @click="goPost">
           <div class="image-container small-image1">
-                <a href="https://www.naver.com/">
                     <img src="@/img/post.png" alt="왼쪽 이미지">
                     <div class="overlay-text">게시판<br>다양한 코스를 구성해보세요.</div>
-                </a>
             </div>
 
-            <div class="image-container small-image2">
-                <a href="https://www.naver.com/">
+            <div class="image-container small-image2" @click="goPlace">
                     <img src="@/img/place.png" alt="오른쪽 이미지">
                     <div class="overlay-text">장소<br>다양한 장소를 구경해보세요.</div>
-                </a>
             </div>
         </div>
     </div>
 </template>
 
 <script setup>
+import { useRouter } from 'vue-router';
 
+const router = useRouter();
+
+  const goPost = () => {
+    router.push('/post');
+};
+const goPlace = () => {
+    router.push('/place');
+};
 </script>
 
 <style scoped>
@@ -186,7 +189,7 @@ body {
   width: calc(50% - 20px); /* 큰 이미지의 1/3 크기로 설정 */
   height: 350px;
   margin-left: 0;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-right: 10px;
   justify-content: space-between;
   overflow: hidden; 
@@ -196,7 +199,7 @@ body {
   width: calc(50% - 20px); /* 큰 이미지의 1/3 크기로 설정 */
   height: 350px;
   margin-left: 30px;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-right: 10px;
   justify-content: space-between;
   overflow: hidden; 
@@ -258,6 +261,14 @@ body {
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
+}
+
+.small-image1:hover {
+  transform: scale(1.1, 1.1);  
+}
+
+.small-image2:hover {
+  transform: scale(1.1, 1.1);  
 }
 
   

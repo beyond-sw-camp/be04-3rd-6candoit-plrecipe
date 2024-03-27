@@ -19,6 +19,11 @@
   border-radius: 10px;
 }
 
+.post:hover {
+  transform: scale(1.1, 1.1);
+  
+}
+
 /* 내부 요소들 스타일 */
 .title, .member, .hashtag {
   text-align: center;
@@ -28,6 +33,7 @@
 }
 .title {
   margin-top: 10px;
+  font-size: 15px;
 }
 
 .image {
