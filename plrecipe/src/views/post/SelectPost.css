@@ -28,7 +28,7 @@ body {
 
 
 .sidebar>div {
-  height: 200px;
+  height: 172px;
   background-color: #684343;
   margin-bottom: 10px;
   border-radius: 5px;
@@ -39,7 +39,7 @@ body {
 
 .sidebar {
   width: 172px;
-  height: 1000px;
+  height: 900px;
   margin-right: 28px;
   display: flex;
   flex-direction: column;
@@ -78,8 +78,11 @@ body {
 }
 
 #post-content {
+  white-space: pre-wrap; /* 줄바꿈과 공백을 유지하면서 내용을 표시 */
   padding-top: 20px;
-  height: 370px;
+  height: auto; /* 내용에 맞춰 높이 조절 */
+  max-height: 370px; /* 최대 높이 설정 */
+  overflow-y: auto; /* 내용이 최대 높이를 초과할 경우 스크롤 생성 */
   font-size: 20px;
 }
 
@@ -116,8 +119,6 @@ body {
   width: 100%; /* 부모 요소인 li의 가로폭에 맞게 이미지를 확장 */
   height: 100%; /* 부모 요소인 li의 높이에 맞게 이미지를 확장 */
   object-fit: cover; /* 이미지 비율을 유지하면서, li의 크기에 맞춰 이미지를 채움 */
-  border-radius: 5px;
-  padding: 3px solid black;
 }
 
 
