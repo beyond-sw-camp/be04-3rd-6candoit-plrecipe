@@ -1,8 +1,6 @@
 <template>
     <header class="header">
-        <a href="https://www.naver.com/">
-        <!-- <img src="logo.webp" alt="PLRECIPE 로고" class="logo">  -->
-        </a>
+        <img src="@/img/logo.webp" alt="PLRECIPE 로고" class="logo" @click="goMain"> 
         <nav class="nav">
             <ul class="nav-list">
                 <li @click="goPost"><b>게시판</b></li>
@@ -27,6 +25,9 @@ const goPost = () => {
 };
 const goPlace = () => {
     router.push('/place');
+};
+const goMain = () => {
+    router.push('/');
 };
 </script>
 
