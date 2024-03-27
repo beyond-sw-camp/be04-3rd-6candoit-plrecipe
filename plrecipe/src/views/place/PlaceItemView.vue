@@ -16,7 +16,7 @@
 
               <p id="address">{{ place.placeLocation }}</p>
 
-              <div id="place-category">
+              <div id="place-category" :style="{ backgroundColor: getCategoryColor(place.placeCategory.placeCategoryName) }">
                 {{ place.placeCategory.placeCategoryName }}
               </div>
             </div>
@@ -43,6 +43,19 @@ const router = useRouter();
 const placeDetail = (id) => {
   console.log(id);
   router.push(`/place/detail/${id}`);
+};
+
+const categoryColors = {
+  '음식점': 'lightpink',
+  '카페': 'lightyellow',
+  '문화': 'lightgreen',
+  '액티비티': 'lightblue',
+  '기타': 'lightgray',
+  '산책': 'rgba(212, 170, 255, 0.952)',
+};
+
+const getCategoryColor = (categoryName) => {
+  return categoryColors[categoryName] || '#FFFFFF'; // 기본 색상은 흰색
 };
 
 </script>
@@ -90,7 +103,7 @@ const placeDetail = (id) => {
   text-align: center;
   font-size: 15px;
   font-weight: bold;
-  background-color: bisque;
+  background-color: rgb(255, 196, 196);
   position: absolute;
   right: 10px;
   bottom: 10px;
