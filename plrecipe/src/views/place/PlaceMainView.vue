@@ -2,68 +2,34 @@
 import PlaceCategory from './PlaceCategory.vue'
 import PlaceItemView from './PlaceItemView.vue'
 
-const places =
-  [
-    {
-      "placeId": 1,
-      "placeName": "보라매공원",
-      "placeLocation": "서울광역시 보라매동",
-      "placePhoneNum": null,
-      "placeCategory": {
-        "placeCategoryId": 5,
-        "placeCategoryName": "산책"
-      },
-      "avgStar": 5.0
-    },
-    {
-      "placeId": 2,
-      "placeName": "귤밭체험농장",
-      "placeLocation": "제주특별자치도 귤동",
-      "placePhoneNum": null,
-      "placeCategory": {
-        "placeCategoryId": 5,
-        "placeCategoryName": "산책"
-      },
-      "avgStar": 0.0
-    },
-    {
-      "placeId": 3,
-      "placeName": "배김윤조한공원",
-      "placeLocation": "서울광역시 신대방동",
-      "placePhoneNum": null,
-      "placeCategory": {
-        "placeCategoryId": 5,
-        "placeCategoryName": "산책"
-      },
-      "avgStar": 4.5
-    }];
+import { ref, reactive, onMounted } from "vue";
 
-
-import { provide, ref, reactive } from "vue";
-
-const placeData = reactive(places);
+const places = reactive([]);
+// const AllPlace = reactive([]);
 const categoryCode = ref('');
+
+onMounted(async () => {
+  const response = fetch('http://localhost:8080/place')
+    .then(response => response.json());
+  const data = await response;
+  places.value = data;
+  getPlaceData('');
+});
 
 function changeCategory(id) {
   categoryCode.value = id;
-  console.log(id);
   getPlaceData(id);
 }
 
-function getPlaceData(id){
-  // placeData.value =  // id에 맞는 데이터 가져오기
+function getPlaceData(id) {
 
-  placeData.value = [{
-      "placeId": 1,
-      "placeName": "보라매공원",
-      "placeLocation": "서울광역시 보라매동",
-      "placePhoneNum": null,
-      "placeCategory": {
-        "placeCategoryId": 5,
-        "placeCategoryName": "산책"
-      },
-      "avgStar": 5.0
-    }]
+  if(id == ''){
+    places.splice(0, places.length, ...places.value);
+  }else{
+    const newPlaces = places.value.filter(place => place.placeCategory.placeCategoryId === id);
+    places.splice(0, places.length, ...newPlaces);
+  }
+
 }
 
 </script>
@@ -72,13 +38,11 @@ function getPlaceData(id){
   <main>
     <PlaceCategory @change="changeCategory" />
 
-    <PlaceItemView :placeData="placeData"/>
-
+    <PlaceItemView :places="places" />
   </main>
 
 </template>
 
 
 
-<style scoped>
-</style>
+<style scoped></style>
