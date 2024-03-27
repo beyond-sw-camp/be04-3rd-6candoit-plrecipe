@@ -6,7 +6,7 @@
       "postContent": "1. 신라호텔 체크인 후 수영장 즐기기. 점심은 어반아일랜드에서 짬뽕이랑 치킨 먹기\n2. 씻고 방에서 쉬다가 저녁 먹으러 신당역 근처 진성한우곱창. 택시 이동\n3. 저녁 먹고 산책 겸 구경하러 신당시장. 도보 20분.\n4. 핍스마트 구경하고 이자카야에서 맥주 한 잔. 다시 신라호텔로 택시 이동.\n5. 방으로 올라가기 전에 로비 패스트리 부티크에서 푸딩이랑 다쿠와즈 아이스크림 구매.\n6. 다음날 체크아웃 후 연희동 수빈에서 아점으로 한정식.\n7. 연희 번지르르에서 커피랑 과일.",
       "postDate": "2023.08.12",
       "postDeleteDate": null,
-      "postImage":"@/img/조수빈방.jpg",
+      "postImage":"@/img/1_신라호텔.jpg",
       "memberId": 1,
       "courseId": 1,
       "isPostPublic": "Y",
@@ -621,8 +621,8 @@
       {
         "placeId": 1,
         "placeName": "보라매공원",
-        "placeLocation": "서울광역시 보라매동",
-        "placePhoneNum": null,
+        "placeLocation": "서울특별시 동작구 여의대방로20길 33",
+        "placePhoneNum": "02-5162-5165",
         "placeCategory": {
           "placeCategoryId": 5,
           "placeCategoryName": "산책"
@@ -632,19 +632,19 @@
       {
         "placeId": 2,
         "placeName": "귤밭체험농장",
-        "placeLocation": "제주특별자치도 귤동",
-        "placePhoneNum": null,
+        "placeLocation": "제주시 특별자치도, 봉개동 1411",
+        "placePhoneNum": "064-6516-5645",
         "placeCategory": {
           "placeCategoryId": 5,
           "placeCategoryName": "산책"
         },
-        "avgStar": 0.0
+        "avgStar": 4.0
       },
       {
         "placeId": 3,
-        "placeName": "배김윤조한공원",
-        "placeLocation": "서울광역시 신대방동",
-        "placePhoneNum": null,
+        "placeName": "상암근린공원",
+        "placeLocation": "서울특별시 마포구 월드컵로42길 22",
+        "placePhoneNum": "02-2618-6516",
         "placeCategory": {
           "placeCategoryId": 5,
           "placeCategoryName": "산책"
@@ -653,9 +653,9 @@
       },
       {
         "placeId": 4,
-        "placeName": "모르는개산책로",
-        "placeLocation": "부산광역시 광안동",
-        "placePhoneNum": null,
+        "placeName": "부산시민공원",
+        "placeLocation": "부산광역시 부산진구 시민공원로 73",
+        "placePhoneNum": "051-850-6000",
         "placeCategory": {
           "placeCategoryId": 5,
           "placeCategoryName": "산책"
@@ -664,9 +664,9 @@
       },
       {
         "placeId": 5,
-        "placeName": "참조은길",
-        "placeLocation": "창원특례시 남양동",
-        "placePhoneNum": null,
+        "placeName": "남양체육공원",
+        "placeLocation": "경기도 화성시 남양동 시청로45번길 95",
+        "placePhoneNum": "010-3642-5731",
         "placeCategory": {
           "placeCategoryId": 5,
           "placeCategoryName": "산책"
@@ -676,7 +676,7 @@
       {
         "placeId": 6,
         "placeName": "카츠디나인",
-        "placeLocation": "서울특별시 동작구 신대방동",
+        "placeLocation": "서울특별시 동작구 국사봉1길 12-5",
         "placePhoneNum": "02-8389-9498",
         "placeCategory": {
           "placeCategoryId": 1,
@@ -693,18 +693,18 @@
           "placeCategoryId": 1,
           "placeCategoryName": "음식점"
         },
-        "avgStar": 2.0
+        "avgStar": 5.0
       },
       {
         "placeId": 8,
         "placeName": "서울초밥",
-        "placeLocation": "서울특별시 관악구 신림동",
+        "placeLocation": "서울특별시 관악구 신림동7길 15 1층",
         "placePhoneNum": "02-5783-4939",
         "placeCategory": {
           "placeCategoryId": 1,
           "placeCategoryName": "음식점"
         },
-        "avgStar": 0.0
+        "avgStar": 5.0
       },
       {
         "placeId": 9,
@@ -719,42 +719,42 @@
       },
       {
         "placeId": 10,
-        "placeName": "3분 파스타",
-        "placeLocation": "경상북도 울릉군 울릉읍 독도안용복길3",
-        "placePhoneNum": "054-1239-7387",
+        "placeName": "온타이키친",
+        "placeLocation": "서울 마포구 월드컵북로54길 17 ",
+        "placePhoneNum": "0507-1477-5016",
         "placeCategory": {
           "placeCategoryId": 1,
           "placeCategoryName": "음식점"
         },
-        "avgStar": 0.0
+        "avgStar": 4.0
       },
       {
         "placeId": 11,
-        "placeName": "개빨라피시방",
-        "placeLocation": "서울특별시 강남구 테헤란로 123번길 45-1",
-        "placePhoneNum": "055-987-4563",
+        "placeName": "카페모임",
+        "placeLocation": "서울 마포구 매봉산로 72 상상큐브 1층",
+        "placePhoneNum": "0507-1383-1028",
         "placeCategory": {
-          "placeCategoryId": 6,
-          "placeCategoryName": "기타"
+          "placeCategoryId": 2,
+          "placeCategoryName": "카페"
         },
-        "avgStar": 0.0
+        "avgStar": 5.0
       },
       {
         "placeId": 12,
-        "placeName": "기억력붕어빵집",
-        "placeLocation": "경기도 고양시 일산동구 호수로 567번길 89-2",
-        "placePhoneNum": "010-1212-3434",
+        "placeName": "경양식당",
+        "placeLocation": "서울 마포구 월드컵북로54길 17 ",
+        "placePhoneNum": "0507-1428-8011",
         "placeCategory": {
-          "placeCategoryId": 6,
-          "placeCategoryName": "기타"
+          "placeCategoryId": 1,
+          "placeCategoryName": "식당"
         },
         "avgStar": 4.0
       },
       {
         "placeId": 13,
-        "placeName": "못나가만화방",
-        "placeLocation": "대구광역시 수성구 무학로 321번길 78-3",
-        "placePhoneNum": "02-1234-9876",
+        "placeName": "만화카페꿀잼코믹스",
+        "placeLocation": "대구 광역시 중구 덕산동 124-11번지",
+        "placePhoneNum": "053-257-0524",
         "placeCategory": {
           "placeCategoryId": 6,
           "placeCategoryName": "기타"
@@ -958,6 +958,281 @@
           "placeCategoryName": "문화"
         },
         "avgStar": 0.0
+      }
+    ],
+    "star": [
+      {
+        "starId": 1,
+        "starPoint": 5,
+        "starComment": "사장님이 맛있고 음식이 친절해요",
+        "place": {
+          "placeId": 1,
+          "placeName": "보라매공원",
+          "placeLocation": "서울광역시 보라매동",
+          "placePhoneNum": null,
+          "placeCategory": {
+            "placeCategoryId": 5,
+            "placeCategoryName": "산책"
+          }
+        },
+        "member": {
+          "memberId": 13,
+          "memberName": "박고은",
+          "memberNickname": "지하천척",
+          "memberGrade": "ROLL_MEMBER"
+        }
+      },
+      {
+        "starId": 4,
+        "starPoint": 5,
+        "starComment": "직원들이 너무 친절해서 재방문 하고 싶어요",
+        "place": {
+          "placeId": 6,
+          "placeName": "카츠디나인",
+          "placeLocation": "서울특별시 동작구 신대방동",
+          "placePhoneNum": "02-8389-9498",
+          "placeCategory": {
+            "placeCategoryId": 1,
+            "placeCategoryName": "음식점"
+          }
+        },
+        "member": {
+          "memberId": 7,
+          "memberName": "이드보라",
+          "memberNickname": "마틸다",
+          "memberGrade": "ROLL_MEMBER"
+        }
+      },
+      {
+        "starId": 6,
+        "starPoint": 5,
+        "starComment": "파스타가 너무너무너무너무 맛있어요 강추",
+        "place": {
+          "placeId": 9,
+          "placeName": "월매흑염소",
+          "placeLocation": "서울특별시 동작구 신대방동",
+          "placePhoneNum": "02-4935-9305",
+          "placeCategory": {
+            "placeCategoryId": 1,
+            "placeCategoryName": "음식점"
+          }
+        },
+        "member": {
+          "memberId": 11,
+          "memberName": "김규린",
+          "memberNickname": "귤냠냠",
+          "memberGrade": "ROLL_MEMBER"
+        }
+      },
+      {
+        "starId": 10,
+        "starPoint": 5,
+        "starComment": "데이트 코스로 강추해요 분위기 정말 좋아요",
+        "place": {
+          "placeId": 17,
+          "placeName": "링크아트센터",
+          "placeLocation": "서울 종로구 대학로",
+          "placePhoneNum": "02-3674-7897",
+          "placeCategory": {
+            "placeCategoryId": 3,
+            "placeCategoryName": "문화"
+          }
+        },
+        "member": {
+          "memberId": 26,
+          "memberName": "정태원",
+          "memberNickname": "마이카나이트",
+          "memberGrade": "ROLL_MEMBER"
+        }
+      },
+      {
+        "starId": 16,
+        "starPoint": 5,
+        "starComment": "별점 등록",
+        "place": {
+          "placeId": 3,
+          "placeName": "배김윤조한공원",
+          "placeLocation": "서울광역시 신대방동",
+          "placePhoneNum": null,
+          "placeCategory": {
+            "placeCategoryId": 5,
+            "placeCategoryName": "산책"
+          }
+        },
+        "member": {
+          "memberId": 5,
+          "memberName": "김재현",
+          "memberNickname": "닥쳐말포이",
+          "memberGrade": "ROLL_ADMIN"
+        }
+      },
+      {
+        "starId": 18,
+        "starPoint": 5,
+        "starComment": "별점 등록",
+        "place": {
+          "placeId": 4,
+          "placeName": "모르는개산책로",
+          "placeLocation": "부산광역시 광안동",
+          "placePhoneNum": null,
+          "placeCategory": {
+            "placeCategoryId": 5,
+            "placeCategoryName": "산책"
+          }
+        },
+        "member": {
+          "memberId": 5,
+          "memberName": "김재현",
+          "memberNickname": "닥쳐말포이",
+          "memberGrade": "ROLL_ADMIN"
+        }
+      },
+      {
+        "starId": 21,
+        "starPoint": 5,
+        "starComment": "별점 등록",
+        "place": {
+          "placeId": 5,
+          "placeName": "참조은길",
+          "placeLocation": "창원특례시 남양동",
+          "placePhoneNum": null,
+          "placeCategory": {
+            "placeCategoryId": 5,
+            "placeCategoryName": "산책"
+          }
+        },
+        "member": {
+          "memberId": 5,
+          "memberName": "김재현",
+          "memberNickname": "닥쳐말포이",
+          "memberGrade": "ROLL_ADMIN"
+        }
+      },
+      {
+        "starId": 2,
+        "starPoint": 4,
+        "starComment": "화장실이 가게와 너무 멀어요",
+        "place": {
+          "placeId": 3,
+          "placeName": "배김윤조한공원",
+          "placeLocation": "서울광역시 신대방동",
+          "placePhoneNum": null,
+          "placeCategory": {
+            "placeCategoryId": 5,
+            "placeCategoryName": "산책"
+          }
+        },
+        "member": {
+          "memberId": 11,
+          "memberName": "김규린",
+          "memberNickname": "귤냠냠",
+          "memberGrade": "ROLL_MEMBER"
+        }
+      },
+      {
+        "starId": 7,
+        "starPoint": 4,
+        "starComment": "데이트 코스로 추천합니다",
+        "place": {
+          "placeId": 12,
+          "placeName": "기억력붕어빵집",
+          "placeLocation": "경기도 고양시 일산동구 호수로 567번길 89-2",
+          "placePhoneNum": "010-1212-3434",
+          "placeCategory": {
+            "placeCategoryId": 6,
+            "placeCategoryName": "기타"
+          }
+        },
+        "member": {
+          "memberId": 25,
+          "memberName": "정우진",
+          "memberNickname": "파크스법",
+          "memberGrade": "ROLL_MEMBER"
+        }
+      },
+      {
+        "starId": 3,
+        "starPoint": 3,
+        "starComment": "메뉴는 맛있지만 직원들이 불친절해요",
+        "place": {
+          "placeId": 4,
+          "placeName": "모르는개산책로",
+          "placeLocation": "부산광역시 광안동",
+          "placePhoneNum": null,
+          "placeCategory": {
+            "placeCategoryId": 5,
+            "placeCategoryName": "산책"
+          }
+        },
+        "member": {
+          "memberId": 1,
+          "memberName": "박정만",
+          "memberNickname": "츄르도둑",
+          "memberGrade": "ROLL_MEMBER"
+        }
+      },
+      {
+        "starId": 8,
+        "starPoint": 3,
+        "starComment": "친구 여러명이랑 가기에 매장이 너무 좁아요",
+        "place": {
+          "placeId": 14,
+          "placeName": "대왕문어타코야끼",
+          "placeLocation": "부산광역시 해운대구 송정해변로 432번길 10-4",
+          "placePhoneNum": "010-0000-8888",
+          "placeCategory": {
+            "placeCategoryId": 6,
+            "placeCategoryName": "기타"
+          }
+        },
+        "member": {
+          "memberId": 13,
+          "memberName": "박고은",
+          "memberNickname": "지하천척",
+          "memberGrade": "ROLL_MEMBER"
+        }
+      },
+      {
+        "starId": 5,
+        "starPoint": 2,
+        "starComment": "직원도 불친절하고 매장도 너무 지저분해서 괜히 갔어요",
+        "place": {
+          "placeId": 7,
+          "placeName": "행복담",
+          "placeLocation": "광주광역시 동구 동명동",
+          "placePhoneNum": "062-743-1859",
+          "placeCategory": {
+            "placeCategoryId": 1,
+            "placeCategoryName": "음식점"
+          }
+        },
+        "member": {
+          "memberId": 28,
+          "memberName": "최종찬",
+          "memberNickname": "메소포타미아",
+          "memberGrade": "ROLL_MEMBER"
+        }
+      },
+      {
+        "starId": 9,
+        "starPoint": 1,
+        "starComment": "사장님이 화만 내고 음식도 별로고 최악이에요",
+        "place": {
+          "placeId": 13,
+          "placeName": "못나가만화방",
+          "placeLocation": "대구광역시 수성구 무학로 321번길 78-3",
+          "placePhoneNum": "02-1234-9876",
+          "placeCategory": {
+            "placeCategoryId": 6,
+            "placeCategoryName": "기타"
+          }
+        },
+        "member": {
+          "memberId": 5,
+          "memberName": "김재현",
+          "memberNickname": "닥쳐말포이",
+          "memberGrade": "ROLL_ADMIN"
+        }
       }
     ]
 }
