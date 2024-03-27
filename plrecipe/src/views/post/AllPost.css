@@ -5,26 +5,6 @@
   font-style: normal;
 }
 
-
-.nav {
-  float: right;
-}
-
-.nav-list li {
-  display: inline;
-  margin-left: 20px;
-  border-bottom: 2px solid transparent;
-}
-
-.nav-list li a {
-  color: #000000;
-  text-decoration: none;
-}
-
-.nav-list li a:hover {
-  border-bottom-color: black;
-}
-
 /* Flexbox를 적용한 .post 스타일 */
 .post {
   display: flex;
@@ -34,17 +14,16 @@
   width: 265px;
   height: 350px;
   border: 3px solid black;
-  margin-top: 5px;
-  margin-left: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
   border-radius: 10px;
-  /* background-color: lightgreen; */
 }
 
 /* 내부 요소들 스타일 */
 .title, .member, .hashtag {
   text-align: center;
   font-size: 80%;
-  margin: 5px 0;
+  /* margin: 5px 0; */
   font-weight: bold;
 }
 .title {
@@ -54,9 +33,9 @@
 .image {
   background-color: green;
   border: 3px solid black;
-  width: 230px; /* 이미지 컨테이너의 너비를 .post의 100%로 설정 */
-  height: 230px; /* 이미지 컨테이너의 높이를 지정 */
-  overflow: hidden; /* 넘치는 이미지 숨기기 */
+  width: 240px; 
+  height: 200px; 
+  overflow: hidden; 
 }
 
 #app {
@@ -109,4 +88,7 @@
   margin-right: 5px;
   margin-bottom: 5px;
   display: inline-block;
+}
+.member {
+  padding-top: 5px;
 }
