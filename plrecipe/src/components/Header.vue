@@ -29,6 +29,9 @@ const goPlace = () => {
 const goMain = () => {
     router.push('/');
 };
+const Logout = () => {
+  window.location.href = 'http://localhost:8080';
+}
 </script>
 
 <style scoped>

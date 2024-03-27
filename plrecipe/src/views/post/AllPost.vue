@@ -23,7 +23,7 @@ import { useRouter } from 'vue-router';
 const posts = ref([]);
         
 onMounted(async () => {
-  const response = fetch('http://localhost:8080/post')
+  const response = fetch('http://localhost:3000/post')
                   .then(response => response.json());
   const data = await response;
   posts.value = data;

@@ -13,7 +13,7 @@ import { ref, onMounted } from 'vue';
 };
         
   onMounted(async () => {
-    const response = fetch('http://localhost:8080/one_post')
+    const response = fetch('http://localhost:3000/one_post')
                     .then(response => response.json());
     const data = await response;
     posts.value = data;
