@@ -1,20 +1,41 @@
+<script setup>
+import { ref, onMounted } from 'vue';
+        
+  const posts = ref([]);
+        
+  onMounted(async () => {
+    const response = fetch('http://localhost:8080/one_post')
+                    .then(response => response.json());
+    const data = await response;
+    posts.value = data;
+    console.log(posts.value);
+  });
+
+  const getMemberCountText = (count) => {
+    switch (count) {
+      case "ONE":
+        return "1인";
+      case "TWO":
+        return "2인";
+      case "MANY":
+        return "다수";
+      default:
+        return count;
+    }
+  };
+        </script>
 <template>
     <div id="app">
-        <div class="sidebar">
-            <!-- Sidebar contents -->
-            <div class="sidebar-item">장소이름</div>
-            <div class="sidebar-item">장소이름</div>
-            <div class="sidebar-item">장소이름</div>
-            <div class="sidebar-item">장소이름</div>
-            <div class="sidebar-item">장소이름</div>
+        <div class="sidebar" v-for="course in posts[0].course" :key="course.placeId" v-if="posts.length > 0">
+            <div class="sidebar-item">{{ course.placeName }}</div>
         </div>
         <div class="post-container">
-            <div v-if="post">
-                <div id="post-title">{{ post.postTitle }}</div>
+            <div v-if="posts.length > 0">
+                <div id="post-title">{{ posts[0].postTitle }}</div>
                 <div id="post-writer">
                     <img id="member-image" src="@/img/left.jpg">
-                    <span id="post-nick">{{ post.member.memberNickname }}</span>
-                    <span id="post-member-count">{{ getMemberCountText(post.memberCount) }}</span>
+                    <span id="post-nick">{{ posts[0].memberNickname }}</span>
+                    <span id="post-member-count">{{ getMemberCountText(posts[0].memberCount) }}</span>
                 </div>
                 <div id="post-image">
                     <img src="@/img/게임.jpg" alt="">
@@ -22,60 +43,17 @@
                     <img src="@/img/전골.jpg" alt="">
                     <img src="@/img/조수빈방.jpg" alt="">
                 </div>
-                <div id="post-content">{{ post.postContent }}</div>
+                <div id="post-content">{{ posts[0].postContent }}</div>
                 <div id="hashtag">
-                    <span v-for="(hashtag, index) in post.hashtags" :key="index">#{{ hashtag }}</span>
-                </div>
+                <span v-for="hashtag in posts[0].hashtag" :key="hashtag.hashtagId">
+                    #{{ hashtag.hashtagTitle }}
+                </span>
+            </div>
             </div>
         </div>
     </div>
 </template>
 
-<script setup>
-import { ref, onMounted } from 'vue';
-import axios from 'axios';
-
-const post = ref(null);
-
-const fetchPost = async () => {
-    try {
-        const response = await axios.get('http://localhost:8000/plrecipe-post/post/5');
-        if (response.data && Array.isArray(response.data) && response.data.length > 0) {
-            post.value = response.data[0];
-            await fetchHashtags();
-        } else {
-            console.error('게시글 데이터가 비어있습니다.');
-        }
-    } catch (error) {
-        console.error('데이터 로드 중 오류 발생:', error);
-    }
-};
-
-const fetchHashtags = async () => {
-    if (!post.value || !post.value.postId) return;
-    try {
-        const response = await axios.get(`http://localhost:8000/plrecipe-post/hashtag/${post.value.postId}`);
-        post.value.hashtags = response.data.map(tag => tag.hashtagDTO.hashtagTitle);
-    } catch (error) {
-        console.error('해시태그 데이터 로드 중 오류 발생:', error);
-    }
-};
-
-const getMemberCountText = (count) => {
-    switch (count) {
-        case "ONE":
-            return "1인";
-        case "TWO":
-            return "2인";
-        case "MANY":
-            return "다수";
-        default:
-            return count;
-    }
-};
-
-onMounted(fetchPost);
-</script>
 
 <style scoped>
 @font-face {
@@ -105,23 +83,23 @@ body {
   display: flex;
 }
 
+
+.sidebar>div {
+  height: 172px;
+  background-color: #684343;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 172px; /* 이 값은 div의 높이와 같아야 합니다. */
+  flex-direction: column !important;
+}
+
 .sidebar {
   width: 172px;
   height: 900px;
   margin-right: 28px;
   display: flex;
   flex-direction: column;
-}
-
-.sidebar div {
-  height: 172px;
-  background-color: #684343;
-  /* Placeholder color */
-  margin-bottom: 10px;
-  border-radius: 5px;
-  text-align: center;
-  text-align: center; /* 수평 중앙 정렬 */
-  line-height: 172px; /* 이 값은 div의 높이와 같아야 합니다. */
 }
 
 .post-container {
