@@ -205,58 +205,58 @@
     "one_post": [
       {
         "postId": 1,
-        "postTitle": "군대동기 3인방의 종로탐방기",
+        "postTitle": "여름 휴가 뽀시기",
         "postContent": "종로에서 놀고 먹고 적시고 자는것까지 한번에 해결해보리기~",
         "postDate": "2021.01.01",
         "postDeleteDate": null,
         "memberId": 1,
         "courseId": 1,
         "isPostPublic": "Y",
-        "memberCount": "MANY",
-        "memberNickname": "김철수",
+        "memberCount": "TWO",
+        "memberNickname": "흰둥이",
         "course": [
           {
             "placeId": 1,
-            "placeName": "보라매공원",
+            "placeName": "신라호텔 수영장",
             "placeCategory": {
-              "placeCategoryId": 5,
-              "placeCategoryName": "산책"
+              "placeCategoryId": 4,
+              "placeCategoryName": "액티비티"
             },
             "avgStar": 5.0
           },
           {
             "placeId": 2,
-            "placeName": "귤밭체험농장",
+            "placeName": "진성한우곱창",
             "placeCategory": {
-              "placeCategoryId": 5,
-              "placeCategoryName": "산책"
+              "placeCategoryId": 1,
+              "placeCategoryName": "음식점"
             },
             "avgStar": 0.0
           },
           {
             "placeId": 3,
-            "placeName": "배김윤조한공원",
+            "placeName": "신당시장",
             "placeCategory": {
               "placeCategoryId": 5,
-              "placeCategoryName": "산책"
+              "placeCategoryName": "기타"
             },
             "avgStar": 4.5
           },
           {
             "placeId": 4,
-            "placeName": "모르는개산책로",
+            "placeName": "수빈",
             "placeCategory": {
-              "placeCategoryId": 5,
-              "placeCategoryName": "산책"
+              "placeCategoryId": 1,
+              "placeCategoryName": "음식점"
             },
             "avgStar": 4.0
           },
           {
             "placeId": 5,
-            "placeName": "참조은길",
+            "placeName": "본지르르",
             "placeCategory": {
-              "placeCategoryId": 5,
-              "placeCategoryName": "산책"
+              "placeCategoryId": 2,
+              "placeCategoryName": "카페"
             },
             "avgStar": 5.0
           }

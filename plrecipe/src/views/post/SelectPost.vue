@@ -33,15 +33,31 @@ import { ref, onMounted } from 'vue';
             <div v-if="posts.length > 0">
                 <div id="post-title">{{ posts[0].postTitle }}</div>
                 <div id="post-writer">
-                    <img id="member-image" src="@/img/left.jpg">
+                    <img id="member-image" src="@/img/프로필.jpg">
                     <span id="post-nick">{{ posts[0].memberNickname }}</span>
                     <span id="post-member-count">{{ getMemberCountText(posts[0].memberCount) }}</span>
                 </div>
                 <div id="post-image">
-                    <img src="@/img/게임.jpg" alt="">
-                    <img src="@/img/눈판다.jpg" alt="">
-                    <img src="@/img/전골.jpg" alt="">
-                    <img src="@/img/조수빈방.jpg" alt="">
+                    <img src="@/img/1_신라호텔.jpg" alt="">
+                    <img src="@/img/2_수영장.jpg" alt="">
+                    <img src="@/img/3_점심.jpg" alt="">
+                    <img src="@/img/4_점심.jpg" alt="">
+                    <img src="@/img/5_수영장.jpg" alt="">
+                    <img src="@/img/6_저녁.jpg" alt="">
+                    <img src="@/img/7_저녁.jpg" alt="">
+                    <img src="@/img/8_시장.jpg" alt="">
+                    <img src="@/img/9_시장.jpg" alt="">
+                    <img src="@/img/10_야식.jpg" alt="">
+                    <img src="@/img/11_베이커리.jpg" alt="">
+                    <img src="@/img/12_베이커리.jpg" alt="">
+                    <img src="@/img/13_수영장.jpg" alt="">
+                    <img src="@/img/14_수빈.jpg" alt="">
+                    <img src="@/img/15_수빈.jpg" alt="">
+                    <img src="@/img/16_수빈.jpg" alt="">
+                    <img src="@/img/17_수빈.jpg" alt="">
+                    <img src="@/img/18_본지르르.jpg" alt="">
+                    <img src="@/img/19_본지르르.jpg" alt="">
+                    <img src="@/img/20_본지르르.jpg" alt="">
                 </div>
                 <div id="post-content">{{ posts[0].postContent }}</div>
                 <div id="hashtag">
@@ -54,127 +70,7 @@ import { ref, onMounted } from 'vue';
     </div>
 </template>
 
-
 <style scoped>
-@font-face {
-  font-family: 'KCC-Hanbit';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-body {
-  font-family: 'KCC-Hanbit', sans-serif;
-  margin: 0;
-  background-color: #FFFFFF;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  height: 100vh;
-  background: #F7F7F7;
-}
-
-#app {
-  width: 1440px;
-  /* Adjust to the width of your app */
-  margin: 0 auto;
-  padding: 20px;
-  box-sizing: border-box;
-  display: flex;
-}
-
-
-.sidebar>div {
-  height: 172px;
-  background-color: #684343;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  text-align: center;
-  line-height: 172px; /* 이 값은 div의 높이와 같아야 합니다. */
-  flex-direction: column !important;
-}
-
-.sidebar {
-  width: 172px;
-  height: 900px;
-  margin-right: 28px;
-  display: flex;
-  flex-direction: column;
-}
-
-.post-container {
-  width: 900px;
-  height: 900px;
-  background: #FFF;
-  padding: 20px;
-  border: 3px solid #000000;
-  box-sizing: border-box;
-}
-
-#post-title,
-#post-writer,
-#post-content,
-#hashtag {
-  margin-bottom: 20px;
-}
-
-#post-title {
-  font-size: 32px;
-  color: #000000;
-}
-
-#post-writer {
-  font-size: 20px;
-  color: #777;
-  border-bottom: 3px solid #000000;
-  display: flex;
-  align-items: center;
-  justify-content: space-between; /* 이 속성으로 내부 요소들 사이에 공간을 분배합니다 */
-  border-bottom: 3px solid #000000;
-}
-
-#post-content {
-  padding-top: 20px;
-  height: 400px;
-  font-size: 20px;
-}
-
-#hashtag {
-  border-top: 3px solid #000000;
-  padding-top: 30px;
-}
-
-#hashtag span {
-  background-color: #e0e0e0;
-  padding: 5px 15px;
-  border-radius: 15px;
-  font-size: 23px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  display: inline-block;
-}
-
-.post-image {
-  width: 1200px;
-  height: 200px;
-  border: 3px solid black;
-}
-
-img {
-  width: 200px;
-  height: 200px;
-  margin-right: 10px;
-}
-
-#member-image {
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  margin-bottom: 5px;
-}
-
-#post-member-count {
-  margin-left: auto;
-  /* 이 속성으로 오른쪽 끝으로 이동합니다 */
-}
+/* 외부 CSS 파일 연결 */
+@import url('./SelectPost.css');
 </style>
