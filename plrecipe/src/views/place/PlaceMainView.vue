@@ -39,21 +39,20 @@ const places =
     }];
 
 
-import { provide, ref, reactive } from "vue";
+import { ref, reactive } from "vue";
 
 const placeData = reactive(places);
 const categoryCode = ref('');
 
 function changeCategory(id) {
   categoryCode.value = id;
-  console.log(id);
   getPlaceData(id);
 }
 
-function getPlaceData(id){
-  // placeData.value =  // id에 맞는 데이터 가져오기
+function getPlaceData(id) {
 
-  placeData.value = [{
+  const place1 = [
+    {
       "placeId": 1,
       "placeName": "보라매공원",
       "placeLocation": "서울광역시 보라매동",
@@ -63,7 +62,12 @@ function getPlaceData(id){
         "placeCategoryName": "산책"
       },
       "avgStar": 5.0
-    }]
+    }
+  ];
+
+  // const newPlaces = // id에 맞는 데이터 가져오기
+
+  placeData.splice(0, placeData.length, ...place1);
 }
 
 </script>
@@ -72,13 +76,11 @@ function getPlaceData(id){
   <main>
     <PlaceCategory @change="changeCategory" />
 
-    <PlaceItemView :placeData="placeData"/>
-
+    <PlaceItemView :placeData="placeData" />
   </main>
 
 </template>
 
 
 
-<style scoped>
-</style>
+<style scoped></style>

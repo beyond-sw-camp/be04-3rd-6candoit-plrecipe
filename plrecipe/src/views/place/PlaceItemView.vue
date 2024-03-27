@@ -4,7 +4,7 @@
 
     <b-container class="bv-example-row mb-3">
       <b-row cols="5">
-        <template v-for="place in props.placeData" :key="placeId">
+        <template v-for="place in props.placeData" :key="place.placeId">
           <b-col>
             <div class="place-block">
               <p id="place-name">{{ place.placeName }}</p>
@@ -24,17 +24,18 @@
         </template>
       </b-row>
     </b-container>
-    
+
   </div>
-  
+
 </template>
 
 <script setup>
-import { defineProps } from 'vue';
-const props = defineProps({
-  placeData: String
-});
 
+import { defineProps } from 'vue';
+
+const props = defineProps({
+  placeData: Array
+});
 
 </script>
 
