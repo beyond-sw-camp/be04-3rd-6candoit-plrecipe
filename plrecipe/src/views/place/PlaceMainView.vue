@@ -8,7 +8,7 @@ const places = reactive([]);
 const categoryCode = ref('');
 
 onMounted(async () => {
-  const response = fetch('http://localhost:8080/place')
+  const response = fetch('http://localhost:3000/place')
     .then(response => response.json());
   const data = await response;
   places.value = data;
