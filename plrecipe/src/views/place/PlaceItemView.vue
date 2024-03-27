@@ -51,7 +51,7 @@ const placeDetail = (id) => {
 
 .star-block,
 .place-block {
-  width: 300px;
+  width: 320px;
   height: 150px;
   border: black solid 3px;
   padding: 10px 15px;
@@ -71,7 +71,7 @@ const placeDetail = (id) => {
 
 #place-name {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   float: left;
 }
 
@@ -107,5 +107,7 @@ const placeDetail = (id) => {
 #stars,
 #places {
   clear: both;
+  padding-top: 20px;
 }
+
 </style>
