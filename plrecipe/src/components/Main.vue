@@ -17,10 +17,10 @@
         <!-- 작은 이미지들 -->
         <div class="small-images">
             <a href="https://www.naver.com/">
-                <img src="@/img/post.png" alt="왼쪽 이미지" class="small-image">
+                <img src="@/img/post.png" alt="왼쪽 이미지" class="small-image1">
             </a>
             <a href="https://www.naver.com/">
-                <img src="@/img/place.png" alt="오른쪽 이미지" class="small-image">
+                <img src="@/img/place.png" alt="오른쪽 이미지" class="small-image2">
             </a>
         </div>
     </div>
@@ -175,12 +175,23 @@ body {
 }
 
 /* 작은 이미지 스타일 */
-.small-image {
-  width: 48%; /* 큰 이미지의 1/3 크기로 설정 */
+.small-image1 {
+  width: calc(50% - 20px); /* 큰 이미지의 1/3 크기로 설정 */
   height: 300px;
-  margin-left: 10px;
+  margin-left: 0;
   margin-top: 10px;
   margin-right: 10px;
+  justify-content: space-between;
+}
+
+.small-image2{
+  width: calc(50% - 20px); /* 큰 이미지의 1/3 크기로 설정 */
+  height: 300px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  justify-content: space-between;
+  margin-right: 0; /* 마지막 이미지는 오른쪽 여백을 없앱니다 */
 }
 
 .big-image-container {
