@@ -25,7 +25,7 @@ const router = useRouter();
 const goPage = (page) => {
 
   if(page == 'post' || page == 'place'){
-    router.push(page);
+    router.push(`/${page}`);
   }
   else
   {
