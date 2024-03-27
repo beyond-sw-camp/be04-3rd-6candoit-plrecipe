@@ -6,6 +6,24 @@
   border-bottom: 2px solid black;
 }
 
+header>h1 {
+  font-size: 50px;
+  text-align: left;
+}
+
+header>button {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header>div {
+  background-color: black;
+  width: 1300px;
+  height: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .nav {
   float: right;
 }
@@ -59,38 +77,21 @@
   overflow: hidden; /* 넘치는 이미지 숨기기 */
 }
 
-.footer {
-  clear: both;
-}
-
-/* 기타 스타일링 */
-header>h1 {
-  font-size: 50px;
-  text-align: left;
-}
-header>button {
-  font-size: 20px;
-  font-weight: bold;
-}
-header>div {
-  background-color: black;
-  width: 1300px;
-  height: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
 #app {
   display: flex;
-  flex-wrap: wrap; /* 요소들이 다음 줄로 넘어갈 수 있게 설정 */
-  justify-content: flex-start; /* 시작점에서 가로 정렬 */
-  align-items: flex-start; /* 시작점에서 세로 정렬 */
-  gap: 10px; /* 요소들 사이의 간격 설정 */
+  flex-wrap: wrap; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 10px; 
 }
 
 .image img {
-  width: 100%; /* 이미지의 너비를 컨테이너의 100%로 설정 */
-  height: 100%; /* 이미지의 높이를 컨테이너의 100%로 설정 */
-  object-fit: cover; /* 이미지 비율을 유지하며 컨테이너 채우기 */
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
   margin-right: 10px;
+}
+
+.footer {
+  clear: both;
 }

@@ -27,9 +27,8 @@ body {
   display: flex;
 }
 
-
 .sidebar>div {
-  height: 172px;
+  height: 201px;
   background-color: #684343;
   margin-bottom: 10px;
   border-radius: 5px;
@@ -40,9 +39,11 @@ body {
 
 .sidebar {
   font-family: 'KCC-Hanbit', sans-serif;
+  font-size: 22px;
   width: 172px;
-  height: 900px;
+  height: 1000px;
   margin-right: 28px;
+  margin-top: 5px;
   display: flex;
   flex-direction: column;
   margin-left: 150px;
@@ -66,12 +67,13 @@ body {
 }
 
 #post-title {
-  font-size: 32px;
+  font-size: 37px;
+  text-align: center;
   color: #000000;
 }
 
 #post-writer {
-  font-size: 20px;
+  font-size: 22.5px;
   color: #777;
   border-bottom: 3px solid #000000;
   display: flex;
@@ -123,12 +125,12 @@ body {
   object-fit: cover; /* 이미지 비율을 유지하면서, li의 크기에 맞춰 이미지를 채움 */
 }
 
-
 #member-image {
   width: 40px;
   height: 40px;
   border-radius: 50px;
   margin-bottom: 5px;
+  margin-right: 7px;
 }
 
 #post-member-count {

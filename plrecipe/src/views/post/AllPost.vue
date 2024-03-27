@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h3>내가 작성한 게시글</h3>
+  <h3>내가 작성한 게시글</h3>
+  <div id="app">
     <div class="post" v-for="post in posts" :key="post.postId" @click="postDetail">
       <div class="title"><p>{{ post.postTitle }}</p></div>
       <div class="image"></div>
@@ -30,7 +30,6 @@ onMounted(async () => {
   console.log(posts.value);
 });
 
-  
 const getMemberCountText = (count) => {
   switch (count) {
     case "ONE":
@@ -43,7 +42,6 @@ const getMemberCountText = (count) => {
       return count;
   }
 };
-
 
 const router = useRouter();
 
