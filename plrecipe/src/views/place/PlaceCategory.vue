@@ -39,6 +39,7 @@ function changeCategory(category) {
   margin-left: 120px;
   margin-top: 20px;
   transition: all 0.3s;
+  font-family: 'KCC-Hanbit', sans-serif;
 }
 #All:hover, .All {
   background-color: khaki;
@@ -68,4 +69,10 @@ function changeCategory(category) {
   background-color: lightgray;
 }
 
+@font-face {
+  font-family: 'KCC-Hanbit';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 </style>

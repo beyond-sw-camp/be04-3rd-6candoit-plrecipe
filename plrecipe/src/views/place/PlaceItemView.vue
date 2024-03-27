@@ -59,6 +59,7 @@ const placeDetail = (id) => {
   border-radius: 10px;
   position: relative;
   font-size: 15px;
+  font-family: 'KCC-Hanbit', sans-serif;
 
 }
 
@@ -81,6 +82,7 @@ const placeDetail = (id) => {
 }
 
 #place-category {
+  font-family: 'KCC-Hanbit', sans-serif;
   width: 80px;
   height: 30px;
   padding: 2px;
@@ -108,6 +110,13 @@ const placeDetail = (id) => {
 #places {
   clear: both;
   padding-top: 20px;
+}
+
+@font-face {
+  font-family: 'KCC-Hanbit';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 </style>

@@ -45,4 +45,6 @@ function getPlaceData(id) {
 
 
 
-<style scoped></style>
+<style scoped>
+
+</style>
