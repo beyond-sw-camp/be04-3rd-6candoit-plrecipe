@@ -4,6 +4,7 @@ import PlaceView from '@/views/place/PlaceView.vue';
 import MainView from '@/views/MainView.vue';
 import PlaceMainView from '@/views/place/PlaceMainView.vue';
 import PlaceDetailView from '@/views/place/PlaceDetailView.vue';
+
 import PostView from '@/views/post/PostView.vue';
 import PostMainView from '@/views/post/PostMainView.vue';
 import PostDetailView from '@/views/post/PostDetailView.vue';
