@@ -6,22 +6,29 @@
                 <img src="@/img/main.png" alt="메인 이미지" class="big-image">
                 <div class="image-text">
                     <h1>Plrecipe</h1>
-                    <br><br><br>
-                    <h5>플레시피(Play + Recipe)는 사용자에게 다양한 놀거리를 제공하는 서비스 입니다. <br>
+                    <br><br>
+                    <p>플레시피(Play + Recipe)는 사용자에게 다양한 놀거리를 제공하는 서비스 입니다.<br>
                         나만의 코스들을 조합해 다른 회원들과 공유하고 추억을 쌓아보세요!
-                    </h5>
+                    </p>
                 </div>
             </a>
         </div>
 
         <!-- 작은 이미지들 -->
         <div class="small-images">
-            <a href="https://www.naver.com/">
-                <img src="@/img/post.png" alt="왼쪽 이미지" class="small-image1">
-            </a>
-            <a href="https://www.naver.com/">
-                <img src="@/img/place.png" alt="오른쪽 이미지" class="small-image2">
-            </a>
+          <div class="image-container small-image1">
+                <a href="https://www.naver.com/">
+                    <img src="@/img/post.png" alt="왼쪽 이미지">
+                    <div class="overlay-text">게시판<br>다양한 코스를 구성해보세요.</div>
+                </a>
+            </div>
+
+            <div class="image-container small-image2">
+                <a href="https://www.naver.com/">
+                    <img src="@/img/place.png" alt="오른쪽 이미지">
+                    <div class="overlay-text">장소<br>다양한 장소를 구경해보세요.</div>
+                </a>
+            </div>
         </div>
     </div>
 </template>
@@ -177,21 +184,23 @@ body {
 /* 작은 이미지 스타일 */
 .small-image1 {
   width: calc(50% - 20px); /* 큰 이미지의 1/3 크기로 설정 */
-  height: 300px;
+  height: 350px;
   margin-left: 0;
   margin-top: 10px;
   margin-right: 10px;
   justify-content: space-between;
+  overflow: hidden; 
 }
 
 .small-image2{
   width: calc(50% - 20px); /* 큰 이미지의 1/3 크기로 설정 */
-  height: 300px;
+  height: 350px;
   margin-left: 30px;
   margin-top: 10px;
   margin-right: 10px;
   justify-content: space-between;
-  margin-right: 0; /* 마지막 이미지는 오른쪽 여백을 없앱니다 */
+  overflow: hidden; 
+  margin-right: 0;
 }
 
 .big-image-container {
@@ -207,9 +216,49 @@ body {
     left: 50%; /* 상위 요소 기준으로 왼쪽에서 50% 위치에 배치 */
     transform: translate(-50%, -50%); /* 중앙 정렬을 위해 위치 조정 */
     color: black; /* 텍스트 색상을 흰색으로 설정 */
-    font-size: 2em; /* 텍스트 크기 설정 */
+    font-size: 1em; /* 텍스트 크기 설정 */
     text-align: center; /* 텍스트를 중앙 정렬 */
-    /* 필요에 따라 추가 스타일링 */
+    font-family: 'KCC-Hanbit', sans-serif;
   }
+
+
+.small-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.small-image1 img, .small-image2 img {
+    width: 100%;
+    display: block; /* 블록 레벨 요소로 만들어서 width 100%를 가질 수 있게 함 */
+}
+
+.overlay-text {
+    font-family: 'KCC-Hanbit', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black; /* 텍스트 색상을 흰색으로 설정 */
+    text-align: center;
+    font-size: 1em; /* 텍스트 크기를 1em으로 설정 */
+    white-space: nowrap; /* 텍스트가 줄바꿈 없이 한 줄에 표시 */
+    padding: 5px 10px; /* 텍스트 주변에 여백 추가 */
+    border-radius: 5px; /* 둥근 모서리 테두리 추가 */
+    font-size: 30px;
+    padding: 10px;
+}
+
+@font-face {
+  font-family: 'KCC-Hanbit';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
   
 </style>
