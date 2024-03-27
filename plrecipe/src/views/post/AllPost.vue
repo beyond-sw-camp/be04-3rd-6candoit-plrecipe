@@ -12,6 +12,16 @@
           </span>&nbsp;
         </p>
       </div>
+      <div class="sidebar">
+        <div 
+          class="sidebar-item"
+          v-for="course in post.course"
+          :key="course.placeId"
+          v-if="posts.length > 0"
+          :style="{ backgroundColor: getCategoryColor(course.placeCategory.placeCategoryName) }">
+          {{ course.placeCategory.placeCategoryName }}
+        </div>
+    </div>
     </div>
   </div>
 </template>
@@ -21,6 +31,15 @@ import { ref, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
         
 const posts = ref([]);
+
+const categoryColors = {
+    '음식점': '#93ACB5',
+  '카페': '#96C5F7',
+  '문화': '#A9D3FF',
+  '액티비티': '#CEE4FF',
+  '기타': '#E0ECFF',
+  '산책': '#F2F4FF',
+};
         
 onMounted(async () => {
   const response = fetch('http://localhost:3000/post')
@@ -41,6 +60,10 @@ const getMemberCountText = (count) => {
     default:
       return count;
   }
+};
+
+const getCategoryColor = (categoryName) => {
+  return categoryColors[categoryName] || '#FFFFFF'; // 기본 색상은 흰색으로 설정
 };
 
 const router = useRouter();
