@@ -98,16 +98,25 @@ body {
 }
 
 .post-image {
-  width: 1200px;
-  height: 200px;
-  border: 3px solid black;
+  overflow-x: auto; /* 가로 스크롤 활성화 */
+  display: flex; /* 리스트 항목들을 가로로 나열 */
+  padding-bottom: 20px; /* 스크롤바와 이미지 사이의 공간 확보 */
 }
 
-img {
-  width: 200px;
-  height: 200px;
-  margin-right: 10px;
+.post-image li {
+  flex: 0 0 250px; /* 가로폭을 600px로 고정 */
+  padding-right: 20px; /* 리스트 항목 간의 간격을 20px로 설정 */
+  display: flex; /* 이미지가 li 태그의 크기에 맞게 조정되도록 함 */
+  justify-content: center; /* 이미지를 가운데 정렬 */
+  align-items: center; /* 세로 방향 중앙 정렬 */
 }
+
+.post-image img {
+  width: 100%; /* 부모 요소인 li의 가로폭에 맞게 이미지를 확장 */
+  height: 100%; /* 부모 요소인 li의 높이에 맞게 이미지를 확장 */
+  object-fit: cover; /* 이미지 비율을 유지하면서, li의 크기에 맞춰 이미지를 채움 */
+}
+
 
 #member-image {
   width: 40px;

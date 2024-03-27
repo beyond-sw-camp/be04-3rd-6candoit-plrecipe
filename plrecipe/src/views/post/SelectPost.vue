@@ -37,28 +37,69 @@ import { ref, onMounted } from 'vue';
                     <span id="post-nick">{{ posts[0].memberNickname }}</span>
                     <span id="post-member-count">{{ getMemberCountText(posts[0].memberCount) }}</span>
                 </div>
-                <div id="post-image">
-                    <img src="@/img/1_신라호텔.jpg" alt="">
-                    <img src="@/img/2_수영장.jpg" alt="">
-                    <img src="@/img/3_점심.jpg" alt="">
-                    <img src="@/img/4_점심.jpg" alt="">
-                    <img src="@/img/5_수영장.jpg" alt="">
-                    <img src="@/img/6_저녁.jpg" alt="">
-                    <img src="@/img/7_저녁.jpg" alt="">
-                    <img src="@/img/8_시장.jpg" alt="">
-                    <img src="@/img/9_시장.jpg" alt="">
-                    <img src="@/img/10_야식.jpg" alt="">
-                    <img src="@/img/11_베이커리.jpg" alt="">
-                    <img src="@/img/12_베이커리.jpg" alt="">
-                    <img src="@/img/13_수영장.jpg" alt="">
-                    <img src="@/img/14_수빈.jpg" alt="">
-                    <img src="@/img/15_수빈.jpg" alt="">
-                    <img src="@/img/16_수빈.jpg" alt="">
-                    <img src="@/img/17_수빈.jpg" alt="">
-                    <img src="@/img/18_본지르르.jpg" alt="">
-                    <img src="@/img/19_본지르르.jpg" alt="">
-                    <img src="@/img/20_본지르르.jpg" alt="">
-                </div>
+                <ul class="post-image">
+  <li>
+    <img src="@/img/1_신라호텔.jpg" alt="">
+  </li>
+  <li>
+    <img src="@/img/2_수영장.jpg" alt="">
+  </li>
+  <li>
+    <img src="@/img/3_점심.jpg" alt="">
+  </li>
+  <li>
+    <img src="@/img/4_점심.jpg" alt="">
+  </li>
+  <li>
+    <img src="@/img/5_수영장.jpg" alt="">
+  </li>
+  <li>
+    <img src="@/img/6_저녁.jpg" alt="">
+  </li>
+  <li>
+    <img src="@/img/7_저녁.jpg" alt="">
+  </li>
+  <li>
+    <img src="@/img/8_시장.jpg" alt="">
+  </li>
+  <li>
+    <img src="@/img/9_시장.jpg" alt="">
+  </li>
+  <li>
+    <img src="@/img/10_야식.jpg" alt="">
+  </li>
+  <li>
+    <img src="@/img/11_베이커리.jpg" alt="">
+  </li>
+  <li>
+    <img src="@/img/12_베이커리.jpg" alt="">
+  </li>
+  <li>
+    <img src="@/img/13_수영장.jpg" alt="">
+  </li>
+  <li>
+    <img src="@/img/14_수빈.jpg" alt="">
+  </li>
+  <li>
+    <img src="@/img/15_수빈.jpg" alt="">
+  </li>
+  <li>
+    <img src="@/img/16_수빈.jpg" alt="">
+  </li>
+  <li>
+    <img src="@/img/17_수빈.jpg" alt="">
+  </li>
+  <li>
+    <img src="@/img/18_본지르르.jpg" alt="">
+  </li>
+  <li>
+    <img src="@/img/19_본지르르.jpg" alt="">
+  </li>
+  <li>
+    <img src="@/img/20_본지르르.jpg" alt="">
+  </li>
+</ul>
+
                 <div id="post-content">{{ posts[0].postContent }}</div>
                 <div id="hashtag">
                 <span v-for="hashtag in posts[0].hashtag" :key="hashtag.hashtagId">
