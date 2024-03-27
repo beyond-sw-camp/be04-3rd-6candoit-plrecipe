@@ -263,13 +263,6 @@ body {
   font-style: normal;
 }
 
-.small-image1:hover {
-  transform: scale(1.1, 1.1);  
-}
-
-.small-image2:hover {
-  transform: scale(1.1, 1.1);  
-}
 
   
 </style>
