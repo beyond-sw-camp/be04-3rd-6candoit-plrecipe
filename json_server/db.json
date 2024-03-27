@@ -222,6 +222,10 @@
         {
           "hashtagId": 1,
           "hashtagTitle": "용인" 
+        },
+        {
+          "hashtagId": 2,
+          "hashtagTitle": "테라스" 
         }
       ]
     },
@@ -533,11 +537,15 @@
       "hashtag": [
         {
           "hashtagId": 1,
-          "hashtagTitle": "이별" 
+          "hashtagTitle": "기념일" 
         },
         {
           "hashtagId": 2,
-        "hashtagTitle": "눈물셀카" 
+        "hashtagTitle": "1주년" 
+        },
+        {
+          "hashtagId": 3,
+        "hashtagTitle": "소노펠리체" 
         }
       ]
     }
@@ -752,7 +760,7 @@
       },
       {
         "placeId": 13,
-        "placeName": "만화카페꿀잼코믹스",
+        "placeName": "꿀잼코믹스",
         "placeLocation": "대구 광역시 중구 덕산동 124-11번지",
         "placePhoneNum": "053-257-0524",
         "placeCategory": {
@@ -765,7 +773,7 @@
         "placeId": 14,
         "placeName": "대왕문어타코야끼",
         "placeLocation": "부산광역시 해운대구 송정해변로 432번길 10-4",
-        "placePhoneNum": "010-0000-8888",
+        "placePhoneNum": "010-2352-8348",
         "placeCategory": {
           "placeCategoryId": 6,
           "placeCategoryName": "기타"
@@ -774,30 +782,30 @@
       },
       {
         "placeId": 15,
-        "placeName": "아기자기소품샾",
+        "placeName": "유니랜드",
         "placeLocation": "인천광역시 남동구 논고개로 654번길 32-5",
-        "placePhoneNum": "010-6321-4789",
+        "placePhoneNum": "010-4024-0357",
         "placeCategory": {
           "placeCategoryId": 6,
           "placeCategoryName": "기타"
         },
-        "avgStar": 0.0
+        "avgStar": 4.0
       },
       {
         "placeId": 16,
         "placeName": "충무아트센터",
-        "placeLocation": "서울 중구 퇴계로",
+        "placeLocation": "서울특별시 중구 퇴계로 387",
         "placePhoneNum": "02-2230-6600",
         "placeCategory": {
           "placeCategoryId": 3,
           "placeCategoryName": "문화"
         },
-        "avgStar": 0.0
+        "avgStar": 4.0
       },
       {
         "placeId": 17,
         "placeName": "링크아트센터",
-        "placeLocation": "서울 종로구 대학로",
+        "placeLocation": "서울특별시 종로구 대학로14길 29",
         "placePhoneNum": "02-3674-7897",
         "placeCategory": {
           "placeCategoryId": 3,
@@ -814,84 +822,84 @@
           "placeCategoryId": 3,
           "placeCategoryName": "문화"
         },
-        "avgStar": 0.0
+        "avgStar": 4.0
       },
       {
         "placeId": 19,
         "placeName": "아트스페이스3",
-        "placeLocation": "서울 종로구 효자로7길",
-        "placePhoneNum": null,
+        "placeLocation": "서울 종로구 효자로7길 23",
+        "placePhoneNum": "02-730-5322",
         "placeCategory": {
           "placeCategoryId": 3,
           "placeCategoryName": "문화"
         },
-        "avgStar": 0.0
+        "avgStar": 4.0
       },
       {
         "placeId": 20,
         "placeName": "포레스트",
-        "placeLocation": "서울 관악구 조원중앙로",
-        "placePhoneNum": null,
+        "placeLocation": "서울 관악구 조원중앙로 31",
+        "placePhoneNum": "0507-1338-5398",
         "placeCategory": {
           "placeCategoryId": 3,
           "placeCategoryName": "문화"
         },
-        "avgStar": 0.0
+        "avgStar": 4.0
       },
       {
         "placeId": 21,
         "placeName": "인생이 보드게임",
-        "placeLocation": "서울시 종로구 종로1동",
+        "placeLocation": "서울 종로구 수표로 107 2층",
         "placePhoneNum": "02-1234-5678",
         "placeCategory": {
           "placeCategoryId": 4,
           "placeCategoryName": "액티비티"
         },
-        "avgStar": 0.0
+        "avgStar": 4.0
       },
       {
         "placeId": 22,
-        "placeName": "쿠킹 클래스",
-        "placeLocation": "서울시 동작구 신대방동",
-        "placePhoneNum": "02-43219876",
+        "placeName": "플레이팅 스튜디오",
+        "placeLocation": "서울 마포구 성미산로23안길 19 5",
+        "placePhoneNum": "0507-1305-9574",
         "placeCategory": {
           "placeCategoryId": 4,
           "placeCategoryName": "액티비티"
         },
-        "avgStar": 0.0
+        "avgStar": 5.0
       },
       {
         "placeId": 23,
-        "placeName": "건대 사격장",
-        "placeLocation": "서울시 광진구 화양동",
-        "placePhoneNum": "02-2335-2342",
+        "placeName": "리얼 배틀그라운드",
+        "placeLocation": "서울 광진구 아차산로29길 8 1층",
+        "placePhoneNum": "0507-1353-7578",
         "placeCategory": {
           "placeCategoryId": 4,
           "placeCategoryName": "액티비티"
         },
-        "avgStar": 0.0
+        "avgStar": 3.0
       },
       {
         "placeId": 24,
-        "placeName": "실내 낚시장임",
-        "placeLocation": "서울시 종로구 대학로동",
-        "placePhoneNum": "02-1234-5238",
+        "placeName": "또와 낚시카페",
+        "placeLocation": "서울 광진구 동일로 166",
+        "placePhoneNum": "070-4078-1255",
         "placeCategory": {
           "placeCategoryId": 4,
           "placeCategoryName": "액티비티"
         },
-        "avgStar": 0.0
+        "avgStar": 4.0
       },
       {
         "placeId": 25,
-        "placeName": "향수제작소",
-        "placeLocation": "서울시 도봉구 방학1동",
-        "placePhoneNum": "02-1284-5118",
+        "placeName": "향기억",
+        "placeLocation": "서울 강남구 선릉로157길 23",
+        "placePhoneNum": "0507-1318-9070",
         "placeCategory": {
           "placeCategoryId": 4,
           "placeCategoryName": "액티비티"
         },
-        "avgStar": 0.0
+        "avgStar": 5.0
       },
       {
         "placeId": 26,
@@ -902,7 +910,7 @@
           "placeCategoryId": 2,
           "placeCategoryName": "카페"
         },
-        "avgStar": 0.0
+        "avgStar": 5.0
       },
       {
         "placeId": 27,
@@ -913,29 +921,29 @@
           "placeCategoryId": 2,
           "placeCategoryName": "카페"
         },
-        "avgStar": 0.0
+        "avgStar": 4.0
       },
       {
         "placeId": 28,
         "placeName": "문랜딩",
-        "placeLocation": "서울  용산구 장문로17길",
+        "placeLocation": "서울 용산구 장문로17길",
         "placePhoneNum": "02-852-5621",
         "placeCategory": {
           "placeCategoryId": 2,
           "placeCategoryName": "카페"
         },
-        "avgStar": 0.0
+        "avgStar": 4.0
       },
       {
         "placeId": 29,
         "placeName": "무계획",
-        "placeLocation": "서울  마포구 망원동",
+        "placeLocation": "서울 마포구 망원동",
         "placePhoneNum": "02-499-5925",
         "placeCategory": {
           "placeCategoryId": 2,
           "placeCategoryName": "카페"
         },
-        "avgStar": 0.0
+        "avgStar": 5.0
       },
       {
         "placeId": 30,
@@ -946,18 +954,18 @@
           "placeCategoryId": 2,
           "placeCategoryName": "카페"
         },
-        "avgStar": 0.0
+        "avgStar": 5.0
       },
       {
         "placeId": 31,
-        "placeName": "장소insert22",
-        "placeLocation": "고양시22",
-        "placePhoneNum": "031-1234-7854",
+        "placeName": "헤키",
+        "placeLocation": "서울 마포구 동교로9길 33 1층",
+        "placePhoneNum": "070-7773-9870",
         "placeCategory": {
-          "placeCategoryId": 3,
-          "placeCategoryName": "문화"
+          "placeCategoryId": 1,
+          "placeCategoryName": "음식점"
         },
-        "avgStar": 0.0
+        "avgStar": 5.0
       }
     ],
     "star": [
@@ -968,8 +976,8 @@
         "place": {
           "placeId": 1,
           "placeName": "보라매공원",
-          "placeLocation": "서울광역시 보라매동",
-          "placePhoneNum": null,
+          "placeLocation": "서울특별시 동작구 여의대방로20길 33",
+          "placePhoneNum": "02-5162-5165",
           "placeCategory": {
             "placeCategoryId": 5,
             "placeCategoryName": "산책"
@@ -989,7 +997,7 @@
         "place": {
           "placeId": 6,
           "placeName": "카츠디나인",
-          "placeLocation": "서울특별시 동작구 신대방동",
+          "placeLocation": "서울특별시 동작구 국사봉1길 12-5",
           "placePhoneNum": "02-8389-9498",
           "placeCategory": {
             "placeCategoryId": 1,
@@ -1031,7 +1039,7 @@
         "place": {
           "placeId": 17,
           "placeName": "링크아트센터",
-          "placeLocation": "서울 종로구 대학로",
+          "placeLocation": "서울특별시 종로구 대학로14길 29",
           "placePhoneNum": "02-3674-7897",
           "placeCategory": {
             "placeCategoryId": 3,
@@ -1051,9 +1059,9 @@
         "starComment": "별점 등록",
         "place": {
           "placeId": 3,
-          "placeName": "배김윤조한공원",
-          "placeLocation": "서울광역시 신대방동",
-          "placePhoneNum": null,
+          "placeName": "상암근린공원",
+          "placeLocation": "서울특별시 마포구 월드컵로42길 22",
+          "placePhoneNum": "02-2618-6516",
           "placeCategory": {
             "placeCategoryId": 5,
             "placeCategoryName": "산책"
@@ -1072,9 +1080,9 @@
         "starComment": "별점 등록",
         "place": {
           "placeId": 4,
-          "placeName": "모르는개산책로",
-          "placeLocation": "부산광역시 광안동",
-          "placePhoneNum": null,
+          "placeName": "부산시민공원",
+          "placeLocation": "부산광역시 부산진구 시민공원로 73",
+          "placePhoneNum": "051-850-6000",
           "placeCategory": {
             "placeCategoryId": 5,
             "placeCategoryName": "산책"
@@ -1093,9 +1101,9 @@
         "starComment": "별점 등록",
         "place": {
           "placeId": 5,
-          "placeName": "참조은길",
-          "placeLocation": "창원특례시 남양동",
-          "placePhoneNum": null,
+          "placeName": "남양체육공원",
+          "placeLocation": "경기도 화성시 남양동 시청로45번길 95",
+          "placePhoneNum": "010-3642-5731",
           "placeCategory": {
             "placeCategoryId": 5,
             "placeCategoryName": "산책"
@@ -1114,9 +1122,9 @@
         "starComment": "화장실이 가게와 너무 멀어요",
         "place": {
           "placeId": 3,
-          "placeName": "배김윤조한공원",
-          "placeLocation": "서울광역시 신대방동",
-          "placePhoneNum": null,
+          "placeName": "상암근린공원",
+          "placeLocation": "서울특별시 마포구 월드컵로42길 22",
+          "placePhoneNum": "02-2618-6516",
           "placeCategory": {
             "placeCategoryId": 5,
             "placeCategoryName": "산책"
@@ -1135,12 +1143,12 @@
         "starComment": "데이트 코스로 추천합니다",
         "place": {
           "placeId": 12,
-          "placeName": "기억력붕어빵집",
-          "placeLocation": "경기도 고양시 일산동구 호수로 567번길 89-2",
-          "placePhoneNum": "010-1212-3434",
+          "placeName": "경양식당",
+          "placeLocation": "서울 마포구 월드컵북로54길 17",
+          "placePhoneNum": "0507-1428-8011",
           "placeCategory": {
-            "placeCategoryId": 6,
-            "placeCategoryName": "기타"
+            "placeCategoryId": 1,
+            "placeCategoryName": "식당"
           }
         },
         "member": {
@@ -1153,12 +1161,12 @@
       {
         "starId": 3,
         "starPoint": 3,
-        "starComment": "메뉴는 맛있지만 직원들이 불친절해요",
+        "starComment": "그늘도 많아서 산책하기 좋아요",
         "place": {
           "placeId": 4,
-          "placeName": "모르는개산책로",
-          "placeLocation": "부산광역시 광안동",
-          "placePhoneNum": null,
+          "placeName": "부산시민공원",
+          "placeLocation": "부산광역시 부산진구 시민공원로 73",
+          "placePhoneNum": "051-850-6000",
           "placeCategory": {
             "placeCategoryId": 5,
             "placeCategoryName": "산책"
@@ -1179,7 +1187,7 @@
           "placeId": 14,
           "placeName": "대왕문어타코야끼",
           "placeLocation": "부산광역시 해운대구 송정해변로 432번길 10-4",
-          "placePhoneNum": "010-0000-8888",
+          "placePhoneNum": "010-2352-8348",
           "placeCategory": {
             "placeCategoryId": 6,
             "placeCategoryName": "기타"
@@ -1219,9 +1227,9 @@
         "starComment": "사장님이 화만 내고 음식도 별로고 최악이에요",
         "place": {
           "placeId": 13,
-          "placeName": "못나가만화방",
-          "placeLocation": "대구광역시 수성구 무학로 321번길 78-3",
-          "placePhoneNum": "02-1234-9876",
+          "placeName": "꿀잼코믹스",
+          "placeLocation": "대구 광역시 중구 덕산동 124-11번지",
+          "placePhoneNum": "053-257-0524",
           "placeCategory": {
             "placeCategoryId": 6,
             "placeCategoryName": "기타"
