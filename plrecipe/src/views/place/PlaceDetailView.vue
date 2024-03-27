@@ -29,7 +29,7 @@ async function getStarsData(id) {
     const response = fetch('http://localhost:3000/star')
         .then(response => response.json());
     const data = await response;
-    stars.value = data.filter(star => star.starId == id);
+    stars.value = data.filter(star => star.place.placeId == id);
 }
 
 </script>
