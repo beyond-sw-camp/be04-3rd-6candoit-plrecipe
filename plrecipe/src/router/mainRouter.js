@@ -8,6 +8,8 @@ import PlaceDetailView from '@/views/place/PlaceDetailView.vue';
 import PostView from '@/views/post/PostView.vue';
 import PostMainView from '@/views/post/PostMainView.vue';
 import PostDetailView from '@/views/post/PostDetailView.vue';
+import PostWriteView from "@/views/post/PostWriteView.vue";
+
 import ReadyPage from '@/views/ready/readyPage.vue';
 
 const router = createRouter({
@@ -28,6 +30,10 @@ const router = createRouter({
                 {
                     path: 'detail',
                     component: PostDetailView
+                },
+                {
+                    path: 'new',
+                    component: PostWriteView
                 }
             ]
         },
