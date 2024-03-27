@@ -18,9 +18,7 @@ const emit = defineEmits(['change']);
 </script>
 
 <style scoped>
-
 .category div {
-  
   width: 100px;
   height: 30px;
   text-align: center;
@@ -28,11 +26,11 @@ const emit = defineEmits(['change']);
   border: #646464 solid 1px;
   border-radius: 10px 10px 0px 0px;
   float: left;
-
 }
 
 .category {
-  margin: auto;
+  margin-left: 120px;
+  margin-top: 20px;
   transition: all 0.3s;
 }
 
@@ -59,6 +57,4 @@ const emit = defineEmits(['change']);
 #etc:hover {
   background-color: lightgray;
 }
-
-
 </style>
