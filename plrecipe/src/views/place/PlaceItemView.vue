@@ -62,72 +62,31 @@ const placeDetail = (id) => {
 
 }
 
+#star {
+  float: left;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
 #place-name {
   font-weight: bold;
   font-size: 20px;
   float: left;
 }
 
-#star {
-  float: left;
-  position: absolute;
-  right: 10px;
-  top: 10px;
-}
-
 #comment,
 #address {
   clear: both;
 }
 
 #place-category {
-  width: 100px;
-  padding: 1px;
+  width: 60px;
+  height: 30px;
+  padding: 2px;
   border-radius: 10px;
   text-align: center;
-  font-size: 10px;
-  font-weight: bold;
-  background-color: bisque;
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
-}
-
-#star-span {
-  font-size: 13px;
-  color: yellow;
-}
-
-.star-block:hover {
-  transition: all 0.3s;
-  box-shadow: 5px 5px lightblue;
-}
-
-
-#place-name {
-  font-weight: bold;
   font-size: 15px;
-  float: left;
-}
-
-#star {
-  float: left;
-  position: absolute;
-  right: 10px;
-  top: 10px;
-}
-
-#comment,
-#address {
-  clear: both;
-}
-
-#place-category {
-  width: 100px;
-  padding: 1px;
-  border-radius: 10px;
-  text-align: center;
-  font-size: 10px;
   font-weight: bold;
   background-color: bisque;
   position: absolute;
@@ -136,8 +95,8 @@ const placeDetail = (id) => {
 }
 
 #star-span {
-  font-size: 13px;
-  color: yellow;
+  font-size: 20px;
+  color: gold;
 }
 
 .star-block:hover, .place-block:hover {
