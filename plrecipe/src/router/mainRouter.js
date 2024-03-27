@@ -39,7 +39,7 @@ const router = createRouter({
                     component: PlaceMainView
                 },
                 {
-                    path: 'detail',
+                    path: 'detail/:id',
                     component: PlaceDetailView
                 }
             ]

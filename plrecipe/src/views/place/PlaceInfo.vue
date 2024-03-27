@@ -28,19 +28,12 @@
 </template>
 
 <script setup>
-import { reactive } from 'vue';
+import { defineProps } from 'vue';
 
-const placeData = reactive({
-    "placeId": 1,
-    "placeName": "보라매공원",
-    "placeLocation": "서울광역시 보라매동",
-    "placePhoneNum": "02-0000-0000",
-    "placeCategory": {
-        "placeCategoryId": 5,
-        "placeCategoryName": "산책"
-    },
-    "avgStar": 3.0
+const props = defineProps({
+  placeData: Array
 });
+
 </script>
 
 <style scoped>
