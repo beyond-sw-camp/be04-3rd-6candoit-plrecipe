@@ -1,7 +1,7 @@
 <template>
     <table id="place-info">
         <tr>
-            <!-- <td rowspan="5" colspan="2" id="placeImg"><img src="img/default_place.jpg" alt="Place"></td> -->
+            <td rowspan="5" colspan="2" id="placeImg"><img src="@/img/boramae.jpg" alt="Place"></td>
             <td colspan="2" id="placeName">[{{ placeData.placeName }}]</td>
         </tr>
         <tr>
@@ -21,7 +21,7 @@
             </td>
         </tr>
         <tr id="etc">
-            <td id="locationMap"><a href="https://map.naver.com/" target="_blank" rel="noopener">위치(지도)</a></td>
+            <td id="locationMap"><a href="https://map.naver.com/p/search/보라매공원" target="_blank" rel="noopener">위치(지도)</a></td>
             <td id="phone"><span v-if="placeData.placePhoneNum">☎️ {{ placeData.placePhoneNum }}</span></td>
         </tr>
     </table>
@@ -45,21 +45,27 @@ const placeData = reactive({
 
 <style scoped>
 #place-info {
+    width: 680px;
+    /* border: 1px solid black; */
     margin: auto;
     font-size: 13px;
+    padding: 30px;
+    margin-top: 20px;
 }
 
 #place-info * {
-    margin: 0px;
+    margin: 1px;
 }
 
-#place-name {
-    font-weight: bold;
-    font-size: 15px;
-}
+#placeName {
+        font-weight: bolder;
+        font-size: 30px;
+        float: left;
+    }
+
 
 table #placeName {
-    margin: 0px;
+    margin: 15px;
 }
 
 #place-category span {
@@ -90,8 +96,14 @@ table #placeName {
     font-size: 10px;
 }
 
+#img,
+    #etc {
+        width: 70%;
+    }
+
 table img {
-    width: 180px;
+    width: 250px;
     margin: auto;
 }
+
 </style>
