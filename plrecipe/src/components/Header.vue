@@ -29,6 +29,9 @@ const goPlace = () => {
 const goMain = () => {
     router.push('/');
 };
+const Logout = () => {
+  window.location.href = 'http://localhost:8080';
+}
 </script>
 
 <style scoped>
@@ -46,6 +49,7 @@ body {
 }
 
 .header {
+  font-family: 'KCC-Hanbit', sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -1,11 +1,3 @@
-.header {
-  background-color: transparent; 
-  color: #fff;
-  padding: 20px;
-  text-align: left;
-  border-bottom: 2px solid black;
-}
-
 .nav {
   float: right;
 }
@@ -23,11 +15,6 @@
 
 .nav-list li a:hover {
   border-bottom-color: black;
-}
-
-.logo {
-  height: 50px;
-  width: 200px;
 }
 
 /* Flexbox를 적용한 .post 스타일 */
@@ -54,43 +41,56 @@
 .image {
   background-color: green;
   border: 3px solid black;
-  width: 100%; /* 이미지 컨테이너의 너비를 .post의 100%로 설정 */
-  height: 150px; /* 이미지 컨테이너의 높이를 지정 */
+  width: 180px; /* 이미지 컨테이너의 너비를 .post의 100%로 설정 */
+  height: 200px; /* 이미지 컨테이너의 높이를 지정 */
   overflow: hidden; /* 넘치는 이미지 숨기기 */
+}
+
+#app {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 10px; 
+}
+
+.image img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  margin-right: 10px;
 }
 
 .footer {
   clear: both;
 }
 
-/* 기타 스타일링 */
-header>h1 {
-  font-size: 50px;
-  text-align: left;
-}
-header>button {
-  font-size: 20px;
-  font-weight: bold;
-}
-header>div {
-  background-color: black;
-  width: 1300px;
-  height: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-#app {
+.sidebar {
+  font-family: 'KCC-Hanbit', sans-serif;
+  font-size: 8px;
+  width: 100%; /* 너비를 조정하여 가로로 펼쳐질 수 있게 함 */
+  height: 20px; /* 높이를 줄여서 가로 방향으로 항목들이 나열될 수 있게 함 */
   display: flex;
-  flex-wrap: wrap; /* 요소들이 다음 줄로 넘어갈 수 있게 설정 */
-  justify-content: flex-start; /* 시작점에서 가로 정렬 */
-  align-items: flex-start; /* 시작점에서 세로 정렬 */
-  gap: 10px; /* 요소들 사이의 간격 설정 */
+  flex-direction: row; /* 가로 방향으로 항목을 나열 */
+  justify-content: flex-start; /* 항목들을 왼쪽 정렬 */
+  align-items: center; /* 항목들을 세로 방향 중앙에 위치시킴 */
+  margin-top: 5px;
+  margin-left: 2px;
 }
 
-.image img {
-  width: 100%; /* 이미지의 너비를 컨테이너의 100%로 설정 */
-  height: 100%; /* 이미지의 높이를 컨테이너의 100%로 설정 */
-  object-fit: cover; /* 이미지 비율을 유지하며 컨테이너 채우기 */
-  margin-right: 10px;
+.sidebar>div {
+  width: 35px;
+  height: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.hashtag span {
+  background-color: #e0e0e0;
+  padding: 2px;
+  border-radius: 5px;
+  font-size: 7px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
 }

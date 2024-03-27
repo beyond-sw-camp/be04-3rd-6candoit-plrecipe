@@ -6,7 +6,7 @@
       <b-row cols="5">
         <template v-for="place in props.places" :key="place.placeId">
           <b-col>
-            <div class="place-block" @click="placeDetail">
+            <div class="place-block" @click="placeDetail(place.placeId)">
               <p id="place-name">{{ place.placeName }}</p>
 
               <p id="star">
@@ -40,8 +40,9 @@ const props = defineProps({
 
 const router = useRouter();
 
-const placeDetail = () => {
-  router.push('/place/detail');
+const placeDetail = (id) => {
+  console.log(id);
+  router.push(`/place/detail/${id}`);
 };
 
 </script>
