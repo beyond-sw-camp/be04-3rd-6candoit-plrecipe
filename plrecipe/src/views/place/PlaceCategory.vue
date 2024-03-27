@@ -18,7 +18,9 @@ const emit = defineEmits(['change']);
 </script>
 
 <style scoped>
+
 .category div {
+  
   width: 100px;
   height: 30px;
   text-align: center;
@@ -31,29 +33,32 @@ const emit = defineEmits(['change']);
 
 .category {
   margin: auto;
+  transition: all 0.3s;
 }
 
-#food {
+#food:hover {
   background-color: lightpink;
 }
 
-#cafe {
+#cafe:hover {
   background-color: lightyellow;
 }
 
-#culture {
+#culture:hover {
   background-color: lightgreen;
 }
 
-#activity {
+#activity:hover {
   background-color: lightblue;
 }
 
-#walk {
+#walk:hover {
   background-color: rgba(212, 170, 255, 0.952);
 }
 
-#etc {
+#etc:hover {
   background-color: lightgray;
 }
+
+
 </style>

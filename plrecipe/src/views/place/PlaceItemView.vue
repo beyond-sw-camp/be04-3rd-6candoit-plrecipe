@@ -3,7 +3,7 @@
   <div class="places" id="places">
 
     <b-container class="bv-example-row mb-3">
-      <b-row cols="5">
+      <b-row cols="4">
         <template v-for="place in props.places" :key="place.placeId">
           <b-col>
             <div class="place-block" @click="placeDetail(place.placeId)">
@@ -48,22 +48,23 @@ const placeDetail = (id) => {
 </script>
 
 <style scoped>
+
 .star-block,
 .place-block {
-  width: 200px;
-  height: 100px;
-  border: lightblue solid 1px;
-  padding: 5px 10px;
+  width: 300px;
+  height: 150px;
+  border: black solid 3px;
+  padding: 10px 15px;
   margin: 5px 5px;
   border-radius: 10px;
   position: relative;
-  font-size: 10px;
+  font-size: 15px;
 
 }
 
 #place-name {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 20px;
   float: left;
 }
 
@@ -139,7 +140,7 @@ const placeDetail = (id) => {
   color: yellow;
 }
 
-.star-block:hover {
+.star-block:hover, .place-block:hover {
   transition: all 0.3s;
   box-shadow: 5px 5px lightblue;
 }
