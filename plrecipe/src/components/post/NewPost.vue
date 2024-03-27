@@ -19,6 +19,10 @@
         <textarea id="content" v-model="postForm.content"></textarea>
       </div>
       <div>
+        <label for="photos">사진 등록:</label>
+        <input type="file" id="photos" @change="handleFileUpload" multiple>
+      </div>
+      <div>
         <label for="hashtags">해시태그 (쉼표로 구분):</label>
         <input type="text" id="hashtags" v-model="hashtagsInput" @blur="splitHashtags">
       </div>
@@ -34,6 +38,7 @@ const postForm = reactive({
   title: '',
   people: '',
   content: '',
+  photos: [],
   hashtags: []
 });
 
@@ -41,6 +46,10 @@ const hashtagsInput = ref('');
 
 function splitHashtags() {
   postForm.hashtags = hashtagsInput.value.split(',').map(tag => tag.trim()).filter(tag => tag !== '');
+}
+
+function handleFileUpload(event) {
+  postForm.photos = Array.from(event.target.files); // 선택된 파일들을 postForm.photos 배열에 저장
 }
 
 function submitPost() {
