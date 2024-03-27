@@ -81,7 +81,7 @@ const placeDetail = (id) => {
 }
 
 #place-category {
-  width: 60px;
+  width: 80px;
   height: 30px;
   padding: 2px;
   border-radius: 10px;
