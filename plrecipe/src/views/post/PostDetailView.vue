@@ -1,6 +1,7 @@
 <template>
     <div>
         <SelectPost/>
+        
     </div>
 </template>
 
