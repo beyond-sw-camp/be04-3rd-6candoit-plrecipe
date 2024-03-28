@@ -24,6 +24,9 @@ function getSearchData(keyword, data){
   if(keyword == '주소'){
     const newPlaces = places.value.filter(place => place.placeLocation.includes(data));
     places.splice(0, places.length, ...newPlaces);
+  }else if(keyword == '장소이름'){
+    const newPlaces = places.value.filter(place => place.placeName.includes(data));
+    places.splice(0, places.length, ...newPlaces);
   }
 }
 

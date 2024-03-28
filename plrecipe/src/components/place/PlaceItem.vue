@@ -29,7 +29,7 @@
         <select id="condition" v-model="keyword">
           <option value="카테고리">카테고리</option>
           <option value="주소">주소</option>
-          <option value="장소 이름">장소 이름</option>
+          <option value="장소이름">장소 이름</option>
         </select>
   <input type="text" id="input-search" v-model="data">
   <button id="search-place" @click="searchKeyword">검색</button>
