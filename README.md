@@ -7,10 +7,10 @@
 
 <div align="center">
  
-|<img src="https://github.com/6candoit/Plrecipe/blob/abe45853ca17dede0881dbf0212ea25d74834bac/PNG/cow1.png" height="100">|<img src="https://github.com/6candoit/Plrecipe/blob/abe45853ca17dede0881dbf0212ea25d74834bac/PNG/tiger.png" height="100">|<img src="https://github.com/6candoit/Plrecipe/blob/abe45853ca17dede0881dbf0212ea25d74834bac/PNG/bunny.png" height="100">|<img src="https://github.com/6candoit/Plrecipe/blob/abe45853ca17dede0881dbf0212ea25d74834bac/PNG/dragon.png" height="100">|<img src="https://github.com/6candoit/Plrecipe/blob/abe45853ca17dede0881dbf0212ea25d74834bac/PNG/cow2.png" height="100">|
-|:---:|:---:|:---:|:---:|:---:|
-| [배성민](https://github.com/mini-xi) | [한소혜](https://github.com/Sosohy) | [윤재은](https://github.com/yunjaeeun) | [조수빈](https://github.com/chosoobin37) | [김재현](https://github.com/jaehyeon-SMU) |
-</div>
+[<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">]([https://github.com/CJC0512](https://github.com/mini-xi)) 배성민
+
+[한소혜](https://github.com/Sosohy) | [윤재은](https://github.com/yunjaeeun) | [조수빈](https://github.com/chosoobin37) | [김재현](https://github.com/jaehyeon-SMU) |
+
 
 ## 📝 
 
