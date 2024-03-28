@@ -7,7 +7,7 @@
 
 <div align="center">
  
-[<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">]([https://github.com/CJC0512](https://github.com/mini-xi)) 배성민
+[<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/mini-xi) 배성민
 
 [한소혜](https://github.com/Sosohy) | [윤재은](https://github.com/yunjaeeun) | [조수빈](https://github.com/chosoobin37) | [김재현](https://github.com/jaehyeon-SMU) |
 
