@@ -7,11 +7,13 @@
     <div id="activity" @click="changeCategory(4)" :class="{activity: activeCategory == 4}">액티비티</div>
     <div id="walk" @click="changeCategory(5)" :class="{walk: activeCategory == 5}">산책</div>
     <div id="etc" @click="changeCategory(6)" :class="{etc: activeCategory == 6}">기타</div>
+    <button id="create-place" @click="createPlace">장소 등록</button>
   </div>
 </template>
 
 <script setup>
 import { defineEmits, ref } from 'vue';
+import { useRouter } from "vue-router";
 
 /* 부모로부터 물려받은 toggle이라는 이름의 이벤트를 호출할 수 있는 함수 반환받기(defineEmits를 활용하며 배열로 이벤트 이름 작성) */
 const emit = defineEmits(['change']);
@@ -22,6 +24,12 @@ function changeCategory(category) {
   activeCategory.value = category;
   emit('change', category);
 }
+
+const router = useRouter();
+
+const createPlace = () => {
+  router.push('/place/new');
+};
 
 </script>
 

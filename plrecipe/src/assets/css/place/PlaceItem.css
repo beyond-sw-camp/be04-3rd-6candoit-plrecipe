@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'KCC-Hanbit';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .star-block,
 .place-block {
     width: 320px;
@@ -60,9 +67,8 @@
     padding-top: 20px;
 }
 
-@font-face {
-    font-family: 'KCC-Hanbit';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+.header-row {
+    display: flex;
+    justify-content: flex-end; /* 버튼을 오른쪽으로 정렬 */
+    margin-bottom: 10px; /* 간격 조정 */
 }
