@@ -1069,8 +1069,8 @@
         },
         "member": {
           "memberId": 5,
-          "memberName": "김재현",
-          "memberNickname": "닥쳐말포이",
+          "memberName": "조수빈",
+          "memberNickname": "조먹밥",
           "memberGrade": "ROLL_ADMIN"
         }
       },
@@ -1090,8 +1090,8 @@
         },
         "member": {
           "memberId": 5,
-          "memberName": "김재현",
-          "memberNickname": "닥쳐말포이",
+          "memberName": "조수빈",
+          "memberNickname": "조먹밥",
           "memberGrade": "ROLL_ADMIN"
         }
       },
@@ -1111,8 +1111,8 @@
         },
         "member": {
           "memberId": 5,
-          "memberName": "김재현",
-          "memberNickname": "닥쳐말포이",
+          "memberName": "조수빈",
+          "memberNickname": "조먹밥",
           "memberGrade": "ROLL_ADMIN"
         }
       },
@@ -1237,8 +1237,71 @@
         },
         "member": {
           "memberId": 5,
-          "memberName": "김재현",
-          "memberNickname": "닥쳐말포이",
+          "memberName": "조수빈",
+          "memberNickname": "조먹밥",
+          "memberGrade": "ROLL_ADMIN"
+        }
+      },
+      {
+        "starId": 22,
+        "starPoint": 3,
+        "starComment": "귤따기 체험 자체는 별로 안 비싸고 재밌는데 상한 귤이 많아서 아쉬워요",
+        "place": {
+          "placeId": 2,
+          "placeName": "귤밭체험농장",
+          "placeLocation": "제주시 특별자치도, 봉개동 1411",
+          "placePhoneNum": "064-6516-5645",
+          "placeCategory": {
+            "placeCategoryId": 5,
+            "placeCategoryName": "산책"
+          }
+        },
+        "member": {
+          "memberId": 5,
+          "memberName": "조수빈",
+          "memberNickname": "조먹밥",
+          "memberGrade": "ROLL_ADMIN"
+        }
+      },
+      {
+        "starId": 23,
+        "starPoint": 5,
+        "starComment": "친구 소개로 가봤는데 너무너무 맛있고 직원분들도 친절하세요",
+        "place": {
+          "placeId": 8,
+          "placeName": "서울초밥",
+          "placeLocation": "서울특별시 관악구 신림동7길 15 1층",
+          "placePhoneNum": "02-5783-4939",
+          "placeCategory": {
+            "placeCategoryId": 1,
+            "placeCategoryName": "음식점"
+          }
+        },
+        "member": {
+          "memberId": 5,
+          "memberName": "조수빈",
+          "memberNickname": "조먹밥",
+          "memberGrade": "ROLL_ADMIN"
+        }
+      },
+      {
+        "starId": 23,
+        "starPoint": 4,
+        "starComment": "무난하게 맛있어요. 멀리서 찾아올 정도는 아니고 근처라면 가볼만해요 ~",
+        "place": {
+          "placeId": 10,
+          "placeName": "온타이키친",
+          "placeLocation": "서울 마포구 월드컵북로54길 17 ",
+          "placePhoneNum": "0507-1477-5016",
+          "placeCategory": {
+            "placeCategoryId": 1,
+            "placeCategoryName": "음식점"
+          }
+        },
+        "member": {
+          "memberId": 5,
+          "memberName": "조수빈",
+          "memberNickname": "조먹밥",
           "memberGrade": "ROLL_ADMIN"
         }
       }
