@@ -1,3 +1,7 @@
+body * {
+    font-family: 'KCC-Hanbit', sans-serif;
+}
+
 #place-info {
     width: 680px;
     /* border: 1px solid black; */
@@ -44,6 +48,7 @@ table #placeName {
     
 }
 
+
 #star-span {
     color: gold;
     display: inline-block; 
@@ -60,6 +65,20 @@ table #placeName {
     padding-left:4px;
     font-family: 'KCC-Hanbit', sans-serif;
     margin-bottom: 0;
+}
+
+#avg-star{
+    float: left;
+}
+
+#registStar{
+    float: left;
+    margin-top: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    background-color: lightblue;
 }
 
 #etc {
