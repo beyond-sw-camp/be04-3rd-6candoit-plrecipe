@@ -13,6 +13,7 @@ import PostDetailView from '@/views/post/PostDetailView.vue';
 import PostWriteView from "@/views/post/PostWriteView.vue";
 
 import ReadyPage from '@/views/ready/readyPage.vue';
+import PlaceStarRegistView from '@/views/place/PlaceStarRegistView.vue';
 
 const router = createRouter({
     history: createWebHistory(),
@@ -54,6 +55,10 @@ const router = createRouter({
                 {
                     path: 'new',
                     component: PlaceWriteView
+                },
+                {
+                    path: 'registStar/:id',
+                    component: PlaceStarRegistView
                 }
             ]
         },
