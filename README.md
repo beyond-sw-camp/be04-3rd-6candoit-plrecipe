@@ -19,7 +19,7 @@
 
 > [!Tip]
 > 해당 이미지를 클릭 시 Plrecipe Backend Project로 이동합니다.
-<a href="https://github.com">
+<a href="https://github.com/beyond-sw-camp/be04-2nd-6candoit-plrecipe">
     <img src="readme_image/plplpl.png" alt="Project Logo" width="100" height="100"/>
 </a>
 
