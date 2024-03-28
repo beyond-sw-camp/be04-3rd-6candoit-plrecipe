@@ -5,24 +5,28 @@
             <td colspan="2" id="placeName">[{{ placeData.placeName }}]</td>
         </tr>
         <tr>
-            <td colspan="2" id="place-category"><span :style="{ backgroundColor: getCategoryColor(placeData.placeCategory.placeCategoryName) }">{{ placeData.placeCategory.placeCategoryName }}</span></td>
+            <td colspan="2" id="place-category"><span>{{ placeData.placeCategory.placeCategoryName }}</span></td>
         </tr>
         <tr>
-            <td colspan="2" id="address">📌{{ placeData.placeLocation }}</td>
+            <td colspan="2" id="address"><span>📌{{ placeData.placeLocation }}</span></td>
         </tr>
         <tr>
             <td colspan="2" id="avg-star">
                 <p id="avg"> 평균 별점 </p>
                 <p id="star-rating">
-                    <span v-for="n in Math.floor(placeData.avgStar)" :key="'full-star-' + n">★</span>
-                    <span v-for="n in (5 - Math.ceil(placeData.avgStar))" :key="'empty-star-' + n">☆</span>
+                    <span id="star-span" v-for="n in Math.floor(placeData.avgStar)" :key="'full-star-' + n">★</span>
+                    <span id="star-span" v-for="n in (5 - Math.ceil(placeData.avgStar))" :key="'empty-star-' + n">☆</span>
                     <span>({{ placeData.avgStar.toFixed(1) }})</span>
                 </p>
             </td>
         </tr>
         <tr id="etc">
             <td id="locationMap"><a href="https://map.naver.com/p/search/보라매공원" target="_blank" rel="noopener">위치(지도)</a></td>
-            <td id="phone"><span v-if="placeData.placePhoneNum">☎️ {{ placeData.placePhoneNum }}</span></td>
+            <div id="phone">
+                <div class="phone-content">
+                    <span v-if="placeData.placePhoneNum">☎️ {{ placeData.placePhoneNum }}</span>
+                </div>
+            </div>
         </tr>
     </table>
 </template>
@@ -33,19 +37,6 @@ import { defineProps } from 'vue';
 const props = defineProps({
   placeData: Array
 });
-
-const categoryColors = {
-  '음식점': 'lightpink',
-  '카페': 'lightyellow',
-  '문화': 'lightgreen',
-  '액티비티': 'lightblue',
-  '기타': 'lightgray',
-  '산책': 'rgba(212, 170, 255, 0.952)',
-};
-
-const getCategoryColor = (categoryName) => {
-  return categoryColors[categoryName] || '#FFFFFF'; // 기본 색상은 흰색
-};
 
 </script>
 
@@ -69,6 +60,9 @@ const getCategoryColor = (categoryName) => {
         float: left;
     }
 
+    #address {
+        padding: 5px;
+    }
 
 table #placeName {
     margin: 15px;
@@ -76,7 +70,7 @@ table #placeName {
 
 #place-category span {
     width: 50px;
-    padding: 5px 15px;
+    padding: 5px 20px;
     border-radius: 15px;
     text-align: center;
     font-size: 12px;
@@ -85,30 +79,43 @@ table #placeName {
 }
 
 #star-span {
-    color: yellow;
+    color: gold;
 }
 
 #avg {
     font-size: 10px;
+    padding-left:4px;
 }
 
-#locationMap, #phone {
+#locationMap {
     background-color: lightblue;
     margin-left: 15px;
-    margin-right: 15px;
+    margin-right: 20px;
     padding: 5px;
     text-align: center;
     border-radius: 20px;
-    font-size: 10px;
+}
+
+#phone {
+    background-color: lightblue;
+    margin-left: 20px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#phone .phone-content {
+    margin-left: 10px;
 }
 
 #img,
     #etc {
-        width: 70%;
+        width: 75%;
     }
 
 table img {
-    width: 250px;
+    width: 260px;
+    height:220px;
     margin: auto;
 }
 

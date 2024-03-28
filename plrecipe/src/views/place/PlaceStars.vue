@@ -37,6 +37,7 @@ const props = defineProps({
     background-color: lightblue;
     border: 3px solid skyblue;
     font-size: 15px;
+    font-family: 'KCC-Hanbit', sans-serif;
 }
 
 #img,
@@ -54,6 +55,7 @@ table img {
     font-size: 15px;
     float: left;
     margin: 25px;
+    font-family: 'KCC-Hanbit', sans-serif;
 }
 
 .star-span {
@@ -91,4 +93,12 @@ table img {
 #star-info {
     float: left;
 }
+
+@font-face {
+  font-family: 'KCC-Hanbit';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 </style>
