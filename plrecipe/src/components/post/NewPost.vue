@@ -67,6 +67,6 @@ function testPost () {
 
 <style scoped>
 /* 외부 CSS 파일 연결 */
-@import url('./NewPost.css');
+@import url('@/assets/css/post/NewPost.css');
 
 </style>

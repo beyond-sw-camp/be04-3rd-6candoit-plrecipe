@@ -1,6 +1,6 @@
 <template>
     <header class="header">
-        <img src="@/img/logo.jpg" alt="PLRECIPE 로고" class="logo" @click="goMain"> 
+        <img src="@/assets/img/logo.jpg" alt="PLRECIPE 로고" class="logo" @click="goMain"> 
         <nav class="nav">
             <ul class="nav-list">
                 <li class="category" @click="goPage('post')"><b>게시판</b></li>

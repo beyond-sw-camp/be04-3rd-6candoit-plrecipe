@@ -2,7 +2,7 @@
     <div id="stars">
         <div class="star-block" v-for="star in starBlocks" :key="star.id">
             <div class="img">
-                <img src="@/img/ham.jpeg" alt="Member">
+                <img src="@/assets/img/ham.jpeg" alt="Member">
             </div>
             <div class="star-info">
                 <p class="member-nickname">{{ star.member.memberNickname }}</p>

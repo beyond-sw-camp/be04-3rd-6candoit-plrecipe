@@ -62,70 +62,70 @@ const placeDetail = (id) => {
             <div v-if="posts.length > 0">
                 <div id="post-title">{{ posts[0].postTitle }}</div>
                 <div id="post-writer">
-                    <img id="member-image" src="@/img/프로필.jpg">
+                    <img id="member-image" src="@/assets/img/프로필.jpg">
                     <span id="post-nick">{{ posts[0].memberNickname }}</span>
                     <span id="post-member-count">{{ getMemberCountText(posts[0].memberCount) }}</span>
                 </div>
                 <ul class="post-image">
   <li>
-    <img src="@/img/1_신라호텔.jpg" alt="">
+    <img src="@/assets/img/1_신라호텔.jpg" alt="">
   </li>
   <li>
-    <img src="@/img/2_수영장.jpg" alt="">
+    <img src="@/assets/img/2_수영장.jpg" alt="">
   </li>
   <li>
-    <img src="@/img/3_점심.jpg" alt="">
+    <img src="@/assets/img/3_점심.jpg" alt="">
   </li>
   <li>
-    <img src="@/img/4_점심.jpg" alt="">
+    <img src="@/assets/img/4_점심.jpg" alt="">
   </li>
   <li>
-    <img src="@/img/5_수영장.jpg" alt="">
+    <img src="@/assets/img/5_수영장.jpg" alt="">
   </li>
   <li>
-    <img src="@/img/6_저녁.jpg" alt="">
+    <img src="@/assets/img/6_저녁.jpg" alt="">
   </li>
   <li>
-    <img src="@/img/7_저녁.jpg" alt="">
+    <img src="@/assets/img/7_저녁.jpg" alt="">
   </li>
   <li>
-    <img src="@/img/8_시장.jpg" alt="">
+    <img src="@/assets/img/8_시장.jpg" alt="">
   </li>
   <li>
-    <img src="@/img/9_시장.jpg" alt="">
+    <img src="@/assets/img/9_시장.jpg" alt="">
   </li>
   <li>
-    <img src="@/img/10_야식.jpg" alt="">
+    <img src="@/assets/img/10_야식.jpg" alt="">
   </li>
   <li>
-    <img src="@/img/11_베이커리.jpg" alt="">
+    <img src="@/assets/img/11_베이커리.jpg" alt="">
   </li>
   <li>
-    <img src="@/img/12_베이커리.jpg" alt="">
+    <img src="@/assets/img/12_베이커리.jpg" alt="">
   </li>
   <li>
-    <img src="@/img/13_수영장.jpg" alt="">
+    <img src="@/assets/img/13_수영장.jpg" alt="">
   </li>
   <li>
-    <img src="@/img/14_수빈.jpg" alt="">
+    <img src="@/assets/img/14_수빈.jpg" alt="">
   </li>
   <li>
-    <img src="@/img/15_수빈.jpg" alt="">
+    <img src="@/assets/img/15_수빈.jpg" alt="">
   </li>
   <li>
-    <img src="@/img/16_수빈.jpg" alt="">
+    <img src="@/assets/img/16_수빈.jpg" alt="">
   </li>
   <li>
-    <img src="@/img/17_수빈.jpg" alt="">
+    <img src="@/assets/img/17_수빈.jpg" alt="">
   </li>
   <li>
-    <img src="@/img/18_본지르르.jpg" alt="">
+    <img src="@/assets/img/18_본지르르.jpg" alt="">
   </li>
   <li>
-    <img src="@/img/19_본지르르.jpg" alt="">
+    <img src="@/assets/img/19_본지르르.jpg" alt="">
   </li>
   <li>
-    <img src="@/img/20_본지르르.jpg" alt="">
+    <img src="@/assets/img/20_본지르르.jpg" alt="">
   </li>
 </ul>
 
@@ -142,5 +142,5 @@ const placeDetail = (id) => {
 
 <style scoped>
 /* 외부 CSS 파일 연결 */
-@import url('./SelectPost.css');
+@import url('@/assets/css/post/SelectPost.css');
 </style>
