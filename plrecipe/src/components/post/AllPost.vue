@@ -3,7 +3,7 @@
     <button id="create-post" @click="createPost">게시글 작성</button>
   </div>
   <div id="app">
-    <div class="post" v-for="post in posts" :key="post.postId" @click="postDetail">
+    <div class="post" v-for="post in posts" :key="post.postId" @click="postDetail(post.postId)">
       <div class="title"><p>{{ post.postTitle }}</p></div>
       <div class="image">
         <img :src='post.postImage'/>
@@ -84,8 +84,8 @@ const getCategoryColor = (categoryName) => {
 
 const router = useRouter();
 
-const postDetail = () => {
-  router.push('/post/detail');
+const postDetail = (postId) => {
+  router.push(`/post/detail/${postId}`);
 };
 const createPost = () => {
   router.push('/post/new');
