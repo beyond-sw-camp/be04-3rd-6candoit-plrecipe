@@ -26,53 +26,5 @@ function changeCategory(category) {
 </script>
 
 <style scoped>
-.category div {
-  width: 100px;
-  height: 30px;
-  text-align: center;
-  border: #646464 solid 1px;
-  border-radius: 10px 10px 0px 0px;
-  float: left;
-}
-
-.category {
-  margin-left: 120px;
-  margin-top: 20px;
-  transition: all 0.3s;
-  font-family: 'KCC-Hanbit', sans-serif;
-}
-#All:hover, .All {
-  background-color: khaki;
-}
-
-#food:hover, .food {
-  background-color: lightpink;
-}
-
-#cafe:hover, .cafe {
-  background-color: lightyellow;
-}
-
-#culture:hover, .culture {
-  background-color: lightgreen;
-}
-
-#activity:hover, .activity {
-  background-color: lightblue;
-}
-
-#walk:hover, .walk {
-  background-color: rgba(212, 170, 255, 0.952);
-}
-
-#etc:hover, .etc {
-  background-color: lightgray;
-}
-
-@font-face {
-  font-family: 'KCC-Hanbit';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('@/assets/css/place/PlaceCategory.css');
 </style>
