@@ -5,6 +5,7 @@ import MainView from '@/views/MainView.vue';
 import PlaceView from '@/views/place/PlaceView.vue';
 import PlaceMainView from '@/views/place/PlaceMainView.vue';
 import PlaceDetailView from '@/views/place/PlaceDetailView.vue';
+import PlaceWriteView from "@/views/place/PlaceWriteView.vue";
 
 import PostView from '@/views/post/PostView.vue';
 import PostMainView from '@/views/post/PostMainView.vue';
@@ -49,6 +50,10 @@ const router = createRouter({
                 {
                     path: 'detail/:id',
                     component: PlaceDetailView
+                },
+                {
+                    path: 'new',
+                    component: PlaceWriteView
                 }
             ]
         },
