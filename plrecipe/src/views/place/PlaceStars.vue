@@ -11,7 +11,8 @@
                     <span class="star-span" v-for="n in (5 - Math.ceil(star.starPoint))"
                         :key="`empty-star-${n}`">☆</span>
                 </p>
-                <div class="comment">{{ star.starComment }}</div>
+                <!-- <div class="comment">{{ star.starComment }}</div> -->
+                <p class="comment">{{ star.starComment }}</p>
             </div>
         </div>
     </div>
@@ -27,16 +28,6 @@ const props = defineProps({
 </script>
 
 <style scoped>
-.comment {
-    margin: 10px;
-    padding: 20px;
-    width: 650px;
-    height: 100px;
-    border-radius: 10px;
-    background-color: lightblue;
-    border: 3px solid skyblue;
-    font-size: 15px;
-}
 
 #img,
 #etc {
@@ -64,19 +55,19 @@ table img {
     height: 100px;
     border-radius: 50px;
     float: left;
-    margin: 10px;
-    padding: 10px;
+}
+
+.star-block .comment {
+
 }
 
 .star-block {
     width: 680px;
-    height: 150px;
-    /* border: lightblue solid 1px; */
-    /* padding: 20px; */
-    padding-left: 3px;
-    padding-top: 17px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    height: 120px;
+    border: lightblue solid 1px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
