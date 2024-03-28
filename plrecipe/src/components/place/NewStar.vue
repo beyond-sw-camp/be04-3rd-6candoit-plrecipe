@@ -1,5 +1,5 @@
 <template>
-    <div class="new-post-container">
+    <div class="new-star-container">
 
         <form @submit.prevent="submitStar">
             <div>
@@ -9,8 +9,8 @@
                 <p id ="location">{{ placeData.placeLocation }}</p>
             </div>
             <div>
-                <label for="people">별점 선택:</label>
-                <select id="people" v-model="starForm.rating">
+                <label for="starSelect">별점 선택 : </label>
+                <select id="starSelect" v-model="starForm.rating" >
                     <option disabled value="">선택해주세요</option>
                     <option value="1">★</option>
                     <option value="2">★★</option>
@@ -21,7 +21,7 @@
             </div>
             <div>
                 <label for="content">코멘트:</label>
-                <textarea id="content" v-model="starForm.content"></textarea>
+                <textarea id="content" v-model="starForm.comment"></textarea>
             </div>
             <button type="submit" @click="testStar">별점 작성</button>
         </form>
@@ -40,7 +40,7 @@ const starForm = reactive({
     placeName: '',
     location: '',
     rating: '',
-    content: ''
+    comment: ''
 });
 
 const router = useRouter();
@@ -48,7 +48,7 @@ const router = useRouter();
 function submitStar() {
     starForm.placeName = props.placeData.placeName;
     starForm.location = props.placeData.placeLocation;
-    
+
     console.log('별점 데이터:', starForm);
     // 데이터를 서버에 전송하거나 저장하는 로직을 여기에 추가
 }
@@ -56,16 +56,14 @@ function submitStar() {
 function testStar() {
     alert('별점이 등록되었습니다.');
     submitStar();
-    router.push('/place')
+    router.push({
+        path: '/place/viewStar',
+        query: starForm
+    })
 }
+
 </script>
 
 <style scoped>
-
-@import url('@/assets/css/post/NewPost.css');
-
-#name{
-    font-size: 20px;
-    font-weight: bold;
-}
+@import url('@/assets/css/place/NewStar.css');
 </style>
