@@ -29,13 +29,13 @@
   </div>
 </div>
 <div class="search">
-        <select id="people">
-          <option value="제목">제목</option>
-          <option value="작성자">작성자</option>
-          <option value="인원수">인원수</option>
-          <option value="해시태그">해시태그</option>
-        </select>
-  <input type="text" id="input-search">
+  <select v-model="searchType">
+  <option value="postTitle">제목</option>
+  <option value="memberNickname">작성자</option>
+  <option value="memberCount">인원수</option>
+  <option value="hashtags">해시태그</option>
+</select>
+  <input type="text" v-model="searchKeyword" id="input-search">
   <button id="search-post" @click="searchPost">검색</button>
 </div>
   <br>
@@ -45,24 +45,33 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
-        
+
+const router = useRouter();
+
 const posts = ref([]);
+const originalPosts = ref([]);
+const searchType = ref('postTitle');
+const searchKeyword = ref('');
 
 const categoryColors = {
     '음식점': '#93ACB5',
-  '카페': '#96C5F7',
-  '문화': '#A9D3FF',
-  '액티비티': '#CEE4FF',
-  '기타': '#E0ECFF',
-  '산책': '#F2F4FF',
+    '카페': '#96C5F7',
+    '문화': '#A9D3FF',
+    '액티비티': '#CEE4FF',
+    '기타': '#E0ECFF',
+    '산책': '#F2F4FF',
 };
-        
+
+// onMounted(async () => {
+//   const response = await fetch('http://localhost:3000/post')
+//                   .then(response => response.json());
+//   posts.value = response;
+// });
+
 onMounted(async () => {
-  const response = fetch('http://localhost:3000/post')
-                  .then(response => response.json());
-  const data = await response;
-  posts.value = data;
-  console.log(posts.value);
+  const response = await fetch('http://localhost:3000/post').then(response => response.json());
+  originalPosts.value = response; // 원본 데이터 저장
+  posts.value = [...originalPosts.value]; // 초기 화면에 표시할 데이터 복사
 });
 
 const getMemberCountText = (count) => {
@@ -79,20 +88,35 @@ const getMemberCountText = (count) => {
 };
 
 const getCategoryColor = (categoryName) => {
-  return categoryColors[categoryName] || '#FFFFFF'; // 기본 색상은 흰색으로 설정
+  return categoryColors[categoryName] || '#FFFFFF'; 
 };
-
-const router = useRouter();
 
 const postDetail = () => {
   router.push('/post/detail');
 };
+
 const createPost = () => {
   router.push('/post/new');
 };
+
 const searchPost = () => {
-  alert('검색 기능 구현 중입니다')
+  let filteredPosts = originalPosts.value.filter((post) => {
+    switch (searchType.value) {
+      case 'postTitle':
+        return post.postTitle.includes(searchKeyword.value);
+      case 'memberNickname':
+        return post.memberNickname.includes(searchKeyword.value);
+      case 'memberCount':
+        return getMemberCountText(post.memberCount) === searchKeyword.value;
+      case 'hashtags':
+        return post.hashtag.some(hashtag => hashtag.hashtagTitle.includes(searchKeyword.value));
+      default:
+        return true;
+    }
+  });
+  posts.value = filteredPosts;
 };
+
 </script>
   
 <style scoped>
