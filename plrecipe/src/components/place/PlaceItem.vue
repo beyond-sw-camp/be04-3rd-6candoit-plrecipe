@@ -1,7 +1,6 @@
 <template>
 
   <div class="places" id="places">
-    
     <b-container class="bv-example-row mb-3">
       <b-row cols="4">
         <template v-for="place in props.places" :key="place.placeId">
@@ -24,8 +23,18 @@
         </template>
       </b-row>
     </b-container>
-
   </div>
+
+  <div class="search">
+        <select id="condition">
+          <option value="카테고리">카테고리</option>
+          <option value="주소">주소</option>
+          <option value="장소 이름">장소 이름</option>
+        </select>
+  <input type="text" id="input-search">
+  <button id="search-place" @click="searchPlace">검색</button>
+</div>
+  <br>
 
 </template>
 
@@ -56,6 +65,10 @@ const categoryColors = {
 
 const getCategoryColor = (categoryName) => {
   return categoryColors[categoryName] || '#FFFFFF'; // 기본 색상은 흰색
+};
+
+const searchPlace = () => {
+  alert('검색 기능 구현 중입니다')
 };
 
 </script>
