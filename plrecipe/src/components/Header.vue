@@ -9,7 +9,7 @@
                 <li class="category" @click="goPage('QnA')"><b>문의</b></li>
                 <li class="category" @click="goPage('notice')"><b>공지사항</b></li>
                 <li @click="goPage('myPage')">마이페이지</li> 
-                <li @click="Logout">로그아웃</li> 
+                <li @click="Logout">로그인</li> 
             </ul>
         </nav>
     </header>
