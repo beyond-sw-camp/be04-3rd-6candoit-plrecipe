@@ -28,57 +28,5 @@ const props = defineProps({
 </script>
 
 <style scoped>
-
-#img,
-#etc {
-    width: 20%;
-}
-
-table img {
-    width: 180px;
-    margin: auto;
-}
-
-.star,
-.member-nickname {
-    font-size: 15px;
-    float: left;
-    margin: 25px;
-}
-
-.star-span {
-    color: yellow;
-}
-
-.star-block img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    float: left;
-}
-
-.star-block .comment {
-
-}
-
-.star-block {
-    width: 680px;
-    height: 120px;
-    border: lightblue solid 1px;
-    padding: 10px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    position: relative;
-}
-
-#stars {
-    margin: auto;
-}
-
-#star-info {
-    float: left;
-}
+@import url('@/assets/css/place/PlaceStars.css');
 </style>
