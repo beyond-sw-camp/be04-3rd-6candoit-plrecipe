@@ -1,0 +1,35 @@
+.preparation-container {
+    position: relative;
+    text-align: center;
+}
+
+.prep-image {
+    position: absolute;
+    top: 100;
+    left: 50;
+    width: 50%;
+
+}
+
+.prep-image1 {
+    max-width: 100px;
+    height: auto;
+    display: inline;
+    margin: 0 10px;
+}
+
+.prep-text {
+    position: absolute;
+    top: 30vh;
+    left: 15%;
+    color: #000000;
+    font-size: 4em;
+    font-family: 'MapleStoryOTFBold';
+}
+
+@font-face {
+    font-family: 'MaplestoryOTFBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

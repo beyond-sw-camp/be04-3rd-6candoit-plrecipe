@@ -20,4 +20,4 @@ import Header from '@/components/Header.vue';
 .active{
   color: steelblue;
 }
-</style>./views/post/SelectPost.vue
+</style>

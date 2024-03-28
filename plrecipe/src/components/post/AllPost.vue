@@ -91,7 +91,7 @@ const createPost = () => {
   router.push('/post/new');
 };
 const searchPost = () => {
-  alert('검색 기능 구현 중입니다ㅠㅠ')
+  alert('검색 기능 구현 중입니다')
 };
 </script>
   
