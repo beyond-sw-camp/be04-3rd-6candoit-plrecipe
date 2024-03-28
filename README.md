@@ -1,5 +1,9 @@
 # <p align="center">⚾Plrecipe🍳</p>
 
+<p align="center"></p>
+
+<img src="readme_image/akwsk_title.png">
+
 
 ### 🙌🏻 팀명 : 6CanDoIt!
 
