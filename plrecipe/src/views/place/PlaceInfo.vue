@@ -99,10 +99,15 @@ table #placeName {
     font-size: 1rem; 
 }
 
+#star-rating {
+    margin-top: 0; 
+}
+
 #avg {
     font-size: 10px;
     padding-left:4px;
     font-family: 'KCC-Hanbit', sans-serif;
+    margin-bottom: 0;
 }
 
 #etc {
@@ -112,7 +117,7 @@ table #placeName {
 
 #locationMap {
     background-color: lightblue;
-    padding: 5px 40px; /* 내부 여백 */
+    padding: 5px 50px; /* 내부 여백 */
     border-radius: 20px;
     font-family: 'KCC-Hanbit', sans-serif;
     margin-right: 15px; 
