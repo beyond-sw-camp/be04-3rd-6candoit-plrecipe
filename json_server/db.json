@@ -1077,7 +1077,7 @@
       {
         "starId": 18,
         "starPoint": 5,
-        "starComment": "별점 등록",
+        "starComment": "조경 관리가 잘 돼있어서 꽃구경 풀구경 하기 좋아요",
         "place": {
           "placeId": 4,
           "placeName": "부산시민공원",
@@ -1098,7 +1098,7 @@
       {
         "starId": 21,
         "starPoint": 5,
-        "starComment": "별점 등록",
+        "starComment": "쓰레기통도 잘 관리되고 화장실도 쾌적해요",
         "place": {
           "placeId": 5,
           "placeName": "남양체육공원",
@@ -1119,7 +1119,7 @@
       {
         "starId": 2,
         "starPoint": 4,
-        "starComment": "화장실이 가게와 너무 멀어요",
+        "starComment": "화장실은 깨끗한데 공원 쓰레기통 관리가 잘 안 되는 것 같아요",
         "place": {
           "placeId": 3,
           "placeName": "상암근린공원",
@@ -1140,7 +1140,7 @@
       {
         "starId": 7,
         "starPoint": 4,
-        "starComment": "데이트 코스로 추천합니다",
+        "starComment": "음식도 맛있고 직원들도 친절한데 가게가 약간 협소해요",
         "place": {
           "placeId": 12,
           "placeName": "경양식당",
@@ -1161,7 +1161,7 @@
       {
         "starId": 3,
         "starPoint": 3,
-        "starComment": "그늘도 많아서 산책하기 좋아요",
+        "starComment": "그늘도 많고 날파리가 거의 없어서 산책하기 좋아요",
         "place": {
           "placeId": 4,
           "placeName": "부산시민공원",
@@ -1182,7 +1182,7 @@
       {
         "starId": 8,
         "starPoint": 3,
-        "starComment": "친구 여러명이랑 가기에 매장이 너무 좁아요",
+        "starComment": "타코야끼는 맛있는데 사장님이 불친절해요 재방문은 안 할 것 같아요",
         "place": {
           "placeId": 14,
           "placeName": "대왕문어타코야끼",
@@ -1224,7 +1224,7 @@
       {
         "starId": 9,
         "starPoint": 1,
-        "starComment": "사장님이 화만 내고 음식도 별로고 최악이에요",
+        "starComment": "매장도 지저분하고 만화책 관리도 안되고 직원도 불친절해요. 여태까지 가본 만화카페들 중에서 가장 별로예요.",
         "place": {
           "placeId": 13,
           "placeName": "꿀잼코믹스",
