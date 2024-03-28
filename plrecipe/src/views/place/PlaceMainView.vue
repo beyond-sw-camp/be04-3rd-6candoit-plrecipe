@@ -1,6 +1,6 @@
 <script setup>
-import PlaceCategory from './PlaceCategory.vue'
-import PlaceItemView from './PlaceItemView.vue'
+import PlaceCategory from '@/components/place/PlaceCategory.vue'
+import PlaceItemView from '@/components/place/PlaceItem.vue'
 
 import { ref, reactive, onMounted } from "vue";
 
