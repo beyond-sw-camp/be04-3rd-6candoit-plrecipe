@@ -7,7 +7,7 @@
     <div id="activity" @click="changeCategory(4)" :class="{activity: activeCategory == 4}">액티비티</div>
     <div id="walk" @click="changeCategory(5)" :class="{walk: activeCategory == 5}">산책</div>
     <div id="etc" @click="changeCategory(6)" :class="{etc: activeCategory == 6}">기타</div>
-    <button id="create-place" @click="createPlace">장소 등록</button>
+      <button id="create-place" @click="createPlace">장소 등록</button>
   </div>
 </template>
 
