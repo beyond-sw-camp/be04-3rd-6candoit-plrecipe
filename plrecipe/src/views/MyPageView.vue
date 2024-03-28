@@ -2,7 +2,7 @@
     <div id="member-info">
         <div id="profile">
             <img src="/src/assets/img/plrecipe_panda.png" alt="판다">
-            <p>말랑판다</p>
+            <p id="nickname">말랑판다</p>
         </div>
         <table id="follow">
             <tr id="name">
