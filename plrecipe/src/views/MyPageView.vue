@@ -1,8 +1,8 @@
 <template>
     <div id="member-info">
         <div id="profile">
-            <img src="/src/assets/img/ham.jpeg" alt="햄스터">
-            <p>말랑햄찌</p>
+            <img src="/src/assets/img/plrecipe_panda.png" alt="판다">
+            <p>말랑판다</p>
         </div>
         <table id="follow">
             <tr id="name">

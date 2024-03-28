@@ -1,13 +1,25 @@
+@font-face {
+    font-family: 'KCC-Hanbit';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
 
+body * {
+    font-family: 'KCC-Hanbit', Arial;
+}
 #profile img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    border: 1px solid;
 }
 
 #profile {
     float: left;
 }
+
+
 
 #follow {
     float: left;
@@ -61,6 +73,10 @@ a.button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#nickname{
+    margin-top: 15px;
 }
 
 .button.post {
