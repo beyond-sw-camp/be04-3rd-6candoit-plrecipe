@@ -27,7 +27,7 @@
 
   <div class="search">
         <select id="condition" v-model="keyword">
-          <option value="카테고리">카테고리</option>
+          <option disabled value="">카테고리 선택</option>
           <option value="주소">주소</option>
           <option value="장소이름">장소 이름</option>
         </select>
