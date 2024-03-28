@@ -1,3 +1,5 @@
+/* AllPost.css */
+
 @font-face {
   font-family: 'KCC-Hanbit';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
@@ -31,6 +33,7 @@
   /* margin: 5px 0; */
   font-weight: bold;
 }
+
 .title {
   margin-top: 10px;
   font-size: 15px;
@@ -95,6 +98,7 @@
   margin-bottom: 5px;
   display: inline-block;
 }
+
 .member {
   padding-top: 5px;
 }
@@ -116,10 +120,11 @@
   font-size: 19px;
   background-color: #A9D3FF;
 }
+
 .create {
   justify-content: right; /* 수평 중앙 정렬 */
   display: flex; /* Flexbox를 사용 */
-  margin-right: 170px;
+  margin-right: 58px;
   margin-top: 10px;
 }
 
