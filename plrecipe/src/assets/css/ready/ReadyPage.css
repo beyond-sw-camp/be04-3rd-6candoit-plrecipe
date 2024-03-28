@@ -1,6 +1,7 @@
 .preparation-container {
     position: relative;
     text-align: center;
+    min-height: 100vh;
 }
 
 .prep-image {
@@ -8,7 +9,6 @@
     top: 100;
     left: 50;
     width: 50%;
-
 }
 
 .prep-image1 {
