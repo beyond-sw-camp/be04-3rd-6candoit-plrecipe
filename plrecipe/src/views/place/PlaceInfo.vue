@@ -1,7 +1,7 @@
 <template>
     <table id="place-info">
         <tr>
-            <td rowspan="5" colspan="2" id="placeImg"><img src="@/assets/img/boramae.jpg" alt="Place"></td>
+            <td rowspan="5" colspan="2" id="placeImg"><img src="@/img/boramae.jpg" alt="Place"></td>
             <td colspan="2" id="placeName">[{{ placeData.placeName }}]</td>
         </tr>
         <tr>

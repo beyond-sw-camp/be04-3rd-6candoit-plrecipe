@@ -1,7 +1,7 @@
 <template>
    <div class="preparation-container">
-    <img src="@/assets/img/배경제거팬더.png" alt="First Image" class="prep-image" />
-    <h1 class="prep-text"><img src="@/assets/img/플레시피 캐릭터(배경 제거).png" class="prep-image1" />준비중입니다..</h1>
+    <img src="@/img/배경제거팬더.png" alt="First Image" class="prep-image" />
+    <h1 class="prep-text"><img src="@/img/플레시피 캐릭터(배경 제거).png" class="prep-image1" />준비중입니다..</h1>
   </div>
 
 </template>

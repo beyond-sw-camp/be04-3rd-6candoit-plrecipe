@@ -2,7 +2,7 @@
     <div class="container">
         <!-- 큰 이미지 -->
         <div class="big-image-container">
-                <img src="@/assets/img/main.png" alt="메인 이미지" class="big-image">
+                <img src="@/img/main.png" alt="메인 이미지" class="big-image">
                 <div class="image-text">
                     <h1>Plrecipe</h1>
                     <br><br>
@@ -15,12 +15,12 @@
         <!-- 작은 이미지들 -->
         <div class="small-images">
           <div class="image-container small-image1" @click="goPost">
-                    <img src="@/assets/img/post.png" alt="왼쪽 이미지">
+                    <img src="@/img/post.png" alt="왼쪽 이미지">
                     <div class="overlay-text">게시판<br>다양한 코스를 구성해보세요.</div>
             </div>
 
             <div class="image-container small-image2" @click="goPlace">
-                    <img src="@/assets/img/place.png" alt="오른쪽 이미지">
+                    <img src="@/img/place.png" alt="오른쪽 이미지">
                     <div class="overlay-text">장소<br>다양한 장소를 구경해보세요.</div>
             </div>
         </div>
