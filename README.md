@@ -15,9 +15,13 @@
 [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/chosoobin37) <strong>&nbsp;&nbsp;조수빈</strong> <br>
 [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/jaehyeon-SMU) <strong>&nbsp;&nbsp;김재현</strong> <br>
 
+## 📝 Plrecipe Backend Project
 
-
-## 📝 
+> [!Tip]
+> 해당 이미지를 클릭 시 Plrecipe Backend Project로 이동합니다.
+<a href="https://github.com">
+    <img src="readme_image/plplpl.png" alt="Project Logo" width="100" height="100"/>
+</a>
 
 ## 💾 기술스택
 <div align="center">
