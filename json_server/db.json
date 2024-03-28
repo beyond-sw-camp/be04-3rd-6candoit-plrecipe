@@ -88,27 +88,37 @@
       "memberCount": "TWO",
       "memberNickname": "흰둥이",
       "course": [
-        {
+        {          
+          "placeId": 5,
+          "placeName": "인생이 보드게임",
           "placeCategory": {
             "placeCategoryName": "액티비티"
           }
         },
         {
+          "placeId": 5,
+          "placeName": "콘드",
           "placeCategory": {
             "placeCategoryName": "카페"
           }
         },
         {
+          "placeId": 5,
+          "placeName": "충무아트센터",
           "placeCategory": {
             "placeCategoryName": "문화"
           }
         },
         {
+          "placeId": 5,
+          "placeName": "카츠디나인",
           "placeCategory": {
             "placeCategoryName": "음식점"
           }
         },
         {
+          "placeId": 5,
+          "placeName": "행복담",
           "placeCategory": {
             "placeCategoryName": "음식점"
           }
@@ -116,6 +126,7 @@
       ],
       "hashtag": [
         {
+          
           "hashtagId": 1,
           "hashtagTitle": "맛집투어" 
         },
@@ -143,26 +154,36 @@
       "memberNickname": "조먹밥",
       "course": [
         {
+          "placeId": 1,
+          "placeName": "보라매공원",
           "placeCategory": {
             "placeCategoryName": "산책"
           }
         },
         {
+          "placeId": 5,
+          "placeName": "콘드",
           "placeCategory": {
             "placeCategoryName": "카페"
           }
         },
         {
+          "placeId": 5,
+          "placeName": "서울초밥",
           "placeCategory": {
             "placeCategoryName": "음식점"
           }
         },
         {
+          "placeId": 5,
+          "placeName": "링크아트센터",
           "placeCategory": {
             "placeCategoryName": "문화"
           }
         },
         {
+          "placeId": 5,
+          "placeName": "월매흑염소",
           "placeCategory": {
             "placeCategoryName": "음식점"
           }
@@ -193,26 +214,36 @@
       "memberNickname": "조먹밥",
       "course": [
         {
+          "placeId": 5,
+          "placeName": "온타이키친",
           "placeCategory": {
             "placeCategoryName": "음식점"
           }
         },
         {
+          "placeId": 5,
+          "placeName": "당도",
           "placeCategory": {
             "placeCategoryName": "카페"
           }
         },
         {
+          "placeId": 5,
+          "placeName": "메타그라운드 성수",
           "placeCategory": {
             "placeCategoryName": "문화"
           }
         },
         {
+          "placeId": 5,
+          "placeName": "플레이팅 스튜디오",
           "placeCategory": {
             "placeCategoryName": "액티비티"
           }
         },
         {
+          "placeId": 5,
+          "placeName": "경양식당",
           "placeCategory": {
             "placeCategoryName": "음식점"
           }
@@ -243,26 +274,36 @@
       "memberNickname": "조먹밥",
       "course": [
         {
+          "placeId": 1,
+          "placeName": "부산시민공원",
           "placeCategory": {
             "placeCategoryName": "산책"
           }
         },
         {
+          "placeId": 1,
+          "placeName": "아트스페이스3",
           "placeCategory": {
             "placeCategoryName": "문화"
           }
         },
         {
+          "placeId": 1,
+          "placeName": "헤키",
           "placeCategory": {
             "placeCategoryName": "음식점"
           }
         },
         {
+          "placeId": 1,
+          "placeName": "메가커피 신대방 삼거리",
           "placeCategory": {
             "placeCategoryName": "카페"
           }
         },
         {
+          "placeId": 1,
+          "placeName": "대왕문어타코야끼",
           "placeCategory": {
             "placeCategoryName": "기타"
           }
@@ -293,26 +334,36 @@
       "memberNickname": "조먹밥",
       "course": [
         {
+          "placeId": 1,
+          "placeName": "유니랜드",
           "placeCategory": {
             "placeCategoryName": "기타"
           }
         },
         {
+          "placeId": 1,
+          "placeName": "잉크커피",
           "placeCategory": {
             "placeCategoryName": "카페"
           }
         },
         {
+          "placeId": 1,
+          "placeName": "포레스트",
           "placeCategory": {
             "placeCategoryName": "문화"
           }
         },
         {
+          "placeId": 1,
+          "placeName": "파라노말 액티비티",
           "placeCategory": {
             "placeCategoryName": "액티비티"
           }
         },
         {
+          "placeId": 1,
+          "placeName": "김천국밥",
           "placeCategory": {
             "placeCategoryName": "음식점"
           }
@@ -347,26 +398,36 @@
       "memberNickname": "이루비",
       "course": [
         {
+          "placeId": 1,
+          "placeName": "클레임클라이밍",
           "placeCategory": {
             "placeCategoryName": "액티비티"
           }
         },
         {
+          "placeId": 1,
+          "placeName": "소바쿄다이",
           "placeCategory": {
             "placeCategoryName": "음식점"
           }
         },
         {
+          "placeId": 1,
+          "placeName": "중외공원",
           "placeCategory": {
             "placeCategoryName": "산책"
           }
         },
         {
+          "placeId": 1,
+          "placeName": "쿼카커피",
           "placeCategory": {
             "placeCategoryName": "카페"
           }
         },
         {
+          "placeId": 1,
+          "placeName": "하또바",
           "placeCategory": {
             "placeCategoryName": "음식점"
           }
@@ -401,26 +462,36 @@
       "memberNickname": "이루비",
       "course": [
         {
+          "placeId": 1,
+          "placeName": "첨단돌솥파지감자탕",
           "placeCategory": {
             "placeCategoryName": "음식점"
           }
         },
         {
+          "placeId": 1,
+          "placeName": "랑데자뷰",
           "placeCategory": {
             "placeCategoryName": "카페"
           }
         },
         {
+          "placeId": 1,
+          "placeName": "CGV 용산점",
           "placeCategory": {
             "placeCategoryName": "문화"
           }
         },
         {
+          "placeId": 1,
+          "placeName": "닭꼬치조아",
           "placeCategory": {
             "placeCategoryName": "음식점"
           }
         },
         {
+          "placeId": 1,
+          "placeName": "집게리아",
           "placeCategory": {
             "placeCategoryName": "음식점"
           }
@@ -455,26 +526,36 @@
       "memberNickname": "이루동",
       "course": [
         {
+          "placeId": 1,
+          "placeName": "보라매공원",
           "placeCategory": {
             "placeCategoryName": "산책"
           }
         },
         {
+          "placeId": 2,
+          "placeName": "콘드",
           "placeCategory": {
             "placeCategoryName": "카페"
           }
         },
         {
-          "placeCategory": {
-            "placeCategoryName": "문화"
-          }
-        },
-        {
+          "placeId": 3,
+          "placeName": "서울초밥",
           "placeCategory": {
             "placeCategoryName": "음식점"
           }
         },
         {
+          "placeId": 4,
+          "placeName": "링크아트센터",
+          "placeCategory": {
+            "placeCategoryName": "문화"
+          }
+        },
+        {
+          "placeId": 5,
+          "placeName": "월매흑염소",
           "placeCategory": {
             "placeCategoryName": "음식점"
           }
@@ -509,26 +590,36 @@
       "memberNickname": "조먹밥",
       "course": [
         {
+          "placeId": 6,
+          "placeName": "온타이키친",
           "placeCategory": {
-            "placeCategoryName": "액티비티"
+            "placeCategoryName": "음식점"
           }
         },
         {
+          "placeId": 7,
+          "placeName": "당도",
           "placeCategory": {
-            "placeCategoryName": "산책"
+            "placeCategoryName": "카페"
           }
         },
         {
+          "placeId": 8,
+          "placeName": "메타그라운드 성수",
           "placeCategory": {
             "placeCategoryName": "문화"
           }
         },
         {
+          "placeId":9,
+          "placeName": "플레이팅 스튜디오",
           "placeCategory": {
-            "placeCategoryName": "기타"
+            "placeCategoryName": "액티비티"
           }
         },
         {
+          "placeId": 10,
+          "placeName": "경양식당",
           "placeCategory": {
             "placeCategoryName": "음식점"
           }

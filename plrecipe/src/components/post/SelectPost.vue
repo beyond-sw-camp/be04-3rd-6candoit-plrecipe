@@ -10,6 +10,7 @@ const placeDetail = (id) => {
 
   const posts = ref([]);
   const post = ref(null);
+  const num = ref(0);
 
 const props = defineProps({
   id: Array
@@ -23,7 +24,11 @@ const props = defineProps({
   '기타': '#E0ECFF',
   '산책': '#F2F4FF',
 };
-        
+  
+  const postLike = function()  {
+    num.value++;
+  }
+
   onMounted(async () => {
     const response = fetch('http://localhost:3000/post')
                     .then(response => response.json());
@@ -136,6 +141,11 @@ const props = defineProps({
 </ul>
 
                 <div id="post-content">{{ post.postContent }}</div>
+                <div class="like">
+                  <div class="post-like" v-on:click.once="postLike">
+                    <h3>{{ num }}</h3>
+                  </div>
+                </div>
                 <div id="hashtag">
                 <span v-for="hashtag in post.hashtag" :key="hashtag.hashtagId">
                     #{{ hashtag.hashtagTitle }}

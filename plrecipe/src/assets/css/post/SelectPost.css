@@ -17,6 +17,7 @@ body {
 }
 
 #app {
+  font-family: 'KCC-Hanbit', sans-serif;
   width: 1440px;
   margin: 0 auto;
   padding: 20px;
@@ -86,14 +87,34 @@ body {
 #post-content {
   white-space: pre-wrap; 
   padding-top: 20px;
-  height: 365px; 
+  height: 300px; 
   overflow-y: auto; 
   font-size: 20px;
 }
 
 #hashtag {
+  margin-top: 20px;
   border-top: 3px solid #000000;
   padding-top: 22px;
+}
+
+.like {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 수직 가운데 정렬 */
+}
+.post-like {
+  width: 50px;
+  height: 50px;
+  padding-top: 5px;
+  border-radius: 30px;
+  border: 3px solid black;
+  text-align: center;
+}
+.post-like:hover {
+  transform: scale(1.2, 1.2);
+
 }
 
 #hashtag span {
