@@ -20,6 +20,16 @@ function changeCategory(id) {
   getPlaceData(id);
 }
 
+function getSearchData(keyword, data){
+  if(keyword == '주소'){
+    const newPlaces = places.value.filter(place => place.placeLocation.includes(data));
+    places.splice(0, places.length, ...newPlaces);
+  }else if(keyword == '장소이름'){
+    const newPlaces = places.value.filter(place => place.placeName.includes(data));
+    places.splice(0, places.length, ...newPlaces);
+  }
+}
+
 function getPlaceData(id) {
 
   if(id == ''){
@@ -38,7 +48,7 @@ function getPlaceData(id) {
   <main>
     <PlaceCategory @change="changeCategory" @detail="placeDetail" />
 
-    <PlaceItemView :places="places" />
+    <PlaceItemView :places="places" @search="getSearchData"/>
   </main>
 
 </template>
