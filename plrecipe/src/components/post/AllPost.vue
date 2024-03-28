@@ -97,5 +97,5 @@ const searchPost = () => {
   
 <style scoped>
 /* 외부 CSS 파일 연결 */
-@import url('./AllPost.css');
+@import url('@/assets/css/post/AllPost.css');
 </style>
