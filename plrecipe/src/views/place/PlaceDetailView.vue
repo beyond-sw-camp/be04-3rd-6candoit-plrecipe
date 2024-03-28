@@ -1,6 +1,6 @@
 <script setup>
-import PlaceInfo from './PlaceInfo.vue'
-import PlaceStars from './PlaceStars.vue'
+import PlaceInfo from '@/components/place/PlaceInfo.vue'
+import PlaceStars from '@/components/place/PlaceStars.vue'
 
 import { ref, onMounted } from "vue";
 import { useRoute } from 'vue-router'
