@@ -18,9 +18,9 @@
 ## 💾 기술스택
 <div align="center">
 
-|JavaSpring|Vue|HTML|CSS|
-|---|---|---|---|
-|<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">|<img src="https://img.shields.io/badge/Vue-4FC08D?style=for-the-badge&logo=Vue.js&logoColor=white">|<img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">|<img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">|
+|JavaSpring|Vue|HTML|CSS|JavaScript|
+|---|---|---|---|---|
+|<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">|<img src="https://img.shields.io/badge/Vue-4FC08D?style=for-the-badge&logo=Vue.js&logoColor=white">|<img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">|<img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">|<img src="https://img.shields.io/badge/JavaScript-F7DE1E?style=for-the-badge&logo=JavaScript&logoColor=white">|
 
 </div>
 
