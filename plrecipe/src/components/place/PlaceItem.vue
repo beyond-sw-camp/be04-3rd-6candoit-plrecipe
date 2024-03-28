@@ -3,7 +3,6 @@
   <div class="places" id="places">
     
     <b-container class="bv-example-row mb-3">
-      <!-- <button id="create-place" @click="createPlace">장소 등록</button> -->
       <b-row cols="4">
         <template v-for="place in props.places" :key="place.placeId">
           <b-col>
@@ -58,7 +57,6 @@ const categoryColors = {
 const getCategoryColor = (categoryName) => {
   return categoryColors[categoryName] || '#FFFFFF'; // 기본 색상은 흰색
 };
-
 
 </script>
 
