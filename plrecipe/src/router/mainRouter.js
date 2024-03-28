@@ -32,7 +32,7 @@ const router = createRouter({
                     component: PostMainView
                 },
                 {
-                    path: 'detail',
+                    path: 'detail/:id',
                     component: PostDetailView
                 },
                 {

@@ -26,12 +26,11 @@
   </div>
 
   <div class="search">
-        <select id="condition" v-model="keyword">
-          <option disabled value="">카테고리 선택</option>
-          <option value="주소">주소</option>
+        <select id="condition" v-model="type">
           <option value="장소이름">장소 이름</option>
+          <option value="주소">주소</option>
         </select>
-  <input type="text" id="input-search" v-model="data">
+  <input type="text" id="input-search" v-model="keyword">
   <button id="search-place" @click="searchKeyword">검색</button>
 </div>
   <br>
@@ -50,11 +49,11 @@ const props = defineProps({
 const emit = defineEmits(['search']);
 
 const router = useRouter();
+const type = ref("장소이름");
 const keyword = ref("");
-const data = ref("");
 
 const searchKeyword = ()=>{
-  emit('search', keyword.value, data.value);
+  emit('search', type.value, keyword.value);
 }
 
 const placeDetail = (id) => {

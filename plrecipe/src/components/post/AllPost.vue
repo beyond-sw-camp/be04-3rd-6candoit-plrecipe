@@ -1,27 +1,27 @@
 <template>
-    <div class="create">
-      <button id="create-post" @click="createPost">게시글 작성</button>
-    </div>
-    <div id="app">
-      <div class="post" v-for="post in posts" :key="post.postId" @click="postDetail">
-        <div class="title"><p>{{ post.postTitle }}</p></div>
-        <div class="image">
-          <img :src='post.postImage'/>
-        </div>
-        <div class="member"><p>인원수: {{ getMemberCountText(post.memberCount) }}</p></div>
-        <div class="hashtag">
-          <p>해시태그: 
-            <span v-for="hashtag in post.hashtag" :key="hashtag.hashtagId">
-              #{{ hashtag.hashtagTitle }}
-            </span>&nbsp;
-          </p>
-        </div>
-        <div class="sidebar">
-          <div 
-          class="sidebar-item"
-          v-for="course in post.course"
-          :key="course.placeId"
-          v-if="posts.length > 0"
+  <div class="create">
+    <button id="create-post" @click="createPost">게시글 작성</button>
+  </div>
+  <div id="app">
+    <div class="post" v-for="post in posts" :key="post.postId" @click="postDetail(post.postId)">
+      <div class="title">
+        <p>{{ post.postTitle }}</p>
+      </div>
+      <div class="image">
+        <img :src='post.postImage' />
+      </div>
+      <div class="member">
+        <p>인원수: {{ getMemberCountText(post.memberCount) }}</p>
+      </div>
+      <div class="hashtag">
+        <p>해시태그:
+          <span v-for="hashtag in post.hashtag" :key="hashtag.hashtagId">
+            #{{ hashtag.hashtagTitle }}
+          </span>&nbsp;
+        </p>
+      </div>
+      <div class="sidebar">
+        <div class="sidebar-item" v-for="course in post.course" :key="course.placeId" v-if="posts.length > 0"
           :style="{ backgroundColor: getCategoryColor(course.placeCategory.placeCategoryName) }">
           {{ course.placeCategory.placeCategoryName }}
         </div>
@@ -53,12 +53,12 @@ const searchType = ref('postTitle');
 const searchKeyword = ref('');
 
 const categoryColors = {
-    '음식점': '#93ACB5',
-    '카페': '#96C5F7',
-    '문화': '#A9D3FF',
-    '액티비티': '#CEE4FF',
-    '기타': '#E0ECFF',
-    '산책': '#F2F4FF',
+  '음식점': '#93ACB5',
+  '카페': '#96C5F7',
+  '문화': '#A9D3FF',
+  '액티비티': '#CEE4FF',
+  '기타': '#E0ECFF',
+  '산책': '#F2F4FF',
 };
 
 onMounted(async () => {
@@ -81,11 +81,11 @@ const getMemberCountText = (count) => {
 };
 
 const getCategoryColor = (categoryName) => {
-  return categoryColors[categoryName] || '#FFFFFF'; 
+  return categoryColors[categoryName] || '#FFFFFF';
 };
 
-const postDetail = () => {
-  router.push('/post/detail');
+const postDetail = (postId) => {
+  router.push(`/post/detail/${postId}`);
 };
 
 const createPost = () => {
@@ -111,7 +111,7 @@ const searchPost = () => {
 };
 
 </script>
-  
+
 <style scoped>
 @import url('@/assets/css/post/AllPost.css');
 </style>

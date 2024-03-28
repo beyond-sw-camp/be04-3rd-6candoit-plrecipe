@@ -20,12 +20,12 @@ function changeCategory(id) {
   getPlaceData(id);
 }
 
-function getSearchData(keyword, data){
-  if(keyword == '주소'){
-    const newPlaces = places.value.filter(place => place.placeLocation.includes(data));
+function getSearchData(type, keyword){
+  if(type == '주소'){
+    const newPlaces = places.value.filter(place => place.placeLocation.includes(keyword));
     places.splice(0, places.length, ...newPlaces);
-  }else if(keyword == '장소이름'){
-    const newPlaces = places.value.filter(place => place.placeName.includes(data));
+  }else if(type == '장소이름'){
+    const newPlaces = places.value.filter(place => place.placeName.includes(keyword));
     places.splice(0, places.length, ...newPlaces);
   }
 }
