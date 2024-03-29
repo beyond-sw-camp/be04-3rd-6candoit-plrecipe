@@ -53,7 +53,9 @@
 <a href="https://docs.google.com/spreadsheets/d/1s_xHKGkEtqTWraOUuyuyXDv-GDdMmeleYGFhPgfCvv4/edit#gid=354051830">요구사항 명세서</a>
 </div>
 
-## 🟨 3. WireFrame
+## 🟨 3. 기능 명세서
+
+## 🟩 4. WireFrame
 
 <details>
 <summary><b>WireFrame 개별 페이지</b></summary>
@@ -97,7 +99,7 @@
 
 <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/ee1a02babe02241f6830ec594e384bfe8b35bcbe/readme_image/1wireframe.jpg">
 
-## 🟩 4. Story Board
+## 🟦 5. Story Board
 
 <details>
 <summary><b>STORY BOARD</b></summary>
@@ -118,14 +120,14 @@
  
 </details>
 
-## 🟦 5. 테스트 계획
+## 🟪 6. 테스트 계획
 <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/main/readme_image/%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%AA%85%EC%84%B8%EC%84%9C.png">
 
 <div align="right">
 <a href="https://docs.google.com/spreadsheets/d/1s_xHKGkEtqTWraOUuyuyXDv-GDdMmeleYGFhPgfCvv4/edit#gid=0">테스트 명세서</a>
 </div>
 
-## 🟪 6. 테스트
+## 🟫 7. 테스트
 
 <details>
  <summary><b>1. Router</b></summary>
