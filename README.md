@@ -40,9 +40,9 @@
 ## 🪄 개발도구
 <div align="center">
 
-|IntelliJ IDEA|Visual Studio|HeidiSQL|
-|---|---|---|
-|<img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=for-the-badge&logo=IntelliJ IDEA&logoColor=white">|<img src="https://img.shields.io/badge/Visual Studio-007ACC?style=for-the-badge&logo=Visual Studio Code&logoColor=white">|<img src="https://img.shields.io/badge/HeidiSQL-6DB33F?style=for-the-badge">|
+|IntelliJ IDEA|Visual Studio|HeidiSQL|Figma|
+|---|---|---|---|
+|<img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=for-the-badge&logo=IntelliJ IDEA&logoColor=white">|<img src="https://img.shields.io/badge/Visual Studio-007ACC?style=for-the-badge&logo=Visual Studio Code&logoColor=white">|<img src="https://img.shields.io/badge/HeidiSQL-6DB33F?style=for-the-badge">|<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=Figma&logoColor=white">|
 
 </div>
 
