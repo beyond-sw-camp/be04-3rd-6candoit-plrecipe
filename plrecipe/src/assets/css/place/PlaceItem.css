@@ -16,6 +16,14 @@
     position: relative;
     font-size: 15px;
     font-family: 'KCC-Hanbit', sans-serif;
+    float: left;
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#places{
+    margin-left: 50px
 }
 
 #star {
@@ -61,8 +69,7 @@
     box-shadow: 5px 5px lightblue;
 }
 
-#stars,
-#places {
+#stars{
     clear: both;
     /* padding-top: 10px; */
 }
@@ -92,9 +99,13 @@
     justify-content: center;
     margin-top: 30px;
     margin-right: 80px;
+    clear: both;
 }
 
 #condition {
     border-radius: 5px;
     text-align: center;
+}
+.placeDiv {
+    margin-left: 60px;
 }
