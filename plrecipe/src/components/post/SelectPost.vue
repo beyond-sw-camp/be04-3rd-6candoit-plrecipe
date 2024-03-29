@@ -10,7 +10,7 @@ const placeDetail = (id) => {
 
   const posts = ref([]);
   const post = ref(null);
-  const num = ref(0);
+  const num = ref('☆');
 
 const props = defineProps({
   id: Array
@@ -26,8 +26,12 @@ const props = defineProps({
 };
   
   const postLike = function()  {
-    num.value++;
-  }
+    if (num.value == '☆') {
+      num.value = '⭐';
+    } else {
+    num.value = '☆';
+   } 
+  } 
 
   onMounted(async () => {
     const response = fetch('http://localhost:3000/post')
@@ -142,7 +146,7 @@ const props = defineProps({
 
                 <div id="post-content">{{ post.postContent }}</div>
                 <div class="like">
-                  <div class="post-like" v-on:click.once="postLike">
+                  <div class="post-like" @click="postLike">
                     <h3>{{ num }}</h3>
                   </div>
                 </div>
