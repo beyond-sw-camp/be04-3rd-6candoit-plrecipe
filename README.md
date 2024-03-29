@@ -37,8 +37,11 @@
 
 </div>
 
+## 🟧 2. 요구사항 명세서
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/main/readme_image/front_%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%EB%AA%85%EC%84%B8%EC%84%9C.png">
+<a href="https://docs.google.com/spreadsheets/d/1s_xHKGkEtqTWraOUuyuyXDv-GDdMmeleYGFhPgfCvv4/edit?usp=sharing">요구사항 명세서</a>
 
-## 🟨 2. WireFrame
+## 🟨 3. WireFrame
 
 <details>
 <summary><b>WireFrame 개별 페이지</b></summary>
@@ -82,11 +85,11 @@
 
 <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/ee1a02babe02241f6830ec594e384bfe8b35bcbe/readme_image/1wireframe.jpg">
 
-## 🟩 3. Story Board
+## 🟩 4. Story Board
 
-## 🟦 4. 테스트 계획
+## 🟦 5. 테스트 계획
 
-## 🟪 5. 테스트
+## 🟪 6. 테스트
 
 
 ## ⬜ 회고
