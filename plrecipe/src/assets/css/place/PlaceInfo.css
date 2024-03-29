@@ -82,13 +82,13 @@ table #placeName {
 }
 
 #etc {
-    display: flex; /* 이 부분이 요소들을 가로로 나열합니다. */
-    align-items: center; /* 세로 중심으로 요소들을 정렬합니다. */
+    display: flex;
+    align-items: center; 
 }
 
 #locationMap {
     background-color: lightblue;
-    padding: 5px 50px; /* 내부 여백 */
+    padding: 5px 50px; 
     border-radius: 20px;
     font-family: 'KCC-Hanbit', sans-serif;
     margin-right: 15px; 
@@ -96,14 +96,14 @@ table #placeName {
 
 #phone {
     background-color: lightblue;
-    padding: 5px 10px; /* 내부 여백 */
+    padding: 5px 10px; 
     border-radius: 20px;
     font-family: 'KCC-Hanbit', sans-serif;
-    margin-right: 10px; /* 오른쪽 여백, 마지막 요소에는 불필요할 수 있습니다. */
+    margin-right: 10px; 
 }
 
 #phone {
-    margin-right: 0; /* 전화번호가 줄 바뀜 없이 나타나도록 설정 */
+    margin-right: 0;
 }
 
 #phone{

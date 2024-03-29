@@ -50,7 +50,6 @@ function submitStar() {
     starForm.location = props.placeData.placeLocation;
 
     console.log('별점 데이터:', starForm);
-    // 데이터를 서버에 전송하거나 저장하는 로직을 여기에 추가
 }
 
 function testStar() {

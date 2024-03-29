@@ -57,7 +57,7 @@ const props = defineProps({
   };
 
   const getCategoryColor = (categoryName) => {
-  return categoryColors[categoryName] || '#FFFFFF'; // 기본 색상은 흰색으로 설정
+  return categoryColors[categoryName] || '#FFFFFF'; 
 };
 </script>
 <template>
@@ -158,102 +158,8 @@ const props = defineProps({
             </div>
         </div>
     </div>
-
-    <!-- <div id="app">
-      <div class="sidebar">
-      <div 
-        class="sidebar-item"
-        v-for="course in posts[0].course"
-        :key="course.placeId"
-        v-if="posts.length > 0"
-        @click="placeDetail(course.placeId)"
-        :style="{ backgroundColor: getCategoryColor(course.placeCategory.placeCategoryName) }">
-        {{ course.placeName }}
-      </div>
-    </div>
-        <div class="post-container">
-            <div v-if="posts.length > 0">
-                <div id="post-title">{{ posts[0].postTitle }}</div>
-                <div id="post-writer">
-                    <img id="member-image" src="@/assets/img/프로필.jpg">
-                    <span id="post-nick">{{ posts[0].memberNickname }}</span>
-                    <span id="post-member-count">{{ getMemberCountText(posts[0].memberCount) }}</span>
-                </div>
-                <ul class="post-image">
-  <li>
-    <img src="@/assets/img/1_신라호텔.jpg" alt="">
-  </li>
-  <li>
-    <img src="@/assets/img/2_수영장.jpg" alt="">
-  </li>
-  <li>
-    <img src="@/assets/img/3_점심.jpg" alt="">
-  </li>
-  <li>
-    <img src="@/assets/img/4_점심.jpg" alt="">
-  </li>
-  <li>
-    <img src="@/assets/img/5_수영장.jpg" alt="">
-  </li>
-  <li>
-    <img src="@/assets/img/6_저녁.jpg" alt="">
-  </li>
-  <li>
-    <img src="@/assets/img/7_저녁.jpg" alt="">
-  </li>
-  <li>
-    <img src="@/assets/img/8_시장.jpg" alt="">
-  </li>
-  <li>
-    <img src="@/assets/img/9_시장.jpg" alt="">
-  </li>
-  <li>
-    <img src="@/assets/img/10_야식.jpg" alt="">
-  </li>
-  <li>
-    <img src="@/assets/img/11_베이커리.jpg" alt="">
-  </li>
-  <li>
-    <img src="@/assets/img/12_베이커리.jpg" alt="">
-  </li>
-  <li>
-    <img src="@/assets/img/13_수영장.jpg" alt="">
-  </li>
-  <li>
-    <img src="@/assets/img/14_수빈.jpg" alt="">
-  </li>
-  <li>
-    <img src="@/assets/img/15_수빈.jpg" alt="">
-  </li>
-  <li>
-    <img src="@/assets/img/16_수빈.jpg" alt="">
-  </li>
-  <li>
-    <img src="@/assets/img/17_수빈.jpg" alt="">
-  </li>
-  <li>
-    <img src="@/assets/img/18_본지르르.jpg" alt="">
-  </li>
-  <li>
-    <img src="@/assets/img/19_본지르르.jpg" alt="">
-  </li>
-  <li>
-    <img src="@/assets/img/20_본지르르.jpg" alt="">
-  </li>
-</ul>
-
-                <div id="post-content">{{ posts[0].postContent }}</div>
-                <div id="hashtag">
-                <span v-for="hashtag in posts[0].hashtag" :key="hashtag.hashtagId">
-                    #{{ hashtag.hashtagTitle }}
-                </span>
-            </div>
-            </div>
-        </div>
-    </div> -->
 </template>
 
 <style scoped>
-/* 외부 CSS 파일 연결 */
 @import url('@/assets/css/post/SelectPost.css');
 </style>

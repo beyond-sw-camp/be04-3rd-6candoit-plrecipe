@@ -51,12 +51,11 @@ function splitHashtags() {
 }
 
 function handleFileUpload(event) {
-  postForm.photos = Array.from(event.target.files); // 선택된 파일들을 postForm.photos 배열에 저장
+  postForm.photos = Array.from(event.target.files); 
 }
 
 function submitPost() {
   console.log('게시글 데이터:', postForm);
-  // 게시글 데이터를 서버에 전송하거나 저장하는 로직을 여기에 추가
 }
 
 function testPost () {
@@ -66,7 +65,6 @@ function testPost () {
 </script>
 
 <style scoped>
-/* 외부 CSS 파일 연결 */
 @import url('@/assets/css/post/NewPost.css');
 
 </style>

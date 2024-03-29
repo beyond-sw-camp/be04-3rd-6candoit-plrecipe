@@ -69,7 +69,7 @@ const regist = (id) => {
 };
 
 const getCategoryColor = (categoryName) => {
-    return categoryColors[categoryName] || '#FFFFFF'; // 기본 색상은 흰색
+    return categoryColors[categoryName] || '#FFFFFF';
 };
 
 </script>
