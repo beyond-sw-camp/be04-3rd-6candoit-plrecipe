@@ -120,7 +120,7 @@
 <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/34c6ce0b1c32ae044758997ef60bbf688f868090/storyboard_image/storyboardimage_10.jpg">
 <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/34c6ce0b1c32ae044758997ef60bbf688f868090/storyboard_image/storyboardimage_11.jpg">
 <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/34c6ce0b1c32ae044758997ef60bbf688f868090/storyboard_image/storyboardimage_12.jpg">
-<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/main/storyboard_image/storyboardimage_13.jpg">
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/main/storyboard_image/storyboardimage_13.jpg" width="120%">
 
  
 </details>
