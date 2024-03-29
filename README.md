@@ -40,6 +40,14 @@
 
 ## 🟨 2. WireFrame
 
+<details>
+<summary><b>WireFrame 개별 페이지</b></summary>
+
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/67f8ace54f0fa89bc6fb5e22688789ef9385c996/readme_image/mainpage.jpg">
+➡️ 메인 페이지
+
+</details>
+
 ## 🟩 3. Story Board
 
 ## 🟦 4. 테스트 계획
