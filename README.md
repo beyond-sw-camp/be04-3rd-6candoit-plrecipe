@@ -31,9 +31,18 @@
 ## 💾 기술스택
 <div align="center">
 
-|JavaSpring|Vue|HTML|CSS|JavaScript|
-|---|---|---|---|---|
-|<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">|<img src="https://img.shields.io/badge/Vue-4FC08D?style=for-the-badge&logo=Vue.js&logoColor=white">|<img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">|<img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">|<img src="https://img.shields.io/badge/JavaScript-F7DE1E?style=for-the-badge&logo=JavaScript&logoColor=white">|
+|JavaSpring|Vue|HTML|CSS|JavaScript|MariaDB|
+|---|---|---|---|---|---|
+|<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">|<img src="https://img.shields.io/badge/Vue-4FC08D?style=for-the-badge&logo=Vue.js&logoColor=white">|<img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">|<img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">|<img src="https://img.shields.io/badge/JavaScript-F7DE1E?style=for-the-badge&logo=JavaScript&logoColor=white">|<img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=MariaDB&logoColor=white">|
+
+</div>
+
+## 🪄 개발도구
+<div align="center">
+
+|IntelliJ IDEA|Visual Studio|HeidiSQL|
+|---|---|---|
+|<img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=for-the-badge&logo=IntelliJ IDEA&logoColor=white">|<img src="https://img.shields.io/badge/Visual Studio-007ACC?style=for-the-badge&logo=Visual Studio Code&logoColor=white">|<img src="https://img.shields.io/badge/HeidiSQL-6DB33F?style=for-the-badge">|
 
 </div>
 
