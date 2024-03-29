@@ -127,6 +127,114 @@
 
 ## 🟪 6. 테스트
 
+ <img src=""><br>
+➡️ <br>
+<br>
+
+<details>
+ <summary><b>1. Router</b></summary>
+
+ <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/accb79c893f7ef9f1cec28b324eb22bfee791c4a/testcase/1.%20%ED%97%A4%EB%8D%94%20%EB%9D%BC%EC%9A%B0%ED%84%B0.gif"><br>
+➡️ 헤더 라우터<br>
+<br>
+ <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/accb79c893f7ef9f1cec28b324eb22bfee791c4a/testcase/2.%EA%B2%8C%EC%8B%9C%ED%8C%90%20%EB%9D%BC%EC%9A%B0%ED%84%B0.gif">
+➡️ 게시판 라우터
+<br>
+ <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/accb79c893f7ef9f1cec28b324eb22bfee791c4a/testcase/3.%20%EC%9E%A5%EC%86%8C%EB%9D%BC%EC%9A%B0%ED%84%B0.gif">
+➡️ 장소 라우터
+<br>
+ <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/accb79c893f7ef9f1cec28b324eb22bfee791c4a/testcase/99.%EB%A7%88%EC%9D%B4%ED%8E%98%EC%9D%B4%EC%A7%80%20%EB%9D%BC%EC%9A%B0%ED%84%B0.gif"><br>
+➡️ 마이페이지 라우터<br>
+<br>
+
+</details>
+
+<details>
+ <summary><b>2. Post</b></summary>
+
+  <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/accb79c893f7ef9f1cec28b324eb22bfee791c4a/testcase/9.%EC%A0%84%EC%B2%B4%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EC%A1%B0%ED%9A%8C.gif"><br>
+➡️ 전체 게시글 조회<br>
+<br>
+
+ <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/accb79c893f7ef9f1cec28b324eb22bfee791c4a/testcase/6.%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EC%9E%91%EC%84%B1%20%EB%9D%BC%EC%9A%B0%ED%84%B0.gif"><br>
+➡️ 게시글 작성 라우터<br>
+<br>
+
+ <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/accb79c893f7ef9f1cec28b324eb22bfee791c4a/testcase/11.%EB%8B%A8%EC%9D%BC%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EC%A1%B0%ED%9A%8C.gif"><br>
+➡️ 단일 게시글 조회<br>
+<br>
+
+ <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/accb79c893f7ef9f1cec28b324eb22bfee791c4a/testcase/12.%20%EC%A6%90%EA%B2%A8%EC%B0%BE%EA%B8%B0.gif"><br>
+➡️ 즐겨찾기<br>
+<br>
+
+ <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/accb79c893f7ef9f1cec28b324eb22bfee791c4a/testcase/13.%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EB%93%B1%EB%A1%9D.gif"><br>
+➡️ 게시글 등록<br>
+<br>
+
+ <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/accb79c893f7ef9f1cec28b324eb22bfee791c4a/testcase/14.%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EA%B2%80%EC%83%89.gif"><br>
+➡️ 게시글 검색<br>
+<br>
+
+ <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/accb79c893f7ef9f1cec28b324eb22bfee791c4a/testcase/4.%EB%8B%A8%EC%9D%BC%20%EA%B2%8C%EC%8B%9C%EA%B8%80%20%EC%9D%B4%EB%8F%99.gif"><br>
+➡️ 단일 게시글 이동<br>
+<br>
+
+ <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/accb79c893f7ef9f1cec28b324eb22bfee791c4a/testcase/5.%20%EC%BD%94%EC%8A%A4%20%EC%9E%A5%EC%86%8C%20%EC%9D%B4%EB%8F%99.gif"><br>
+➡️ 코스 장소 이동<br>
+<br>
+
+</details>
+
+<details>
+ <summary><b>3. Place</b></summary>
+
+ <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/accb79c893f7ef9f1cec28b324eb22bfee791c4a/testcase/15.%20%EC%A0%84%EC%B2%B4%20%EC%9E%A5%EC%86%8C%20%EC%A1%B0%ED%9A%8C.gif"><br>
+➡️ 전체 장소 조회<br>
+<br>
+
+ <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/accb79c893f7ef9f1cec28b324eb22bfee791c4a/testcase/16.%20%EC%9E%A5%EC%86%8C%20%EB%8B%A8%EC%9D%BC%20%EC%A1%B0%ED%9A%8C.gif"><br>
+➡️ 장소 단일 조회<br>
+<br>
+
+ <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/accb79c893f7ef9f1cec28b324eb22bfee791c4a/testcase/17.%20%EC%9E%A5%EC%86%8C%20%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%20%EC%A1%B0%ED%9A%8C.gif"><br>
+➡️ 장소 카테고리 조회<br>
+<br>
+
+ <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/accb79c893f7ef9f1cec28b324eb22bfee791c4a/testcase/18.%20%EC%9E%A5%EC%86%8C%20%EB%93%B1%EB%A1%9D.gif"><br>
+➡️ 장소 등록<br>
+<br>
+
+ <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/accb79c893f7ef9f1cec28b324eb22bfee791c4a/testcase/19.%20%EC%9E%A5%EC%86%8C%20%EA%B2%80%EC%83%89.gif"><br>
+➡️ 장소 검색<br>
+<br>
+
+ <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/accb79c893f7ef9f1cec28b324eb22bfee791c4a/testcase/21.%20%EC%9E%A5%EC%86%8C%EB%B3%84%20%EB%B3%84%EC%A0%90%20%EC%A1%B0%ED%9A%8C.gif"><br>
+➡️ 장소별 별점 조회<br>
+<br>
+
+ <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/accb79c893f7ef9f1cec28b324eb22bfee791c4a/testcase/22.%20%EB%B3%84%EC%A0%90%20%EB%93%B1%EB%A1%9D.gif"><br>
+➡️ 별점 등록<br>
+<br>
+
+ <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/accb79c893f7ef9f1cec28b324eb22bfee791c4a/testcase/7.%20%EC%9E%A5%EC%86%8C%20%EB%8B%A8%EC%9D%BC%20%EC%9D%B4%EB%8F%99.gif"><br>
+➡️ 장소 단일 이동<br>
+<br>
+ 
+</details>
+
+<details>
+ <summary><b>4. Error</b></summary>
+
+ <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/accb79c893f7ef9f1cec28b324eb22bfee791c4a/testcase/8.%EC%97%90%EB%9F%AC%20%EB%9D%BC%EC%9A%B0%ED%84%B0.gif"><br>
+➡️ Error Page<br>
+<br>
+ 
+</details>
+
+<details>
+ <summary><b>Login And Register</b></summary>
+</details>
 
 ## ⬜ 회고
 
