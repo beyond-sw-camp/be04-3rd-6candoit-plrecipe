@@ -238,7 +238,8 @@
 <details>
  <summary><b>Login And Register</b></summary>
 
- <img src=""><br>
+https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/assets/80388847/0f34aabf-193b-4c2b-899b-418addbac92b
+
 
 </details>
 
