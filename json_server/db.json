@@ -14,7 +14,7 @@
       "memberNickname": "흰둥이",
       "course": [
         {
-          "placeId": 1,
+          "placeId": 32,
           "placeName": "신라호텔 수영장",
           "placeCategory": {
             "placeCategoryId": 4,
@@ -23,7 +23,7 @@
           "avgStar": 5.0
         },
         {
-          "placeId": 2,
+          "placeId": 33,
           "placeName": "진성한우곱창",
           "placeCategory": {
             "placeCategoryId": 1,
@@ -32,7 +32,7 @@
           "avgStar": 0.0
         },
         {
-          "placeId": 3,
+          "placeId": 34,
           "placeName": "신당시장",
           "placeCategory": {
             "placeCategoryId": 5,
@@ -41,7 +41,7 @@
           "avgStar": 4.5
         },
         {
-          "placeId": 4,
+          "placeId": 35,
           "placeName": "수빈",
           "placeCategory": {
             "placeCategoryId": 1,
@@ -50,7 +50,7 @@
           "avgStar": 4.0
         },
         {
-          "placeId": 5,
+          "placeId": 36,
           "placeName": "본지르르",
           "placeCategory": {
             "placeCategoryId": 2,
@@ -1057,7 +1057,63 @@
           "placeCategoryName": "음식점"
         },
         "avgStar": 5.0
+      },
+      {
+        "placeId": 32,
+        "placeName": "신라호텔 수영장",
+        "placeLocation": "서울 마포구 동교로9길 33 1층",
+        "placePhoneNum": "070-7773-9870",
+        "placeCategory": {
+          "placeCategoryId": 4,
+          "placeCategoryName": "액티비티"
+        },
+        "avgStar": 5.0
+      },
+      {
+        "placeId": 33,
+        "placeName": "진성한우곱창",
+        "placeLocation": "서울 마포구 동교로9길 33 1층",
+        "placePhoneNum": "070-7773-9870",
+        "placeCategory": {
+          "placeCategoryId": 1,
+          "placeCategoryName": "음식점"
+        },
+        "avgStar": 5.0
+      },
+      {
+        "placeId": 34,
+        "placeName": "신당시장",
+        "placeLocation": "서울 마포구 동교로9길 33 1층",
+        "placePhoneNum": "070-7773-9870",
+        "placeCategory": {
+          "placeCategoryId": 6,
+          "placeCategoryName": "기타"
+        },
+        "avgStar": 5.0
+      },
+      {
+        "placeId": 35,
+        "placeName": "수빈",
+        "placeLocation": "서울 마포구 동교로9길 33 1층",
+        "placePhoneNum": "070-7773-9870",
+        "placeCategory": {
+          "placeCategoryId": 1,
+          "placeCategoryName": "음식점"
+        },
+        "avgStar": 5.0
+      },
+      {
+        "placeId": 36,
+        "placeName": "본지르르",
+        "placeLocation": "서울 마포구 동교로9길 33 1층",
+        "placePhoneNum": "070-7773-9870",
+        "placeCategory": {
+          "placeCategoryId": 2,
+          "placeCategoryName": "카페"
+        },
+        "avgStar": 5.0
       }
+      
     ],
     "star": [
       {
