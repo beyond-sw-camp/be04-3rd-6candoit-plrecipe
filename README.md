@@ -50,7 +50,7 @@
 <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/main/readme_image/front_%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%EB%AA%85%EC%84%B8%EC%84%9C.png">
 
 <div align="right">
-<a href="https://docs.google.com/spreadsheets/d/1s_xHKGkEtqTWraOUuyuyXDv-GDdMmeleYGFhPgfCvv4/edit?usp=sharing">요구사항 명세서</a>
+<a href="https://docs.google.com/spreadsheets/d/1s_xHKGkEtqTWraOUuyuyXDv-GDdMmeleYGFhPgfCvv4/edit#gid=354051830">요구사항 명세서</a>
 </div>
 
 ## 🟨 3. WireFrame
@@ -122,14 +122,10 @@
 <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/main/readme_image/%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%AA%85%EC%84%B8%EC%84%9C.png">
 
 <div align="right">
-<a href="https://docs.google.com/spreadsheets/d/1s_xHKGkEtqTWraOUuyuyXDv-GDdMmeleYGFhPgfCvv4/edit?usp=sharing">테스트 명세서</a>
+<a href="https://docs.google.com/spreadsheets/d/1s_xHKGkEtqTWraOUuyuyXDv-GDdMmeleYGFhPgfCvv4/edit#gid=0">테스트 명세서</a>
 </div>
 
 ## 🟪 6. 테스트
-
- <img src=""><br>
-➡️ <br>
-<br>
 
 <details>
  <summary><b>1. Router</b></summary>
