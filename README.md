@@ -44,9 +44,43 @@
 <summary><b>WireFrame 개별 페이지</b></summary>
 
 <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/67f8ace54f0fa89bc6fb5e22688789ef9385c996/readme_image/mainpage.jpg">
-➡️ 메인 페이지
+➡️ 메인 페이지<br>
+<br>
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/ee1a02babe02241f6830ec594e384bfe8b35bcbe/readme_image/mypage.jpg">
+➡️ 마이페이지<br>
+<br>
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/ee1a02babe02241f6830ec594e384bfe8b35bcbe/readme_image/postall.jpg">
+➡️ 게시판(게시글 페이지)<br>
+<br>
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/ee1a02babe02241f6830ec594e384bfe8b35bcbe/readme_image/postcreate.jpg">
+➡️ 게시글 생성<br>
+<br>
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/ee1a02babe02241f6830ec594e384bfe8b35bcbe/readme_image/postone.jpg">
+➡️ 게시글(단일)<br>
+<br>
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/ee1a02babe02241f6830ec594e384bfe8b35bcbe/readme_image/placeall.jpg">
+➡️ 장소(장소 페이지)<br>
+<br>
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/ee1a02babe02241f6830ec594e384bfe8b35bcbe/readme_image/placeone.jpg">
+➡️ 장소(단일)<br>
+<br>
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/ee1a02babe02241f6830ec594e384bfe8b35bcbe/readme_image/placecreate.jpg">
+➡️ 장소 등록(생성)<br>
+<br>
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/ee1a02babe02241f6830ec594e384bfe8b35bcbe/readme_image/placestarcreate.jpg">
+➡️ 장소 별점 등록<br>
+<br>
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/ee1a02babe02241f6830ec594e384bfe8b35bcbe/readme_image/placestar.jpg">
+➡️ 별점이 등록된 장소<br>
+<br>
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/ee1a02babe02241f6830ec594e384bfe8b35bcbe/readme_image/errerpage.jpg">
+➡️ 에러 페이지(준비 페이지)<br>
+<br>
+</details><br>
 
-</details>
+###  - WireFrame
+
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/ee1a02babe02241f6830ec594e384bfe8b35bcbe/readme_image/1wireframe.jpg">
 
 ## 🟩 3. Story Board
 
