@@ -61,7 +61,7 @@ function submitPost() {
 
 function testPost () {
   alert('게시글이 등록되었습니다.');
-  router.push('/post/detail')
+  router.push('/post/detail/1')
 }
 </script>
 
