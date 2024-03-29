@@ -54,6 +54,11 @@
 </div>
 
 ## 🟨 3. 기능 명세서
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/9b9cb8a95fa73b7c304107cb36f7b18585e3595d/readme_image/%EA%B8%B0%EB%8A%A5%EB%AA%85%EC%84%B8%EC%84%9C.png">
+
+<div align="right">
+<a href="https://docs.google.com/spreadsheets/d/1s_xHKGkEtqTWraOUuyuyXDv-GDdMmeleYGFhPgfCvv4/edit#gid=671784311">요구사항 명세서</a>
+</div>
 
 ## 🟩 4. WireFrame
 
