@@ -99,6 +99,25 @@
 
 ## 🟩 4. Story Board
 
+<details>
+<summary><b>STORY BOARD</b></summary>
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/34c6ce0b1c32ae044758997ef60bbf688f868090/storyboard_image/storyboardimage_1.jpg">
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/34c6ce0b1c32ae044758997ef60bbf688f868090/storyboard_image/storyboardimage_2.jpg">
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/34c6ce0b1c32ae044758997ef60bbf688f868090/storyboard_image/storyboardimage_3.jpg">
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/34c6ce0b1c32ae044758997ef60bbf688f868090/storyboard_image/storyboardimage_4.jpg">
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/34c6ce0b1c32ae044758997ef60bbf688f868090/storyboard_image/storyboardimage_5.jpg">
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/34c6ce0b1c32ae044758997ef60bbf688f868090/storyboard_image/storyboardimage_6.jpg">
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/34c6ce0b1c32ae044758997ef60bbf688f868090/storyboard_image/storyboardimage_7.jpg">
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/34c6ce0b1c32ae044758997ef60bbf688f868090/storyboard_image/storyboardimage_8.jpg">
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/34c6ce0b1c32ae044758997ef60bbf688f868090/storyboard_image/storyboardimage_9.jpg">
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/34c6ce0b1c32ae044758997ef60bbf688f868090/storyboard_image/storyboardimage_10.jpg">
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/34c6ce0b1c32ae044758997ef60bbf688f868090/storyboard_image/storyboardimage_11.jpg">
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/34c6ce0b1c32ae044758997ef60bbf688f868090/storyboard_image/storyboardimage_12.jpg">
+
+
+ 
+</details>
+
 ## 🟦 5. 테스트 계획
 <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/main/readme_image/%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%AA%85%EC%84%B8%EC%84%9C.png">
 
