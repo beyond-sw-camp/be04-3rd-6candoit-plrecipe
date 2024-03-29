@@ -60,6 +60,9 @@
 <a href="https://docs.google.com/spreadsheets/d/1s_xHKGkEtqTWraOUuyuyXDv-GDdMmeleYGFhPgfCvv4/edit#gid=671784311">기능 명세서</a>
 </div>
 
+<h3>IA(Information Architecture, 정보구조도)</h3>
+<img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/main/readme_image/IA.png"/>
+
 ## 🟩 4. WireFrame
 
 <details>
