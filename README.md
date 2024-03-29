@@ -39,7 +39,10 @@
 
 ## 🟧 2. 요구사항 명세서
 <img src="https://github.com/beyond-sw-camp/be04-3rd-6candoit-plrecipe/blob/main/readme_image/front_%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%EB%AA%85%EC%84%B8%EC%84%9C.png">
+
+<div align="right">
 <a href="https://docs.google.com/spreadsheets/d/1s_xHKGkEtqTWraOUuyuyXDv-GDdMmeleYGFhPgfCvv4/edit?usp=sharing">요구사항 명세서</a>
+</div>
 
 ## 🟨 3. WireFrame
 
