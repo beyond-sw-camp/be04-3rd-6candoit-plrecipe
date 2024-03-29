@@ -1,40 +1,35 @@
 <template>
-
+<div class="placeDiv">
   <div class="places" id="places">
-    <b-container class="bv-example-row mb-3">
-      <b-row cols="4">
-        <template v-for="place in props.places" :key="place.placeId">
-          <b-col>
-            <div class="place-block" @click="placeDetail(place.placeId)">
-              <p id="place-name">{{ place.placeName }}</p>
-
-              <p id="star">
-                <span id="star-span" v-for='n in parseInt(place.avgStar)'>★</span>
+    <template v-for="place in props.places" :key="place.placeId">
+        <div class="place-block" @click="placeDetail(place.placeId)">
+          <p id="place-name">{{ place.placeName }}</p>
+          
+          <p id="star">
+            <span id="star-span" v-for='n in parseInt(place.avgStar)'>★</span>
                 <span id="star-span" v-for='n in (5 - parseInt(place.avgStar))'>☆</span>
               </p>
-
+              
               <p id="address">{{ place.placeLocation }}</p>
-
+              
               <div id="place-category" :style="{ backgroundColor: getCategoryColor(place.placeCategory.placeCategoryName) }">
                 {{ place.placeCategory.placeCategoryName }}
               </div>
             </div>
-          </b-col>
         </template>
-      </b-row>
-    </b-container>
-  </div>
-
-  <div class="search">
+      </div>
+    </div>
+      
+      <div class="search">
         <select id="condition" v-model="type">
           <option value="장소이름">장소 이름</option>
           <option value="주소">주소</option>
         </select>
-  <input type="text" id="input-search" v-model="keyword">
-  <button id="search-place" @click="searchKeyword">검색</button>
-</div>
-  <br>
-
+        <input type="text" id="input-search" v-model="keyword">
+        <button id="search-place" @click="searchKeyword">검색</button>
+      </div>
+      <br>
+  
 </template>
 
 <script setup>
