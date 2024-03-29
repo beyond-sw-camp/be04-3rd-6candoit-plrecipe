@@ -1396,6 +1396,14 @@
           "memberGrade": "ROLL_ADMIN"
         }
       }
-    ]
+    ],
+
+  "member":[{
+      "memberId": 5,
+      "memberName": "조수빈",
+      "memberNickname": "조먹밥",
+      "memberGrade": "ROLL_ADMIN"
+    }
+  ]
 }
 
