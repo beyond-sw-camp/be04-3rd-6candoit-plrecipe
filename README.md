@@ -1,11 +1,12 @@
-# <p align="center">⚾Plrecipe🍳</p>
+# <p align="center">[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=27&pause=1000&color=5EE4F7&random=false&width=435&lines=%E2%9A%BEPlrecipe%F0%9F%8D%B3)](https://git.io/typing-svg)</p>
 
 <p align="center"></p>
 
 <img src="readme_image/akwsk_title.png">
 
 
-###  🗨️ 팀명 : 6CanDoIt!
+###  🗨️ 팀명 : 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=F7EC07&random=false&width=435&lines=6CanDoIt!)](https://git.io/typing-svg)
 
 ###  🔻 팀원
  
